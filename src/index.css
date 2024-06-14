@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .nav_li {
+    @apply bg-inherit text-[18px] font-[600] hover:text-white;
+  }
+  .custom_button{ 
+  }
+  
+}
