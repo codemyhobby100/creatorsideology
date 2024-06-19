@@ -14,10 +14,10 @@ import img6 from "../../assets/customer-logo-6.png";
 function Industry() {
   return (
     <div className="bg-black pt-[80px]">
-      <h1 className="text-white text-center text-[54px] ">
+      <h1 className="text-white text-center text-[42px] lg:text-[54px] ">
         Trusted by Industry Leaders
       </h1>
-      <div className=" container mx-auto items-center pt-[30px] pb-[50px] lg:pt-[50px]">
+      <div className=" container mx-auto px-[15px] items-center pt-[30px] pb-[50px] lg:pt-[50px]">
         <Swiper
         className="flex justify-center "
           modules={[FreeMode, Autoplay]}

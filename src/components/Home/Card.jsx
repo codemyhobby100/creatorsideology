@@ -25,17 +25,21 @@ const Card = () => {
   return (
     <div className="bg-black">
       <div>
-        <h1 className="text-[56px] pb-[10px] font-bold text-center text-white">
+        <h1 className="md:text-[56px] text-[42px] text pb-[10px] font-bold text-center text-white">
           We Make It Simple{" "}
         </h1>
-        <p className="text-white text-center text-[23px]">
+        <p className="text-white text-center text-[18px] md:text-[23px]">
           Are you a Creator? Looking for sponsorships.
         </p>
       </div>
-      <div className="container mx-auto flex-col md:flex-row flex justify-between items-center py-[40px]">
+      <div className="container mx-auto flex-col lg:flex-row flex justify-between items-center py-[40px]">
         {/* card-1 */}
-        <div className="max-w-sm mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
-          <img src={Collaborate} className="h-[332px] w-[332px]" alt="" />
+        <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
+          <img
+            src={Collaborate}
+            className="h-[332px] w-[280px] lg:w-[332px]"
+            alt=""
+          />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
             Collaborate
           </h2>
@@ -57,8 +61,12 @@ const Card = () => {
         </div>
 
         {/* card-2 */}
-        <div className="max-w-sm mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
-          <img src={Create} className="h-[332px] w-[332px]" alt="" />
+        <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
+          <img
+            src={Create}
+            className="h-[332px] w-[280px] lg:w-[332px]"
+            alt=""
+          />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
             Create
           </h2>
@@ -79,14 +87,18 @@ const Card = () => {
         </div>
 
         {/* card-3 */}
-        <div className="max-w-sm mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
-          <img src={Captivate} className="h-[332px] w-[332px]" alt="" />
+        <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
+          <img
+            src={Captivate}
+            className="h-[332px] w-[280px] lg:w-[332px]"
+            alt=""
+          />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
             Captivate
           </h2>
           <button
             onClick={() => toggleShowMore("card3")}
-            className="flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded "
+            className="flex items-center gap-3 lg:gap-[10px] font-semibold mt-4 px-4 py-2 border border-white text-white rounded"
           >
             {showMore.card3 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
@@ -100,7 +112,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <p className="text-white text-center pt-[30px] text-[21px]">
+        <p className="text-white text-center pt-[30px] text-[18px] md:text-[21px]">
           Connect with top brands seeking creator like you.
         </p>
         <div className="flex justify-center items-center pt-[30px] gap-[20px]">
@@ -114,7 +126,7 @@ const Card = () => {
       </div>
       {/* connects */}
 
-      <div className="container mx-auto pt-[30px] pb-[50px] lg:pt-[50px]">
+      <div className="container mx-auto px-[15px] pt-[30px] pb-[50px] lg:pt-[50px]">
         <style>{`
       .swiper-pagination-bullet {
         background-color: white !important;
@@ -126,7 +138,7 @@ const Card = () => {
         background-color: white !important;
       }
     `}</style>
-        <h1 className="text-[56px] pb-[30px] font-bold text-center text-white">
+        <h1 className="md:text-[56px] text-[42px] pb-[30px] font-bold text-center text-white">
           Our Connects{" "}
         </h1>
         <Swiper
@@ -164,8 +176,8 @@ const Card = () => {
           // }}
         >
           <SwiperSlide>
-            <div className="flex items-center flex-col h-full text-white border rounded-[10px] border-white p-[25px]">
-              <p>
+            <div className="flex items-center flex-col justify-center text-white h-full border rounded-[10px] border-white p-[25px]">
+              <p className="text-[14px] md:text-lg ">
                 "Our app was a hidden gem, then Creators Ideology swooped in
                 like a content fairy godmother. They crafted a bespoke
                 influencer campaign that was pure storytelling magic. Downloads
@@ -186,7 +198,7 @@ const Card = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex items-center flex-col justify-center text-white h-full border rounded-[10px] border-white p-[25px]">
-              <p>
+              <p className="text-[14px] md:text-lg ">
                 "Working with Creators Ideology has been like finding a unicorn
                 in the influencer marketing jungle - kind, helpful, and bursting
                 with fresh talent! They consistently bring innovative creators
@@ -207,7 +219,7 @@ const Card = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex items-center flex-col justify-center text-white h-full border rounded-[10px] border-white p-[25px]">
-              <p>
+              <p className="text-[14px] md:text-lg ">
                 "Our downloads soared, CAC plummeted. Creators Ideology is the
                 queen bee of influencer marketing!"
               </p>
