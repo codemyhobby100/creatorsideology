@@ -12,8 +12,16 @@ function Counter() {
 
   return (
     <div className="bg-black pt-12 text-white">
+      <h1 className="md:text-[62px] text-[48px] text-center lg:max-w-[1150px] pb-[30px] mx-auto text-[#828282] font-semibold">
+        Your One-
+        <span className="text-white">stop</span> Shop
+      </h1>
+      <div className="container mx-auto  px-[15px]">
+        <div className=" h-[40vh] md:h-[60vh] w-full flex items-center justify-center border border-white rounded-[25px]"></div>
+      </div>
+
       {/* 1st counter */}
-      <div className="container lg:max-w-[1024px] pb-12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
+      <div className="container lg:max-w-[1024px] pt-[80px] pb-12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
         <div
           ref={ref1}
           className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"

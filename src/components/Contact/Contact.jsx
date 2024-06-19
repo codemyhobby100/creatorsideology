@@ -4,7 +4,8 @@ import { HiArrowLongRight } from "react-icons/hi2";
 function Contact() {
   return (
     <div className="bg-black min-h-screen">
-      <div className="container mx-auto pt-[100px] pb-[50px] px-4">
+      <div className="container mx-auto pt-[150px] pb-[50px] px-4">
+        <p className="text-white inline-block rounded py-[5px] px-[10px] border border-gray-500">Ready to work with us</p>
         <h1 className="text-[48px] lg:text-[65px] text-white mb-8">
           Contact Us
         </h1>
