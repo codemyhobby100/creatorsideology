@@ -21,43 +21,43 @@ function Counter() {
       </div>
 
       {/* 1st counter */}
-      <div className="container lg:max-w-[1024px] pt-[80px] pb-12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
+      <div className="container pt-[80px] pb-12 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div
           ref={ref1}
-          className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"
+          className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[48px] md:text-[65px] font-bold">
+          <h1 className="text-[48px] lg:text-[65px] font-bold">
             {inView1 && <CountUp end={10} duration={2.5} separator="," />}M+
           </h1>
-          <h1 className="text-lg md:text-xl font-semibold text-primary pb-2.5">
+          <h1 className="text-lg lg:text-xl font-semibold text-primary pb-2.5">
             Engaged Customer
           </h1>
-          <p className="px-4 md:px-0">
+          <p className="px-4 lg:px-0">
             We strategically match brands with the ideal audience segments,
             driving real results not just reach.
           </p>
         </div>
-        <div className="md:col-span-8 flex items-center px-[20px] md:px-0 justify-center">
-          <img src={img1} alt="Engaged Customer" className="w-full h-auto" />
+        <div className="lg:col-span-8 flex items-center px-[20px] lg:px-0 justify-center lg:justify-end">
+          <img src={img1} alt="Engaged Customer" className="w-[80%]  h-auto" />
         </div>
       </div>
 
       {/* 2nd counter */}
-      <div className="container lg:max-w-[1024px] pb-20 mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
-        <div className="md:col-span-8 flex items-center justify-center px-[20px] md:px-0 order-last md:order-first">
-          <img src={img2} alt="Avg CAC Reduction" className="w-full h-auto" />
+      <div className="container pb-20 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+        <div className="lg:col-span-8 flex items-center justify-center lg:justify-start px-[20px] lg:px-0 order-last lg:order-first">
+          <img src={img2} alt="Avg CAC Reduction" className="w-[80%] h-auto" />
         </div>
         <div
           ref={ref2}
-          className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"
+          className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[48px] md:text-[65px] font-bold">
+          <h1 className="text-[48px] lg:text-[65px] font-bold">
             {inView2 && <CountUp end={-42} duration={2.5} suffix="%" />}
           </h1>
-          <h1 className="text-lg md:text-xl font-semibold text-primary pb-2.5">
+          <h1 className="text-lg lg:text-xl font-semibold text-primary pb-2.5">
             Avg CAC Reduction
           </h1>
-          <p className="px-4 md:px-0">
+          <p className="">
             We'll help you gain a significant edge in the market for half the
             price.
           </p>
@@ -65,27 +65,31 @@ function Counter() {
       </div>
 
       {/* 3rd counter */}
-      <div className="container lg:max-w-[1024px] pb-12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
+      <div className="container pb-12 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div
           ref={ref3}
-          className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"
+          className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[48px] md:text-[65px] font-bold">
+          <h1 className="text-[48px] lg:text-[65px] font-bold">
             {inView3 && (
               <CountUp end={4.7} duration={2.5} decimals={1} suffix="x" />
             )}
           </h1>
-          <h1 className="text-lg md:text-xl font-semibold text-primary pb-2.5">
+          <h1 className="text-lg lg:text-xl font-semibold text-primary pb-2.5">
             ROAS
           </h1>
-          <p className="px-4 md:px-0">
+          <p className="px-4 lg:px-0">
             Focus on what matters most -- creating a delightful customer
             experience -- while we optimize your ad spend for a 4.7x return on
             investment.
           </p>
         </div>
-        <div className="md:col-span-8 flex px-[20px] md:px-0 items-center justify-center">
-          <img src={img3} className="w-full h-auto rounded-[45px]" alt="ROAS" />
+        <div className="lg:col-span-8 flex px-[20px] lg:px-0 items-center justify-center lg:justify-end">
+          <img
+            src={img3}
+            className="w-[80%] h-auto rounded-[45px]"
+            alt="ROAS"
+          />
         </div>
       </div>
     </div>

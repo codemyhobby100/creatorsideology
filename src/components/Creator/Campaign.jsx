@@ -3,11 +3,11 @@ import campaign from "../../assets/campaign.png";
 function Campaign() {
   return (
     <div className="bg-black pt-12 text-white">
-      <h1 className="text-white text-[42px] text-center md:text-[65px] font-bold">
+      <h1 className="text-white text-[52px] text-center md:text-[65px] font-bold">
         Comming Soon
       </h1>
 
-      <div className="container lg:max-w-[1024px] pt-[50px]  mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 px-4">
+      <div className="container  pt-[50px]  mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 px-4">
         <div className="md:col-span-5 flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <h1 className="text-4xl md:text-[45px] font-bold pb-[15px]">
             Multi-Platform <br />{" "}
