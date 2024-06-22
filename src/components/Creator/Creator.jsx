@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
+import CreatorBanner from "./CreatorBanner";
+import Offer from "./Offer";
+import CreatorCard from "./CreatorCard";
+import Campaign from "./Campaign";
 
 function Creator() {
   return (
-    <div className='bg-black h-[50vh] flex items-center justify-center'>
-      <h1 className='text-[30px] text-white'>
-        We are comming soon...
-      </h1>
-    </div>
-  )
+    <>
+      <CreatorBanner />
+      <Offer />
+      <CreatorCard />
+      <Campaign />
+    </>
+  );
 }
 
-export default Creator
+export default Creator;

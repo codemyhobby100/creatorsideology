@@ -50,40 +50,40 @@ function Industry() {
         >
  
             <SwiperSlide className="flex justify-center ">
-              <img src={img1} alt="Customer logo 1" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img1} alt="Customer logo 1" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img2} alt="Customer logo 2" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img2} alt="Customer logo 2" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img3} alt="Customer logo 3" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img3} alt="Customer logo 3" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img4} alt="Customer logo 4" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img4} alt="Customer logo 4" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img5} alt="Customer logo 5" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img5} alt="Customer logo 5" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img6} alt="Customer logo 6" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img6} alt="Customer logo 6" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide className="flex justify-center ">
-              <img src={img1} alt="Customer logo 1" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img1} alt="Customer logo 1" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img2} alt="Customer logo 2" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img2} alt="Customer logo 2" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img3} alt="Customer logo 3" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img3} alt="Customer logo 3" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img4} alt="Customer logo 4" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img4} alt="Customer logo 4" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img5} alt="Customer logo 5" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img5} alt="Customer logo 5" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={img6} alt="Customer logo 6" className="w-[250px] py-[20px] px-[30px] bg-[#181818] h-[90px] hover:border hover:border-white rounded-[10px]" />
+              <img src={img6} alt="Customer logo 6" className="w-[260px] py-[20px] px-[30px] bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]" />
             </SwiperSlide>
             
         </Swiper>

@@ -11,8 +11,8 @@ function Home() {
     <>
       <Banner/>
       <Industry/>
-      <Card/>
       <Counter/>
+      <Card/>
       <CaseStudy/>
     </>
   );

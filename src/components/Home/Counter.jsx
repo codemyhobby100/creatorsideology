@@ -26,7 +26,7 @@ function Counter() {
           ref={ref1}
           className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"
         >
-          <h1 className="text-4xl md:text-5xl font-bold">
+          <h1 className="text-[48px] md:text-[65px] font-bold">
             {inView1 && <CountUp end={10} duration={2.5} separator="," />}M+
           </h1>
           <h1 className="text-lg md:text-xl font-semibold text-primary pb-2.5">
@@ -51,7 +51,7 @@ function Counter() {
           ref={ref2}
           className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"
         >
-          <h1 className="text-4xl md:text-5xl font-bold">
+          <h1 className="text-[48px] md:text-[65px] font-bold">
             {inView2 && <CountUp end={-42} duration={2.5} suffix="%" />}
           </h1>
           <h1 className="text-lg md:text-xl font-semibold text-primary pb-2.5">
@@ -70,7 +70,7 @@ function Counter() {
           ref={ref3}
           className="md:col-span-4 flex flex-col justify-center items-center md:items-start text-center md:text-left"
         >
-          <h1 className="text-4xl md:text-5xl font-bold">
+          <h1 className="text-[48px] md:text-[65px] font-bold">
             {inView3 && (
               <CountUp end={4.7} duration={2.5} decimals={1} suffix="x" />
             )}
