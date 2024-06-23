@@ -17,8 +17,8 @@ function Offer() {
       {/* 1st offer */}
       <div className="container pt-[80px] pb-12 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] font-bold pb-[15px]">
-            Talent <br />
+          <h1 className="text-4xl md:text-[54px] leading-[52px] font-bold pb-[15px]">
+            Talent 
             <br /> <span className="text-[#441DBC]">Representation</span>
           </h1>
           <p className="px-4 lg:px-0">
@@ -48,11 +48,11 @@ function Offer() {
           </video>
         </div>
         <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-end text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] font-bold pb-[15px]">
+          <h1 className="text-4xl md:text-[54px] font-bold leading-[52px] pb-[15px]">
             Brand {""}
             <span className="text-[#441DBC]">
               Deals <br />
-              <br /> & Partnerships
+              & Partnerships
             </span>
           </h1>
           <p className="lg:pr-[100px]">We help you connect with top brands.</p>
@@ -62,8 +62,8 @@ function Offer() {
       {/* 3rd Offer */}
       <div className="container pb-12 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] font-bold pb-[15px]">
-            Talent <br />
+          <h1 className="text-4xl md:text-[54px] leading-[52px] font-bold pb-[15px]">
+            Talent 
             <br /> <span className="text-[#441DBC]">Management</span>
           </h1>
           <p className="px-4 lg:px-0">
