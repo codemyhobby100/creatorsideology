@@ -15,13 +15,13 @@ function Offer() {
       </p>
 
       {/* 1st offer */}
-      <div className="container pt-[80px] pb-12 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+      <div className="container pt-[80px] pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] leading-[52px] font-bold pb-[15px]">
-            Talent 
+          <h1 className="text-4xl md:text-[54px] 2xl:text-[67px] leading-[72px] font-bold pb-[15px]">
+            Talent
             <br /> <span className="text-[#441DBC]">Representation</span>
           </h1>
-          <p className="px-4 lg:px-0">
+          <p className="">
             Our team finds authentic brand matches for your passions and
             beliefs, ensuring that every campaign feels natural and genuine.
           </p>
@@ -30,40 +30,40 @@ function Offer() {
           <img
             src={img1}
             alt="Talent Representation"
-            className="w-full h-auto md:w-[500px] md:h-[500px] rounded-[45px]"
+            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-full xl:h-[600px] rounded-[45px] object-cover"
           />
         </div>
       </div>
 
-      
       {/* 2nd Offer */}
-      <div className="container pb-20 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+      <div className="container pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
         <div className="lg:col-span-8 flex items-center justify-center lg:justify-start px-[20px] lg:px-0 order-last lg:order-first">
           <video
-            controls
-            className="w-full h-auto md:w-[500px] md:h-[500px] rounded-[45px]"
+            autoPlay
+            muted
+            loop
+            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-full xl:h-[600px] rounded-[45px] no-controls"
           >
             <source src={videoSrc} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-end text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] font-bold leading-[52px] pb-[15px]">
+        <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
+          <h1 className="text-4xl md:text-[54px] 2xl:text-[67px] leading-[72px] font-bold pb-[15px]">
             Brand {""}
             <span className="text-[#441DBC]">
-              Deals <br />
-              & Partnerships
+              Deals <br />& Partnerships
             </span>
           </h1>
-          <p className="lg:pr-[100px]">We help you connect with top brands.</p>
+          <p className="">We help you connect with top brands.</p>
         </div>
       </div>
 
       {/* 3rd Offer */}
       <div className="container pb-12 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] leading-[52px] font-bold pb-[15px]">
-            Talent 
+          <h1 className="text-4xl md:text-[54px] 2xl:text-[67px] leading-[72px] font-bold pb-[15px]">
+            Talent
             <br /> <span className="text-[#441DBC]">Management</span>
           </h1>
           <p className="px-4 lg:px-0">
@@ -74,7 +74,7 @@ function Offer() {
         <div className="lg:col-span-8 flex px-[20px] lg:px-0 items-center justify-center lg:justify-end">
           <img
             src={img3}
-            className="w-full h-auto md:w-[500px] md:h-[500px] rounded-[45px]"
+            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-full xl:h-[600px] rounded-[45px] object-cover"
             alt="Talent Management"
           />
         </div>

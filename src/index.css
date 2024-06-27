@@ -2,13 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
   .nav_li {
     @apply bg-inherit text-[18px] font-[600] hover:text-white;
   }
-  .industry_logo{
-    @apply w-[260px] 
+  .industry_logo {
+    @apply w-[260px];
   }
   
+  .no-controls::-webkit-media-controls {
+    display: none !important;
+  }
+
+  .no-controls::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+
+  .no-controls::-webkit-media-controls-panel {
+    display: none !important;
+  }
+
+  .no-controls::-moz-media-controls {
+    display: none !important;
+  }
 }

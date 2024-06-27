@@ -9,7 +9,7 @@ function Campaign() {
 
       <div className="container  pt-[50px]  mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 px-4">
         <div className="md:col-span-5 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-          <h1 className="text-4xl md:text-[45px] font-bold pb-[15px]">
+          <h1 className="text-4xl md:text-[54px] 2xl:text-[67px] leading-[72px] font-bold pb-[15px]">
             Multi-Platform <br />{" "}
             <span className="text-[#441DBC]">Campaigns</span>
           </h1>
@@ -23,12 +23,12 @@ function Campaign() {
           <img
             src={campaign}
             alt="Engaged Customer"
-            className="w-full h-auto md:w-[500px] md:h-[500px] rounded-[45px]"
+            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-full xl:h-[600px] object-cover"
           />
         </div>
       </div>
 
-      <div className="container mx-auto flex flex-col items-center justify-center text-center pb-[50px]">
+      <div className="container mx-auto flex flex-col items-center justify-center text-center pt-[50px] pb-[50px]">
         <h1 className="text-white text-[42px] md:text-[65px] font-bold">
           Ready to work with us?
         </h1>
