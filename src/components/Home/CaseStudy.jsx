@@ -19,8 +19,9 @@ function CaseStudy() {
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50 rounded-[12px]"></div>
-          <button className="relative z-10 flex items-center gap-3 font-semibold px-4 py-2 border border-white text-white rounded-[6px] bg-transparent">
+          <button className=" border border-primary text-white rounded-[6px] group button">
             View Case Study
+            <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
         </div>
       </div>
@@ -28,8 +29,9 @@ function CaseStudy() {
         <h1 className="text-white text-[42px] md:text-[65px] font-bold">
           Ready to work with us?
         </h1>
-        <button className="flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded-[6px] ">
+        <button className="flex items-center button border bg-primary text-black rounded-[6px] group ">
           Start a Project
+          <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
         </button>
       </div>
     </div>

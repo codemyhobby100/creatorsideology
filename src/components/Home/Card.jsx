@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "./SwiperCustom.css"; // Import the custom CSS file
 import "swiper/css/free-mode";
 import img1 from "../../assets/dsidess.jpeg";
 import img2 from "../../assets/scri.png";
@@ -37,7 +38,7 @@ const Card = () => {
         <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
           <img
             src={Collaborate}
-            className="h-[332px] w-[280px] lg:w-[332px]"
+            className="h-[332px] w-[280px] lg:w-[332px] object-cover"
             alt=""
           />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
@@ -45,10 +46,11 @@ const Card = () => {
           </h2>
           <button
             onClick={() => toggleShowMore("card1")}
-            className="flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded "
+            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded "
           >
             {showMore.card1 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
+            <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
           {showMore.card1 && (
             <p className="mt-4 text-white">
@@ -64,7 +66,7 @@ const Card = () => {
         <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
           <img
             src={Create}
-            className="h-[332px] w-[280px] lg:w-[332px]"
+            className="h-[332px] w-[280px] lg:w-[332px] object-cover"
             alt=""
           />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
@@ -72,10 +74,11 @@ const Card = () => {
           </h2>
           <button
             onClick={() => toggleShowMore("card2")}
-            className="flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded "
+            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded "
           >
             {showMore.card2 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
+            <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
           {showMore.card2 && (
             <p className="mt-4 text-white">
@@ -90,7 +93,7 @@ const Card = () => {
         <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
           <img
             src={Captivate}
-            className="h-[332px] w-[280px] lg:w-[332px]"
+            className="h-[332px] w-[280px] lg:w-[332px] object-cover"
             alt=""
           />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
@@ -98,10 +101,11 @@ const Card = () => {
           </h2>
           <button
             onClick={() => toggleShowMore("card3")}
-            className="flex items-center gap-3 lg:gap-[10px] font-semibold mt-4 px-4 py-2 border border-white text-white rounded"
+            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded "
           >
             {showMore.card3 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
+            <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
           {showMore.card3 && (
             <p className="mt-4 text-white">
@@ -116,11 +120,14 @@ const Card = () => {
           Connect with top brands seeking creator like you.
         </p>
         <div className="flex justify-center items-center pt-[30px] gap-[20px]">
-          <button className="px-[25px] py-[10px] border-2 border-primary rounded bg-primary font-semibold hover:text-black hover:bg-white transition-all">
+          <button className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
             Get me Started
+            <span className="button-hover group-hover:w-[330px] group-hover:h-[330px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
-          <button className="px-[25px] py-[10px] border-2 text-primary font-semibold border-primary rounded bg-inherit">
+
+          <button className="px-[25px] py-[10px] border-2 text-primary border-primary rounded button group">
             Learn More
+            <span className="button-hover group-hover:w-[270px] group-hover:h-[270px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
         </div>
       </div>
@@ -142,7 +149,7 @@ const Card = () => {
           Our Connects{" "}
         </h1>
         <Swiper
-          className="lg:w-[650px] h-[300px]"
+          className="lg:w-[850px] h-[320px]"
           modules={[FreeMode, Autoplay, Pagination]}
           slidesPerView={1}
           spaceBetween={20}
@@ -155,35 +162,17 @@ const Card = () => {
           pagination={{
             clickable: true,
             dynamicBullets: true,
+            el: ".swiper-pagination", // Custom pagination class
           }}
-          // breakpoints={{
-          //   20: {
-          //     slidesPerView: 2,
-          //     spaceBetween: 20,
-          //   },
-          //   768: {
-          //     slidesPerView: 3,
-          //     spaceBetween: 20,
-          //   },
-          //   1024: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 20,
-          //   },
-          //   1280: {
-          //     slidesPerView: 5,
-          //     spaceBetween: 40,
-          //   },
-          // }}
         >
           <SwiperSlide>
             <div className="flex items-center flex-col justify-center text-white h-full border rounded-[10px] border-white p-[25px]">
               <p className="text-[14px] md:text-lg ">
-                "Our app was a hidden gem, then Creators Ideology swooped in
-                like a content fairy godmother. They crafted a bespoke
-                influencer campaign that was pure storytelling magic. Downloads
-                went from a trickle to a torrent, and our user base is singing
-                the praises of our app and the creators who brought it to life.
-                These guys don't just boost numbers, they build communities."
+                " my app was like a ghost town. Then I found Creators Ideology!
+                They didn't just do ads, they wove this amazing story around the
+                app. Downloads BLEW UP. Now everyone's obsessed, and they can't
+                stop talking about the creators who brought it to life.
+                Seriously, they rock!"
               </p>
 
               <div className="pt-[40px] flex items-center self-start gap-[30px]">
@@ -199,13 +188,9 @@ const Card = () => {
           <SwiperSlide>
             <div className="flex items-center flex-col justify-center text-white h-full border rounded-[10px] border-white p-[25px]">
               <p className="text-[14px] md:text-lg ">
-                "Working with Creators Ideology has been like finding a unicorn
-                in the influencer marketing jungle - kind, helpful, and bursting
-                with fresh talent! They consistently bring innovative creators
-                to the table, perfectly matched to our campaign needs. It's a
-                breath of fresh air compared to the usual agency routine.
-                Overall, Creators Ideology is a total game-changer. They're the
-                secret weapon we don't want to keep secret! Highly recommend!"
+                "Creators Ideology is amazing! They bring innovation and
+                perfectly matched creators to us. Unlike Typical agencies, they
+                are a game-changer and our secret weapon. Highly recommend! "
               </p>
               <div className="pt-[40px] flex items-center self-start gap-[30px] ">
                 <img
@@ -233,6 +218,8 @@ const Card = () => {
               </div>
             </div>
           </SwiperSlide>
+          <div className="swiper-pagination text-primary"></div>{" "}
+          {/* Add custom pagination container */}
         </Swiper>
       </div>
     </div>

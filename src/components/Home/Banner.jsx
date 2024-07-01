@@ -23,11 +23,13 @@ function Banner() {
             We're a creative community of Influencers.
           </p>
           <div className="flex flex-row items-center md:items-start justify-center md:justify-start pt-[50px] gap-[20px] md:gap-[30px]">
-            <button className="px-[25px] py-[10px] border-2 border-primary rounded bg-primary hover:bg-primary font-semibold hover:text-black hover:bg-white transition-all">
+            <button className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
               Join Our Network
+              <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
-            <button className="px-[25px] py-[10px] border-2 text-white font-semibold border-white rounded bg-inherit">
+            <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
               Learn more
+              <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
           </div>
         </div>

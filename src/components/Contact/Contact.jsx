@@ -5,7 +5,9 @@ function Contact() {
   return (
     <div className="bg-black min-h-screen">
       <div className="container mx-auto pt-[150px] pb-[50px] px-4">
-        <p className="text-white inline-block rounded py-[5px] px-[10px] border border-gray-500">Ready to work with us</p>
+        <p className="text-white inline-block rounded py-[5px] px-[10px] border border-gray-500">
+          Ready to work with us
+        </p>
         <h1 className="text-[48px] lg:text-[65px] text-white mb-8">
           Contact Us
         </h1>
@@ -77,9 +79,10 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded-[6px] "
+            className="flex items-center gap-3 button group mt-4 px-4 py-2 border border-white text-white rounded-[6px] "
           >
             Sent a Message
+            <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
         </form>
       </div>
@@ -88,30 +91,59 @@ function Contact() {
           Explore Our Work
         </h1>
         <div className="flex flex-col gap-[30px]">
-          <div className="container mx-auto px-[20px] h-[20vh] lg:h-[18vh] flex flex-col justify-center rounded bg-[#441DBC]">
-            <h1 className="text-lg md:text-xl font-semibold text-white">
-              R'S koso
-            </h1>
-            <button className="self-start w-auto flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-            </button>
+          <div className="container mx-auto px-[20px] h-[20vh] lg:h-[18vh] flex flex-row items-center justify-between rounded bg-[#441DBC]">
+            <div>
+              <h1 className="text-lg md:text-[32px] font-semibold text-white">
+                R'S koso
+              </h1>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4  border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </div>
+            <div className="flex flex-col items-end">
+              <h1 className="text-lg md:text-[32px] font-semibold text-white">
+                20%
+              </h1>
+              <p className=" text-white"> Increase in Brand Awareness</p>
+            </div>
           </div>
-          <div className="container mx-auto px-[20px] h-[20vh] lg:h-[18vh] flex flex-col justify-center rounded bg-[#441DBC]">
-            <h1 className="text-lg md:text-xl font-semibold text-white">Fum</h1>
-            <button className="self-start w-auto flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-            </button>
+          <div className="container mx-auto px-[20px] h-[20vh] lg:h-[18vh] flex flex-row items-center justify-between rounded bg-[#441DBC]">
+            <div>
+              <h1 className="text-lg md:text-[32px] font-semibold text-white">
+                Fum
+              </h1>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4  border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </div>
+            <div className="flex flex-col items-end">
+              <h1 className="text-lg md:text-[32px] font-semibold text-white">
+                30%
+              </h1>
+              <p className=" text-white"> Increase in Product Desirability</p>
+            </div>
           </div>
-          <div className="container mx-auto px-[20px] h-[20vh] lg:h-[18vh] flex flex-col justify-center rounded bg-[#441DBC]">
-            <h1 className="text-lg md:text-xl font-semibold text-white">
-              Ekster
-            </h1>
-            <button className="self-start w-auto flex items-center gap-3 font-semibold mt-4 px-4 py-2 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-            </button>
+          <div className="container mx-auto px-[20px] h-[20vh] lg:h-[18vh] flex flex-row items-center justify-between rounded bg-[#441DBC]">
+            <div>
+              <h1 className="text-lg md:text-[32px] font-semibold text-white">
+                Ekster
+              </h1>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4  border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </div>
+            <div className="flex flex-col items-end">
+              <h1 className="text-lg md:text-[32px] font-semibold text-white">
+                40%
+              </h1>
+              <p className=" text-white"> Increase in Brand Reputation</p>
+            </div>
           </div>
         </div>
       </div>

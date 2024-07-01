@@ -97,9 +97,10 @@ function Header() {
           <div>
             <Link
               to="#"
-              className="px-[25px] py-[10px] border-2 text-primary font-semibold border-primary rounded bg-inherit"
+              className="px-[25px] py-[10px] border-2 button group text-primary font-semibold border-primary rounded bg-inherit"
             >
               Start a Project
+              <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </Link>
           </div>
         </div>

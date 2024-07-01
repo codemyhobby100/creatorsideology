@@ -9,6 +9,9 @@ export default {
       colors: {
         primary: '#14F2A8',
       },
+      fontFamily: {
+        grotesk: ['Familjen Grotesk', 'sans-serif'],
+      },
     },
   },
   plugins: [

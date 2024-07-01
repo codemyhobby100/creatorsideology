@@ -11,6 +11,7 @@ import Study from './components/Study/Study'
 import Contact from './components/Contact/Contact'
 import Creator from './components/Creator/Creator';
 import About from './components/About/About';
+import './fonts/fonts.css';
 
 const router = createBrowserRouter([
   {

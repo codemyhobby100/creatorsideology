@@ -26,10 +26,10 @@ function Counter() {
           ref={ref1}
           className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[48px] lg:text-[72px] font-bold">
+          <h1 className="text-[52px] lg:text-[78px] font-bold">
             {inView1 && <CountUp end={10} duration={2.5} separator="," />}M+
           </h1>
-          <h1 className="text-lg lg:text-xl font-semibold text-primary pb-2.5">
+          <h1 className="text-lg lg:text-[25px] font-semibold text-primary pb-2.5">
             Engaged Customer
           </h1>
           <p className="px-4 lg:px-0">
@@ -51,10 +51,10 @@ function Counter() {
           ref={ref2}
           className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[48px] lg:text-[72px] font-bold">
+          <h1 className="text-[52px] lg:text-[78px] font-bold">
             {inView2 && <CountUp end={-42} duration={2.5} suffix="%" />}
           </h1>
-          <h1 className="text-lg lg:text-xl font-semibold text-primary pb-2.5">
+          <h1 className="text-lg lg:text-[25px] font-semibold text-primary pb-2.5">
             Avg CAC Reduction
           </h1>
           <p className="">
@@ -70,12 +70,12 @@ function Counter() {
           ref={ref3}
           className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[48px] lg:text-[72px] font-bold">
+          <h1 className="text-[52px] lg:text-[78px] font-bold">
             {inView3 && (
               <CountUp end={4.7} duration={2.5} decimals={1} suffix="x" />
             )}
           </h1>
-          <h1 className="text-lg lg:text-xl font-semibold text-primary pb-2.5">
+          <h1 className="text-lg lg:text-[25px] font-semibold text-primary pb-2.5">
             ROAS
           </h1>
           <p className="px-4 lg:px-0">

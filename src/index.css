@@ -2,14 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer components {
+
+  body {
+    @apply font-grotesk;
+  }
+
+  .button {
+    @apply relative z-10 flex items-center gap-3 font-semibold px-4 py-2 bg-transparent overflow-hidden;
+  }
+
+  .button-hover {
+    @apply absolute right-[-120px] top-[-10%] w-[200px] h-[200px] bg-white bg-opacity-20 rounded-full transition-all duration-[500ms] ease-in-out;
+  }
+
+  .button-hover:hover {
+    @apply w-[300px] h-[300px] bottom-[-100%] right-[-100%] rounded-full;
+  }
+
   .nav_li {
     @apply bg-inherit text-[18px] font-[600] hover:text-white;
   }
+
   .industry_logo {
     @apply w-[260px];
   }
-  
+
   .no-controls::-webkit-media-controls {
     display: none !important;
   }
