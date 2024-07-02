@@ -45,4 +45,5 @@
   .no-controls::-moz-media-controls {
     display: none !important;
   }
+  
 }

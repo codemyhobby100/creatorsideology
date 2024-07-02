@@ -17,7 +17,7 @@ function Offer() {
       {/* 1st offer */}
       <div className="container pt-[80px] pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[54px] 2xl:text-[70px] leading-[60px] 2xl:leading-[75px] font-bold pb-[15px]">
+          <h1 className="text-4xl md:text-[54px] 2xl:text-[65px] leading-[60px] 2xl:leading-[75px] font-bold pb-[15px]">
             Talent
             <br /> <span className="text-[#441DBC]">Representation</span>
           </h1>
@@ -30,7 +30,7 @@ function Offer() {
           <img
             src={img1}
             alt="Talent Representation"
-            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-full xl:h-[600px] rounded-[45px] object-cover"
+            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-[95%] xl:h-[600px] rounded-[45px] object-cover"
           />
         </div>
       </div>

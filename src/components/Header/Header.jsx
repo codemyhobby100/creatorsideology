@@ -76,11 +76,11 @@ function Header() {
           </div>
         </div>
         <div className="hidden lg:flex lg:items-center">
-          <ul className="menu text-white text-[17px] font-semibold menu-horizontal px-1">
-            <li>
+          <ul className=" gap-5 text-white text-[17px] font-semibold menu-horizontal px-1">
+            <li className="">
               <Link
                 to="/creator"
-                className="hover:bg-transparent active:bg-transparent"
+                className="active:text-white"
               >
                 Creators
               </Link>
@@ -88,13 +88,13 @@ function Header() {
             <li>
               <Link
                 to="/study"
-                className="hover:bg-transparent active:bg-transparent"
+                className=""
               >
                 Case Study
               </Link>
             </li>
           </ul>
-          <div>
+          <div className="pl-[20px]">
             <Link
               to="#"
               className="px-[25px] py-[10px] border-2 button group text-primary font-semibold border-primary rounded bg-inherit"
