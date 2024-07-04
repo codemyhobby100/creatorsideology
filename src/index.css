@@ -42,6 +42,9 @@
   .no-controls::-moz-media-controls {
     display: none !important;
   }
+  .my_container{
+    @apply lg:px-[40px] md:px-[30px] px-[20px]
+  }
 
   /* Swiper Custom Styles */
   .swiper-horizontal

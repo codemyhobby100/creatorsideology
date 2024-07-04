@@ -2,9 +2,9 @@ import React from "react";
 import bg_img from "../../assets/study_case.png";
 function CaseStudy() {
   return (
-    <div className="bg-black pt-[50px] pb-[50px]">
-      <div className="container mx-auto px-[15px]  ">
-        <h1 className="md:text-[38px] text-[28px] text-center lg:max-w-[1150px] pb-[30px] mx-auto text-[#828282] font-semibold">
+    <div className="bg-black my_container pt-[50px] pb-[50px]">
+      <div className=" mx-auto px-[15px]  ">
+        <h1 className="md:text-[38px] text-[28px] text-center pb-[30px] mx-auto text-[#828282] font-semibold">
           Discover how we've{" "}
           <span className="text-white">Elevated Brands, Increased ROI,</span>{" "}
           and <span className="text-white">Crafted Memorable Narratives</span>{" "}

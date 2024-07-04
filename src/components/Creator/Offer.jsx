@@ -5,7 +5,7 @@ import videoSrc from "../../assets/video/Ekster.mp4";
 
 function Offer() {
   return (
-    <div className="bg-black pt-12 text-white">
+    <div className="bg-black pt-12 my_container text-white">
       <h1 className="md:text-[52px] text-[38px] text-center lg:max-w-[1150px] mx-auto text-white font-semibold px-4">
         What we offer <span className="text-[#441DBC]">Creators</span>
       </h1>
@@ -15,7 +15,7 @@ function Offer() {
       </p>
 
       {/* 1st offer */}
-      <div className="container pt-[80px] pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+      <div className=" pt-[80px] pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
           <h1 className="text-4xl md:text-[57px] 2xl:text-[80px] leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
             Talent
@@ -30,13 +30,13 @@ function Offer() {
           <img
             src={img1}
             alt="Talent Representation"
-            className="w-full h-auto md:w-[500px] md:h-[500px] xl:w-[90%] xl:h-[600px] rounded-[45px] object-cover"
+            className="w-full h-auto md:w-[480px] md:h-[500px] xl:w-[90%] xl:h-[600px] rounded-[45px] object-cover"
           />
         </div>
       </div>
 
       {/* 2nd Offer */}
-      <div className="container pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+      <div className=" pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
         <div className="lg:col-span-7 flex items-center justify-center lg:justify-start px-[20px] lg:px-0 order-last lg:order-first">
           <video
             autoPlay
@@ -60,7 +60,7 @@ function Offer() {
       </div>
 
       {/* 3rd Offer */}
-      <div className="container pb-12 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+      <div className=" pb-12 mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
           <h1 className="text-4xl md:text-[60px] 2xl:text-[80px] leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
             Talent

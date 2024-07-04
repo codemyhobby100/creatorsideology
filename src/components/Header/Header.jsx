@@ -27,11 +27,11 @@ function Header() {
 
   return (
     <div
-      className={`navbar fixed w-full z-[999] transition-all duration-300 ${
+      className={`navbar fixed my_container z-[999] transition-all duration-300 ${
         scrolled ? "bg-gray-900" : ""
       }`}
     >
-      <div className="container mx-auto flex justify-between items-center px-4">
+      <div className=" w-full mx-auto md:mx-[0] flex justify-between items-center ">
         <Link to="/" className="flex items-center">
           <img src={logo} className="w-[150px]" alt="Creators Ideology" />
         </Link>

@@ -1,11 +1,11 @@
 import React from "react";
-import bg_img from "../../assets/creator_banner.jpg";
+import bg_img from "../../assets/creator_banner.png";
 
 function CreatorBanner() {
   return (
     <>
       <div
-        className="flex items-center bg-no-repeat bg-black"
+        className="flex items-center my_container bg-no-repeat bg-black"
         style={{
           backgroundImage: `url(${bg_img})`,
           backgroundSize: "cover",
@@ -18,7 +18,7 @@ function CreatorBanner() {
           },
         }}
       >
-        <div className="container mx-auto px-[20px] lg:px-[0px] text-center md:text-left">
+        <div className=" w-full mx-auto  lg:px-[0px] text-center md:text-left">
           <h2 className="text-[52px] md:text-[80px] font-bold leading-[50px] md:leading-[90px] text-white">
             Scaling your{" "}
             <span className="text-primary rounded-[20px]">Income</span> <br />

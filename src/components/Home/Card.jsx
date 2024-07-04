@@ -9,7 +9,7 @@ import "swiper/css/free-mode";
 import img1 from "../../assets/dsidess.jpeg";
 import img2 from "../../assets/scri.png";
 import img3 from "../../assets/honey.png";
-import Collaborate from "../../assets/collaborate.jpg";
+import Collaborate from "../../assets/collaborate.png";
 import Create from "../../assets/create.png";
 import Captivate from "../../assets/captivate.png";
 
@@ -24,7 +24,7 @@ const Card = () => {
   };
 
   return (
-    <div className="bg-black">
+    <div className="bg-black my_container">
       <div>
         <h1 className="md:text-[56px] text-[42px] text pb-[10px] font-bold text-center text-white">
           We Make It Simple{" "}
@@ -33,12 +33,12 @@ const Card = () => {
           Are you a Creator? Looking for sponsorships.
         </p>
       </div>
-      <div className="container mx-auto flex-col lg:flex-row flex justify-between items-center py-[40px]">
+      <div className="w-full mx-auto flex-col lg:flex-row flex justify-between items-center py-[40px]">
         {/* card-1 */}
-        <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
+        <div className="xl:max-w-sm md:max-w-[300px] max-w-[380px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
           <img
             src={Collaborate}
-            className="h-[332px] w-[280px] lg:w-[332px] object-cover"
+            className="h-[332px] w-[280px] lg:w-[332px] lg:object-cover"
             alt=""
           />
           <h2 className="text-[32px] font-semibold text-white my-[15px]">
@@ -63,7 +63,7 @@ const Card = () => {
         </div>
 
         {/* card-2 */}
-        <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
+        <div className="xl:max-w-sm md:max-w-[300px] max-w-[350px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
           <img
             src={Create}
             className="h-[332px] w-[280px] lg:w-[332px] object-cover"
@@ -90,7 +90,7 @@ const Card = () => {
         </div>
 
         {/* card-3 */}
-        <div className="xl:max-w-sm max-w-[300px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
+        <div className="xl:max-w-sm md:max-w-[300px] max-w-[350px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
           <img
             src={Captivate}
             className="h-[332px] w-[280px] lg:w-[332px] object-cover"
@@ -133,7 +133,7 @@ const Card = () => {
       </div>
       {/* connects */}
 
-      <div className="container mx-auto px-[15px] pt-[30px] pb-[50px] lg:pt-[50px]">
+      <div className=" mx-auto px-[15px] pt-[30px] pb-[50px] lg:pt-[50px]">
         <style>{`
       .swiper-pagination-bullet {
         background-color: white !important;
