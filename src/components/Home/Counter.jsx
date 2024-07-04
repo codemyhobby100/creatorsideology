@@ -26,10 +26,10 @@ function Counter() {
           ref={ref1}
           className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[52px] lg:text-[78px] font-bold">
+          <h1 className="text-[72px] lg:text-[110px] lg:leading-[120px] font-bold">
             {inView1 && <CountUp end={10} duration={2.5} separator="," />}M+
           </h1>
-          <h1 className="text-lg lg:text-[25px] font-semibold text-primary pb-2.5">
+          <h1 className="text-[25px] lg:text-[35px] font-semibold text-primary pb-2.5">
             Engaged Customer
           </h1>
           <p className="px-4 lg:px-0">
@@ -38,23 +38,23 @@ function Counter() {
           </p>
         </div>
         <div className="lg:col-span-8 flex items-center px-[20px] lg:px-0 justify-center lg:justify-end">
-          <img src={img1} alt="Engaged Customer" className="w-full  h-auto" />
+          <img src={img1} alt="Engaged Customer" className=" md:w-[90%] w-full h-auto" />
         </div>
       </div>
 
       {/* 2nd counter */}
       <div className="container px-[15px] pb-[70px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
         <div className="lg:col-span-8 flex items-center justify-center lg:justify-start px-[20px] lg:px-0 order-last lg:order-first">
-          <img src={img2} alt="Avg CAC Reduction" className="w-full h-auto" />
+          <img src={img2} alt="Avg CAC Reduction" className="md:w-[90%] w-full h-auto" />
         </div>
         <div
           ref={ref2}
           className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[52px] lg:text-[78px] font-bold">
+          <h1 className="text-[72px] lg:text-[110px] lg:leading-[120px] font-bold">
             {inView2 && <CountUp end={-42} duration={2.5} suffix="%" />}
           </h1>
-          <h1 className="text-lg lg:text-[25px] font-semibold text-primary pb-2.5">
+          <h1 className="text-[25px] lg:text-[35px] font-semibold text-primary pb-2.5">
             Avg CAC Reduction
           </h1>
           <p className="">
@@ -70,12 +70,12 @@ function Counter() {
           ref={ref3}
           className="lg:col-span-4 flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
         >
-          <h1 className="text-[52px] lg:text-[78px] font-bold">
+          <h1 className="text-[72px] lg:text-[110px] lg:leading-[120px] font-bold">
             {inView3 && (
               <CountUp end={4.7} duration={2.5} decimals={1} suffix="x" />
             )}
           </h1>
-          <h1 className="text-lg lg:text-[25px] font-semibold text-primary pb-2.5">
+          <h1 className="text-[25px] lg:text-[35px] font-semibold text-primary pb-2.5">
             ROAS
           </h1>
           <p className="px-4 lg:px-0">
@@ -87,7 +87,7 @@ function Counter() {
         <div className="lg:col-span-8 flex px-[20px] lg:px-0 items-center justify-center lg:justify-end">
           <img
             src={img3}
-            className="w-full h-auto rounded-[40px] md:rounded-[65px]"
+            className="md:w-[90%] w-full h-auto rounded-[40px] md:rounded-[65px]"
             alt="ROAS"
           />
         </div>

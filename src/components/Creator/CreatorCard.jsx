@@ -5,8 +5,10 @@ import img3 from "../../assets/Layer3.png";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 
+
 function CreatorCard() {
   const [showParagraph, setShowParagraph] = useState([false, false, false]);
+
 
   const handleCardClick = (index) => {
     const updatedShowParagraph = showParagraph.map((item, idx) =>
@@ -14,6 +16,7 @@ function CreatorCard() {
     );
     setShowParagraph(updatedShowParagraph);
   };
+
 
   return (
     <div className="bg-black py-10">
@@ -28,12 +31,13 @@ function CreatorCard() {
         >
           <div className="text-center">
             <h2 className="text-[32px] md:text-[48px] font-semibold text-[#431CBC]">
-            Ryan Pictures
+              Moon.
             </h2>
             <h4 className="text-[18px] md:text-[23px] text-[#B7B7B7]">
               1.34M Subscribers
             </h4>
           </div>
+
 
           <img src={img1} className="w-[100px] md:w-[150px] h-[100px] md:h-[150px] rounded-full" alt="Moon" />
           {!showParagraph[0] && (
@@ -42,19 +46,29 @@ function CreatorCard() {
             </div>
           )}
 
+
           {showParagraph[0] && (
             <div>
               <p className="mt-4 text-center text-black">
-                <span className="font-bold">Ryan Pictures</span> is a rapidly growing YouTube channel focused on producing mini-documentaries about popular online personalities. Their content offers in-depth insights into the lives and journeys of digital creators, attracting a highly engaged audience interested in the digital creator space.
-                
+                <span className="font-bold">Moon Real</span> isn't just a
+                YouTube channel, it's a hub of thought-provoking insights,
+                eloquent analysis, and engaging discussions. With a focus on
+                social commentary, Moon-Real dives deep into contemporary
+                issues sparking conversations that matter.
+                <br />
+                <br />
+                Their video essays are meticulously crafted, combining
+                meticulous research with compelling storytelling that
+                captivates and informs.
               </p>
               <div className="flex justify-center items-center pt-[50px]">
                 <FaYoutube className="text-red-500 pr-[10px] text-[25px] md:text-[35px]" />
-                <p className="text-black font-bold">@Ryan Pictures</p>
+                <p className="text-black font-bold">@Moon-Real</p>
               </div>
             </div>
           )}
         </div>
+
 
         {/* Card 2 */}
         <div
@@ -63,12 +77,13 @@ function CreatorCard() {
         >
           <div className="text-center">
             <h2 className="text-[32px] md:text-[48px] font-semibold text-[#431CBC]">
-            Moneyplix Media
+              Marketing Psychology.
             </h2>
             <h4 className="text-[18px] md:text-[23px] text-[#B7B7B7]">
               745K Followers
             </h4>
           </div>
+
 
           <img src={img2} className="w-[100px] md:w-[150px] h-[100px] md:h-[150px] rounded-full" alt="Marketing Psychology" />
           {!showParagraph[1] && (
@@ -77,19 +92,29 @@ function CreatorCard() {
             </div>
           )}
 
+
           {showParagraph[1] && (
             <div>
               <p className="mt-4 text-center text-black">
-                <span className="font-bold">Moneyplix Media is a TikTok finance creator</span> taking the platform by storm with a combined following of  700k across all platforms. This creator breaks down the world of investing, tech, and saving money in a way that's both informative and hilarious. Forget dry lectures – Moneyplix Media makes financial literacy fun and engaging for everyone!
-
+                <span className="font-bold">Marketing Psychology</span> isn't just a
+                YouTube channel, it's a hub of thought-provoking insights,
+                eloquent analysis, and engaging discussions. With a focus on
+                social commentary, Marketing Psychology dives deep into contemporary
+                issues sparking conversations that matter.
+                <br />
+                <br />
+                Their video essays are meticulously crafted, combining
+                meticulous research with compelling storytelling that
+                captivates and informs.
               </p>
               <div className="flex justify-center items-center pt-[50px]">
                 <FaInstagram className="text-red-500 pr-[10px] text-[25px] md:text-[35px]" />
-                <p className="text-black font-bold">@Moneyplix Media</p>
+                <p className="text-black font-bold">@Marketing-Psychology</p>
               </div>
             </div>
           )}
         </div>
+
 
         {/* Card 3 */}
         <div
@@ -98,12 +123,13 @@ function CreatorCard() {
         >
           <div className="text-center">
             <h2 className="text-[32px] md:text-[48px] font-semibold text-[#431CBC]">
-            Leelajournals 
+              Patrick Cc.
             </h2>
             <h4 className="text-[18px] md:text-[23px] text-[#B7B7B7]">
               1.87M Subscribers
             </h4>
           </div>
+
 
           <img src={img3} className="w-[100px] md:w-[150px] h-[100px] md:h-[150px] rounded-full" alt="Patrick Cc" />
           {!showParagraph[2] && (
@@ -112,15 +138,24 @@ function CreatorCard() {
             </div>
           )}
 
+
           {showParagraph[2] && (
             <div>
               <p className="mt-4 text-center text-black">
-                <span className="font-bold">Leelajournals is both an artist and entrepreneur!</span> She shares her inspiring journey of building a business around her art, documenting the wins, struggles, and valuable lessons learned. Her authenticity and passion resonate with a highly engaged audience of aspiring business owners worldwide.
-
+                <span className="font-bold">Patrick Cc</span> isn't just a
+                YouTube channel, it's a hub of thought-provoking insights,
+                eloquent analysis, and engaging discussions. With a focus on
+                social commentary, Patrick Cc dives deep into contemporary
+                issues sparking conversations that matter.
+                <br />
+                <br />
+                Their video essays are meticulously crafted, combining
+                meticulous research with compelling storytelling that
+                captivates and informs.
               </p>
               <div className="flex justify-center items-center pt-[50px]">
                 <FaYoutube className="text-red-500 pr-[10px] text-[25px] md:text-[35px]" />
-                <p className="text-black font-bold">@Leelajournals</p>
+                <p className="text-black font-bold">@Patrick-Cc</p>
               </div>
             </div>
           )}
@@ -130,4 +165,8 @@ function CreatorCard() {
   );
 }
 
+
 export default CreatorCard;
+
+
+

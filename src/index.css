@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer components {
-
   body {
     @apply font-grotesk;
   }
@@ -27,7 +24,7 @@
   }
 
   .industry_logo {
-    @apply w-[260px];
+    @apply w-[90%];
   }
 
   .no-controls::-webkit-media-controls {
@@ -45,5 +42,11 @@
   .no-controls::-moz-media-controls {
     display: none !important;
   }
-  
+
+  /* Swiper Custom Styles */
+  .swiper-horizontal
+    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    @apply !left-[90%] !-translate-x-[50%] !whitespace-nowrap !pb-[60px];
+  }
 }
