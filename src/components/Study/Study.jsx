@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 function Study() {
   return (
@@ -13,11 +14,13 @@ function Study() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               R'S koso
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-              <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            <Link to={"/koso"}>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">
@@ -31,11 +34,13 @@ function Study() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               Fum
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-              <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            <Link to={"/fum"}>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">
@@ -50,11 +55,13 @@ function Study() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               Ekster
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-              <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            <Link to={"/ekster"}>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">
@@ -69,11 +76,13 @@ function Study() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               Scribe
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
-              See Case Study
-              <HiArrowLongRight className="text-[25px]" />
-              <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            <Link to={"/scribe"}>
+              <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+                See Case Study
+                <HiArrowLongRight className="text-[25px]" />
+                <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">

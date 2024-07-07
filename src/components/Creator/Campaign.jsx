@@ -27,7 +27,7 @@ function Campaign() {
         </div>
       </div>
 
-      <div className="container mx-auto flex flex-col items-center justify-center text-center pt-[50px] pb-[50px]">
+      <div className=" mx-auto flex flex-col items-center justify-center text-center pt-[50px] pb-[100px]">
         <h1 className="text-white text-[42px] md:text-[65px] font-bold">
           Ready to work with us?
         </h1>

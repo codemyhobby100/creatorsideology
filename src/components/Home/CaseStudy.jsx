@@ -25,7 +25,7 @@ function CaseStudy() {
           </button>
         </div>
       </div>
-      <div className="container mx-auto flex flex-col items-center justify-center pt-[50px] text-center">
+      <div className="container pb-[50px] mx-auto flex flex-col items-center justify-center pt-[50px] text-center">
         <h1 className="text-white text-[42px] md:text-[65px] font-bold">
           Ready to work with us?
         </h1>

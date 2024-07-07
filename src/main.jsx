@@ -12,6 +12,10 @@ import Contact from './components/Contact/Contact'
 import Creator from './components/Creator/Creator';
 import About from './components/About/About';
 import './fonts/fonts.css';
+import Ekster from './components/Ekster/Ekster';
+import Fum from './components/Fum/Fum';
+import Rskoso from './components/Rskoso/Rskoso';
+import Scribe from './components/Scribe/Scribe';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +41,22 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About/>
+      },
+      {
+        path: '/ekster',
+        element: <Ekster/>
+      },
+      {
+        path: '/fum',
+        element: <Fum/>
+      },
+      {
+        path: '/koso',
+        element: <Rskoso/>
+      },
+      {
+        path: '/scribe',
+        element: <Scribe/>
       },
     ]
   },

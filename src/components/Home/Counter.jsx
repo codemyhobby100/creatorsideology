@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import img1 from "../../assets/counter1.png";
 import img2 from "../../assets/counter2.png";
-import img3 from "../../assets/counter3.jpg";
+import img3 from "../../assets/counter3.png";
 
 function Counter() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
