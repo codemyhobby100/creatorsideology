@@ -1,5 +1,5 @@
 import React from "react";
-import koso_banner from "../../assets/koso.png";
+import koso_banner from "../../assets/koso.jpg";
 import koso_logo from "../../assets/koso_logo.png";
 function Rskoso() {
   return (

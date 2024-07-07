@@ -4,6 +4,7 @@ import { useInView } from "react-intersection-observer";
 import img1 from "../../assets/counter1.png";
 import img2 from "../../assets/counter2.png";
 import img3 from "../../assets/counter3.png";
+import videoSrc from "../../assets/video/Creators_Ideology.mp4";
 
 function Counter() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
@@ -17,7 +18,9 @@ function Counter() {
         <span className="text-white">stop</span> Shop
       </h1>
       <div className=" mx-auto  px-[15px]">
-        <div className=" h-[40vh] md:h-[60vh] w-full flex items-center justify-center border border-white rounded-[25px]"></div>
+        <div className=" h-[40vh] md:h-[60vh] w-full flex items-center justify-center border border-white rounded-[25px]">
+        
+        </div>
       </div>
       <div className="">
         {/* 1st counter */}
