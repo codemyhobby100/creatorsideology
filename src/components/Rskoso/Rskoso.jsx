@@ -6,25 +6,26 @@ function Rskoso() {
     <div className="bg-black">
       {/* Banner section */}
       <div
-        className="my_container flex flex-col justify-center bg-black text-white h-screen w-full"
+        className="my_container flex flex-col justify-center text-white h-screen w-full relative"
         style={{
           backgroundImage: `url(${koso_banner})`,
           backgroundSize: "cover",
           backgroundPosition: "bottom",
         }}
       >
-        <div className="lg:pb-[15vh] pb-[50px]">
+        <div className="overlay absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative lg:pb-[15vh] pb-[50px]">
           <h4 className="text-[23px] font-semibold">Case studies</h4>
         </div>
-        <div>
+        <div className="relative">
           <h2 className="md:text-[60px] xl:w-1/2 text-[40px] text-center md:text-left">
             Brewing Up Success:
           </h2>
           <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
-            How we helped R'S Koso conquer ocffe culture with Moon.
+            How we helped R'S Koso conquer coffee culture with Moon.
           </p>
         </div>
-        <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
+        <div className="relative w-full flex justify-center md:pt-[150px] md:justify-end">
           <div className="inline-block border border-black p-[15px] bg-white max-w-max">
             <div className="flex items-center justify-end text-black">
               <img src={koso_logo} className="w-[80px]" alt="Fum Logo" />
@@ -68,7 +69,8 @@ function Rskoso() {
                 <strong>
                   the unhealthy competition in the coffee industry.
                 </strong>
-              </p><br />
+              </p>
+              <br />
               <div className="flex justify-center my-[30px] lg:hidden">
                 <video src="#" className="w-full lg:w-[80%]" controls></video>
               </div>
