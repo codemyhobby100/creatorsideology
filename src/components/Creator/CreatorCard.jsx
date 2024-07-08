@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import img1 from "../../assets/Layer1.png";
 import img2 from "../../assets/Layer2.png";
 import img3 from "../../assets/Layer3.png";
+import img4 from "../../assets/Ryan_Pictures.png";
+import img5 from "../../assets/Moneyplix_Media.png";
+import img6 from "../../assets/Leelajournals.png";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,7 +14,14 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 
 function CreatorCard() {
-  const [showParagraph, setShowParagraph] = useState([false, false, false, false, false, false]);
+  const [showParagraph, setShowParagraph] = useState([
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+  ]);
 
   const handleCardClick = (index) => {
     const updatedShowParagraph = showParagraph.map((item, idx) =>
@@ -57,9 +67,37 @@ function CreatorCard() {
       `,
       social: { platform: FaYoutube, handle: "@Patrick-Cc" },
     },
+    {
+      name: "Ryan Pictures",
+      subscribers: "1.87M Subscribers",
+      image: img4,
+      description: `
+        <span class="font-bold"> Ryan Pictures</span> is a rapidly growing YouTube channel focused on producing mini-documentaries about popular online personalities. Their content offers in-depth insights into the lives and journeys of digital creators, attracting a highly engaged audience interested in the digital creator space.
+      `,
+      social: { platform: FaYoutube, handle: "@Ryan Pictures " },
+    },
+    {
+      name: "Moneyplix Media",
+      subscribers: "1.87M Subscribers",
+      image: img5,
+      description: `
+        <span class="font-bold">Moneyplix Media is a TikTok finance creator</span>  taking the platform by storm with a combined following of  700k across all platforms. This creator breaks down the world of investing, tech, and saving money in a way that's both informative and hilarious. Forget dry lectures – Moneyplix Media makes financial literacy fun and engaging for everyone!
+      `,
+      social: { platform: FaYoutube, handle: "@Moneyplix Media " },
+    },
+    {
+      name: "Leelajournals ",
+      subscribers: "1.87M Subscribers",
+      image: img6,
+      description: `
+        <span class="font-bold">Leelajournals is both an artist and entrepreneur!</span>  She shares her inspiring journey of building a business around her art, documenting the wins, struggles, and valuable lessons learned. Her authenticity and passion resonate with a highly engaged audience of aspiring business owners worldwide.
+
+      `,
+      social: { platform: FaYoutube, handle: "@Leelajournals " },
+    },
   ];
 
-  const doubledCreators = creators.concat(creators);
+
 
   return (
     <div className="bg-black my_container py-10">
@@ -97,7 +135,7 @@ function CreatorCard() {
             },
           }}
         >
-          {doubledCreators.map((creator, index) => (
+          {creators.map((creator, index) => (
             <SwiperSlide key={index} className="flex justify-center">
               <div
                 onClick={() => handleCardClick(index)}
