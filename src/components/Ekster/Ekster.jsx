@@ -52,7 +52,7 @@ function Ekster() {
           <h4 className="text-[23px] w-full font-semibold pb-[40px]">
             Solution:
           </h4>
-          <div className="flex flex-col items-center gap-[30px] lg:flex-row pb-[50px]">
+          <div className="flex flex-col gap-[30px] lg:flex-row pb-[50px]">
             <div className="lg:w-2/5 order-2 lg:order-1">
               <p>
                 Instead of focusing on securing a single high-profile

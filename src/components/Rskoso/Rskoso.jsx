@@ -59,7 +59,7 @@ function Rskoso() {
           <h4 className="text-[23px] w-full font-semibold pb-[40px]">
             Solution:
           </h4>
-          <div className="flex flex-col lg:flex-row gap-[30px] items-center pb-[50px]">
+          <div className="flex flex-col lg:flex-row gap-[30px] pb-[50px]">
             <div className="lg:w-2/5 order-2 lg:order-1">
               <p>
                 Partnering with one of YouTube's best video essay channels -

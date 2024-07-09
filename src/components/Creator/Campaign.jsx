@@ -13,7 +13,7 @@ function Campaign() {
             Multi-Platform <br />{" "}
             <span className="text-[#441DBC]">Campaigns</span>
           </h1>
-          <p className="">
+          <p className="text-[20px]">
             Our agency designs influencer marketing campaigns across various
             social media platforms, blogs, and other digital channels.
           </p>

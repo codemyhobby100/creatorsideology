@@ -35,7 +35,7 @@ function Counter() {
             <h1 className="text-[25px] lg:text-[35px] font-semibold text-primary pb-2.5">
               Engaged Customer
             </h1>
-            <p className="px-4 lg:px-0">
+            <p className="px-4 text-[20px] lg:px-0">
               We strategically match brands with the ideal audience segments,
               driving real results not just reach.
             </p>
@@ -68,7 +68,7 @@ function Counter() {
             <h1 className="text-[25px] lg:text-[35px] font-semibold text-primary pb-2.5">
               Avg CAC Reduction
             </h1>
-            <p className="">
+            <p className="text-[20px]">
               We'll help you gain a significant edge in the market for half the
               price.
             </p>
@@ -89,7 +89,7 @@ function Counter() {
             <h1 className="text-[25px] lg:text-[35px] font-semibold text-primary pb-2.5">
               ROAS
             </h1>
-            <p className="px-4 lg:px-0">
+            <p className="px-4 text-[20px] lg:px-0">
               Focus on what matters most -- creating a delightful customer
               experience -- while we optimize your ad spend for a 4.7x return on
               investment.

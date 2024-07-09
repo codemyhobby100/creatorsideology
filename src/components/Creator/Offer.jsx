@@ -21,7 +21,7 @@ function Offer() {
             Talent
             <br /> <span className="text-[#441DBC]">Representation</span>
           </h1>
-          <p className="">
+          <p className="text-[20px]">
             Our team finds authentic brand matches for your passions and
             beliefs, ensuring that every campaign feels natural and genuine.
           </p>
@@ -55,7 +55,7 @@ function Offer() {
               Deals <br />& Partnerships
             </span>
           </h1>
-          <p className="">We help you connect with top brands.</p>
+          <p className="text-[20px]">We help you connect with top brands.</p>
         </div>
       </div>
 
@@ -66,7 +66,7 @@ function Offer() {
             Talent
             <br /> <span className="text-[#441DBC]">Management</span>
           </h1>
-          <p className="px-4 lg:px-0">
+          <p className="px-4 text-[20px] lg:px-0">
             Let's take the work off your hands -- inspiring and engaging your
             community -- so you can focus on what you do best.
           </p>
