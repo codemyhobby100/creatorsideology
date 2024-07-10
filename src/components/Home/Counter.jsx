@@ -18,8 +18,11 @@ function Counter() {
         <span className="text-white">stop</span> Shop
       </h1>
       <div className=" mx-auto  px-[15px]">
-        <div className=" h-[40vh] md:h-[60vh] w-full flex items-center justify-center border border-white rounded-[25px]">
-        
+        <div className="h-[40vh] md:h-[80vh] w-full flex items-center justify-center border border-white rounded-[25px] overflow-hidden">
+          <video autoPlay muted loop className="w-full h-full object-fill">
+            <source src={videoSrc} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <div className="">
