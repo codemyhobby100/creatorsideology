@@ -18,7 +18,7 @@ function Rskoso() {
           <h4 className="text-[23px] font-semibold">Case studies</h4>
         </div>
         <div className="relative">
-          <h2 className="md:text-[60px] xl:w-1/2 text-[40px] text-center md:text-left">
+          <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
             Brewing Up Success:
           </h2>
           <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
