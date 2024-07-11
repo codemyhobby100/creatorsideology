@@ -40,7 +40,7 @@ function Fum() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[40px]">Challenge:</h4>
+          <h4 className="text-[23px] font-semibold pb-[20px]">Challenge:</h4>
           <p>
             Fum, a unique smoke-free alternative offering plant-based oils to
             curb nacotine crevings, faced the hurdle of creating brand awareness
@@ -53,10 +53,10 @@ function Fum() {
 
         {/* Solution section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] w-full font-semibold pb-[40px]">
+          <h4 className="text-[23px] w-full font-semibold pb-[20px]">
             Solution:
           </h4>
-          <div className="flex flex-col lg:flex-row gap-[30px] pb-[50px]">
+          <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
             <div className="lg:w-2/5 order-2 lg:order-1">
               <p>
                 We proposed an influencer marketing campaign with Geopold, a
@@ -78,7 +78,7 @@ function Fum() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[40px]">Key Takeaway</h4>
+          <h4 className="text-[23px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p>
             Homur effectively enhanced viewer engagement with the content,
             leading to a demonstrably positive impact on brand awareness and

@@ -38,7 +38,7 @@ function Ekster() {
       <div className="my_container text-white py-[80px]">
         {/* challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[40px]">Challenge:</h4>
+          <h4 className="text-[23px] font-semibold pb-[20px]">Challenge:</h4>
           <p>
             Ekster, a leading provider of minimaslist wallet, approached us with
             a challenge: increase brand awareness and drive sales despite a
@@ -49,10 +49,10 @@ function Ekster() {
         </div>
         {/* Solution section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] w-full font-semibold pb-[40px]">
+          <h4 className="text-[23px] w-full font-semibold pb-[20px]">
             Solution:
           </h4>
-          <div className="flex flex-col gap-[30px] lg:flex-row pb-[50px]">
+          <div className="flex flex-col gap-[30px] lg:flex-row pb-[30px]">
             <div className="lg:w-2/5 order-2 lg:order-1">
               <p>
                 Instead of focusing on securing a single high-profile
@@ -76,7 +76,7 @@ function Ekster() {
         </div>
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[40px]">Key Takeaway</h4>
+          <h4 className="text-[23px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p>
             The campaign surpassed exjpectations! With over 740k views and an
             impressive engagement rate exceeding 10%, partnering with
