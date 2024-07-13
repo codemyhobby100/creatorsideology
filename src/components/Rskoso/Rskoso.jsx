@@ -6,6 +6,7 @@ import { BiSolidLike } from "react-icons/bi";
 import { GiClick } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { FaAnglesRight } from "react-icons/fa6";
+import videoSrc from "../../assets/video/RS_Kooso.mp4";
 function Rskoso() {
   return (
     <div className="bg-black">
@@ -77,7 +78,15 @@ function Rskoso() {
               </p>
               <br />
               <div className="flex justify-center my-[30px] lg:hidden">
-                <video src="#" className="w-full lg:w-[80%]" controls></video>
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  className="w-full lg:w-[80%] object-fill"
+                >
+                  <source src={videoSrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <p className="text-[18px]">
                 The documentary presented a balanced perspective, educating
@@ -88,7 +97,15 @@ function Rskoso() {
               </p>
             </div>
             <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
-              <video src="#" className="w-full lg:w-[80%]" controls></video>
+              <video
+                autoPlay
+                muted
+                loop
+                className="w-full lg:w-[80%] object-fill"
+              >
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>

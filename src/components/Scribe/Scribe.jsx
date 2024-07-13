@@ -6,6 +6,8 @@ import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { GiClick } from "react-icons/gi";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import videoSrc from "../../assets/video/ScribeHow.mp4";
+
 function Scribe() {
   return (
     <div className="bg-black">
@@ -60,9 +62,18 @@ function Scribe() {
                 creators on Instagram. We identified four highly-regarded
                 creators within the business and marketing niche who possessed a
                 strong and engaged follower base.
-              </p><br />
+              </p>
+              <br />
               <div className="flex justify-center my-[30px] lg:hidden">
-                <video src="#" className="w-full lg:w-[80%]" controls></video>
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  className="w-full lg:w-[80%] object-fill"
+                >
+                  <source src={videoSrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <p className="text-[18px]">
                 By strategically leveraging the power of micro-influencers and
@@ -76,7 +87,15 @@ function Scribe() {
               </p>
             </div>
             <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
-              <video src="#" className="w-full lg:w-[80%]" controls></video>
+              <video
+                autoPlay
+                muted
+                loop
+                className="w-full lg:w-[80%] object-fill"
+              >
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
@@ -107,9 +126,9 @@ function Scribe() {
             <p className="text-[30px] font-bold">100k </p>
             <p className="text-[25px]">likes</p>
           </div>
-          
+
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <RiCustomerService2Fill  className="text-[80px]" />
+            <RiCustomerService2Fill className="text-[80px]" />
             <p className="text-[30px] font-bold">$0.60 </p>
             <p className="text-[25px] text-center">Cost Per Engagement</p>
           </div>
@@ -117,13 +136,13 @@ function Scribe() {
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
           <Link to={"/ekster"}>
             <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
-            <FaAnglesLeft /> Previous
+              <FaAnglesLeft /> Previous
               <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
           </Link>
           <Link to={"/growth"}>
             <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
-              View Next <FaAnglesRight/> 
+              View Next <FaAnglesRight />
               <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
           </Link>
