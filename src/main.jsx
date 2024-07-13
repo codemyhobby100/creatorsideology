@@ -16,6 +16,7 @@ import Ekster from './components/Ekster/Ekster';
 import Fum from './components/Fum/Fum';
 import Rskoso from './components/Rskoso/Rskoso';
 import Scribe from './components/Scribe/Scribe';
+import Growth from './components/Growth/Growth';
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: '/scribe',
         element: <Scribe/>
+      },
+      {
+        path: '/growth',
+        element: <Growth/>
       },
     ]
   },

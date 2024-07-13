@@ -97,11 +97,13 @@ function Study() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               Growth School
             </h1>
+            <Link to={'/growth'}>
             <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
               See Case Study
               <HiArrowLongRight className="text-[25px]" />
               <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">

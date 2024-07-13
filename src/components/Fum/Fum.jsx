@@ -1,6 +1,11 @@
 import React from "react";
 import Fum_banner from "../../assets/fum_banner.png";
 import fum_logo from "../../assets/fum_logo.png"; // Assuming you have this logo
+import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import { FaVideo } from "react-icons/fa";
+import { BiSolidLike } from "react-icons/bi";
+import { GiClick } from "react-icons/gi";
 
 function Fum() {
   return (
@@ -40,8 +45,8 @@ function Fum() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[20px]">Challenge:</h4>
-          <p>
+          <h4 className="text-[35px] font-semibold pb-[10px]">Challenge:</h4>
+          <p className="text-[18px]">
             Fum, a unique smoke-free alternative offering plant-based oils to
             curb nacotine crevings, faced the hurdle of creating brand awareness
             and establishing itself in a crowded market. Their target audience,
@@ -53,12 +58,12 @@ function Fum() {
 
         {/* Solution section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] w-full font-semibold pb-[20px]">
+          <h4 className="text-[35px] w-full font-semibold pb-[10px]">
             Solution:
           </h4>
           <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
             <div className="lg:w-2/5 order-2 lg:order-1">
-              <p>
+              <p className="text-[18px]">
                 We proposed an influencer marketing campaign with Geopold, a
                 popular YouTuber known for his witty and engaging approach to
                 complex topics. Geopold's audience consisting primarily of young
@@ -78,8 +83,8 @@ function Fum() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[20px]">Key Takeaway</h4>
-          <p>
+          <h4 className="text-[35px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <p className="text-[18px]">
             Homur effectively enhanced viewer engagement with the content,
             leading to a demonstrably positive impact on brand awareness and
             potential sales. The video granered signigicant attention within
@@ -88,13 +93,45 @@ function Fum() {
             engagement rate compared to previous campaigns.
           </p>
           <br />
-          <p>
+          <p className="text-[18px]">
             The Fum x Geopold collaboration serves as a blueprint for brands
             seeking to leverage homor and influencer marketing for success. The
             campaign demonstrates that a well-crafted integrated segment,
             utilizing humor and targeting the right audience, can effectively
             generate brand awareness and drive positive sales results.
           </p>
+        </div>
+        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <FaVideo className="text-[80px]" />
+            <p className="text-[30px] font-bold">425k </p>
+            <p className="text-[25px]">Views</p>
+          </div>
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <BiSolidLike className="text-[80px]" />
+            <p className="text-[30px] font-bold">30k </p>
+            <p className="text-[25px]">likes</p>
+          </div>
+          
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <GiClick className="text-[80px]" />
+            <p className="text-[30px] font-bold">5,000 </p>
+            <p className="text-[25px]">clicks</p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
+          <Link to={"/koso"}>
+            <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
+            <FaAnglesLeft /> Previous
+              <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+            </button>
+          </Link>
+          <Link to={"/ekster"}>
+            <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
+              View Next <FaAnglesRight/> 
+              <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

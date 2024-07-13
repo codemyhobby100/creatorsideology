@@ -1,6 +1,11 @@
 import React from "react";
 import koso_banner from "../../assets/koso.jpg";
 import koso_logo from "../../assets/koso_logo.png";
+import { FaComment, FaShare, FaVideo } from "react-icons/fa";
+import { BiSolidLike } from "react-icons/bi";
+import { GiClick } from "react-icons/gi";
+import { Link } from "react-router-dom";
+import { FaAnglesRight } from "react-icons/fa6";
 function Rskoso() {
   return (
     <div className="bg-black">
@@ -40,15 +45,15 @@ function Rskoso() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[20px]">Challenge:</h4>
-          <p>
+          <h4 className="text-[35px] font-semibold pb-[20px]">Challenge:</h4>
+          <p className="text-[18px]">
             R'S Koso, a healthy alternative to coffe, needed to break into a
             saturate markert dominated by caffeine giants. Traditional
             advertising wouldn't resonate with their target
             audience-health-conscious individuals concemed about gut health.
           </p>
           <br />
-          <p>
+          <p className="text-[18px]">
             they required a strategy that not only educated but also sparked a
             genuine interest in their product.
           </p>
@@ -56,12 +61,12 @@ function Rskoso() {
 
         {/* Solution section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] w-full font-semibold pb-[20px]">
+          <h4 className="text-[35px] w-full font-semibold pb-[20px]">
             Solution:
           </h4>
           <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
             <div className="lg:w-2/5 order-2 lg:order-1">
-              <p>
+              <p className="text-[18px]">
                 Partnering with one of YouTube's best video essay channels -
                 Moon, we crafted a{" "}
                 <strong>12-minute documentary style video</strong> that tackled
@@ -74,7 +79,7 @@ function Rskoso() {
               <div className="flex justify-center my-[30px] lg:hidden">
                 <video src="#" className="w-full lg:w-[80%]" controls></video>
               </div>
-              <p>
+              <p className="text-[18px]">
                 The documentary presented a balanced perspective, educating
                 viewers on the concerns and the impact of industry competition
                 on coffee consumption. Importantly, it also introduced R'S Koso
@@ -90,8 +95,8 @@ function Rskoso() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[23px] font-semibold pb-[20px]">Key Takeaway</h4>
-          <p>
+          <h4 className="text-[35px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <p className="text-[18px]">
             The campaign exceeded expactations, gamenning a total of{" "}
             <strong>200,000 impressions</strong> and over{" "}
             <strong>3,000 unique clicks.</strong> This translated into a
@@ -99,17 +104,41 @@ function Rskoso() {
             Koso.
           </p>
           <br />
-          <p>
+          <p className="text-[18px]">
             More importantly, the campaign resonated with the target audience,
             sparking curiosity and positive conversations about about good
             health and alternative beverage options.
           </p>
         </div>
-        <div className="flex justify-between items-center text-[#098B72] font-semibold">
-          <p>Results:200k Impressions</p>
-          <p>7,500+ likes</p>
-          <p>1200+ comments</p>
-          <p>3000 clicks</p>
+        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <FaVideo className="text-[80px]" />
+            <p className="text-[30px] font-bold">200k </p>
+            <p className="text-[25px]">Impressions</p>
+          </div>
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <BiSolidLike className="text-[80px]" />
+            <p className="text-[30px] font-bold">7,500+ </p>
+            <p className="text-[25px]">likes</p>
+          </div>
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <FaComment className="text-[80px]" />
+            <p className="text-[30px] font-bold">1200+ </p>
+            <p className="text-[25px]">comments</p>
+          </div>
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
+            <GiClick className="text-[80px]" />
+            <p className="text-[30px] font-bold">3000 </p>
+            <p className="text-[25px]">clicks</p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <Link to={"/fum"}>
+            <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
+              View Next <FaAnglesRight />
+              <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

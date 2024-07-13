@@ -1,12 +1,13 @@
 import React from "react";
-import Scribe_logo from "../../assets/scribe_logo.png";
-import { FaVideo } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
+import { FaVideo } from "react-icons/fa";
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-import { GiClick } from "react-icons/gi";
 import { RiCustomerService2Fill } from "react-icons/ri";
-function Scribe() {
+import { Link } from "react-router-dom";
+import Scribe_logo from "../../assets/scribe_logo.png";
+import { GiClick } from "react-icons/gi";
+
+function Growth() {
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -60,7 +61,8 @@ function Scribe() {
                 creators on Instagram. We identified four highly-regarded
                 creators within the business and marketing niche who possessed a
                 strong and engaged follower base.
-              </p><br />
+              </p>
+              <br />
               <div className="flex justify-center my-[30px] lg:hidden">
                 <video src="#" className="w-full lg:w-[80%]" controls></video>
               </div>
@@ -99,38 +101,33 @@ function Scribe() {
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
             <FaVideo className="text-[80px]" />
-            <p className="text-[30px] font-bold">1,500,000 </p>
+            <p className="text-[30px] text-center font-bold">2M </p>
             <p className="text-[25px]">Views</p>
           </div>
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
             <BiSolidLike className="text-[80px]" />
-            <p className="text-[30px] font-bold">100k </p>
+            <p className="text-[30px] font-bold">200k</p>
             <p className="text-[25px]">likes</p>
           </div>
-          
+
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <RiCustomerService2Fill  className="text-[80px]" />
-            <p className="text-[30px] font-bold">$0.60 </p>
-            <p className="text-[25px] text-center">Cost Per Engagement</p>
+            <GiClick className="text-[80px]" />
+            <p className="text-[30px] font-bold">20,000 </p>
+            <p className="text-[25px]">clicks</p>
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
-          <Link to={"/ekster"}>
+          <Link to={"/scribe"}>
             <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
-            <FaAnglesLeft /> Previous
+              <FaAnglesLeft /> Previous
               <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
           </Link>
-          <Link to={"/growth"}>
-            <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
-              View Next <FaAnglesRight/> 
-              <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
-          </Link>
+          
         </div>
       </div>
     </div>
   );
 }
 
-export default Scribe;
+export default Growth;
