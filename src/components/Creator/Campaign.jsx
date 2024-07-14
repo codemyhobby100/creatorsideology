@@ -4,7 +4,7 @@ function Campaign() {
   return (
     <div className="bg-black pt-12 my_container text-white">
       <h1 className="text-white text-[52px] text-center md:text-[65px] font-bold">
-        Comming Soon
+        Coming Soon
       </h1>
 
       <div className="pt-[80px] md:pb-[70px] mx-auto px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">

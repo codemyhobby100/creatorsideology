@@ -30,7 +30,7 @@ const Card = () => {
           We Make It Simple{" "}
         </h1>
         <p className="text-white text-center text-[18px] md:text-[23px]">
-          Are you a Creator? Looking for sponsorships.
+          Are you a Creator? Looking for sponsorships?
         </p>
       </div>
       <div className="w-full mx-auto flex-col lg:flex-row flex justify-between items-center py-[40px]">
