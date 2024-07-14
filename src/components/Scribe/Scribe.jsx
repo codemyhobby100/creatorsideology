@@ -6,7 +6,6 @@ import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { GiClick } from "react-icons/gi";
 import { RiCustomerService2Fill } from "react-icons/ri";
-import videoSrc from "../../assets/video/ScribeHow.mp4";
 
 function Scribe() {
   return (
@@ -65,15 +64,7 @@ function Scribe() {
               </p>
               <br />
               <div className="flex justify-center my-[30px] lg:hidden">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className="w-full lg:w-[80%] object-fill"
-                >
-                  <source src={videoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <video src="#" className="w-full lg:w-[80%]" controls></video>
               </div>
               <p className="text-[18px]">
                 By strategically leveraging the power of micro-influencers and
@@ -87,15 +78,7 @@ function Scribe() {
               </p>
             </div>
             <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
-              <video
-                autoPlay
-                muted
-                loop
-                className="w-full lg:w-[80%] object-fill"
-              >
-                <source src={videoSrc} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <video src="#" className="w-full lg:w-[80%]" controls></video>
             </div>
           </div>
         </div>
