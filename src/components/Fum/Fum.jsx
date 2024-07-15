@@ -7,6 +7,7 @@ import { FaVideo } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
 import { GiClick } from "react-icons/gi";
 function Fum() {
+  const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/ooq82dotuizxdhipvluu.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -71,11 +72,27 @@ function Fum() {
                 humor to create a memorable and impactful message.
               </p>
               <div className="flex justify-center my-[30px] lg:hidden">
-              <video src="#" className="w-full lg:w-[80%]" controls></video>
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  className="w-full lg:w-[80%] object-fill"
+                >
+                  <source src={videoSrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
             <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
-            <video src="#" className="w-full lg:w-[80%]" controls></video>
+              <video
+                autoPlay
+                muted
+                loop
+                className="w-full lg:w-[80%] object-fill"
+              >
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>

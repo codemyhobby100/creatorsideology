@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Scribe_logo from "../../assets/scribe_logo.png";
 import { GiClick } from "react-icons/gi";
 function Growth() {
+  const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/czg6ahu3bxgjqalf2i6s.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -63,7 +64,15 @@ function Growth() {
               </p>
               <br />
               <div className="flex justify-center my-[30px] lg:hidden">
-                <video src="#" className="w-full lg:w-[80%]" controls></video>
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  className="w-full lg:w-[80%] object-fill"
+                >
+                  <source src={videoSrc} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <p className="text-[18px]">
                 By strategically leveraging the power of micro-influencers and
@@ -77,7 +86,15 @@ function Growth() {
               </p>
             </div>
             <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
-              <video src="#" className="w-full lg:w-[80%]" controls></video>
+              <video
+                autoPlay
+                muted
+                loop
+                className="w-full lg:w-[80%] object-fill"
+              >
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
