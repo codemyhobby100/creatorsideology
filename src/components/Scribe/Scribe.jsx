@@ -8,7 +8,8 @@ import { GiClick } from "react-icons/gi";
 import { RiCustomerService2Fill } from "react-icons/ri";
 
 function Scribe() {
-  const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/i5dfmr6acjdn6xpfaioc.mp4";
+  const videoSrc =
+    "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/i5dfmr6acjdn6xpfaioc.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -37,7 +38,7 @@ function Scribe() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[20px]">Challenge:</h4>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
           <p className="text-[18px]">
             Scribe, a revolutionary AI-powered tool that simplifies creating
             step-by-step workflow guides, needed to reach its target
@@ -50,59 +51,57 @@ function Scribe() {
         </div>
 
         {/* Solution section */}
-        <div className="pb-[50px]">
-          <h4 className="text-[35px] w-full font-semibold pb-[20px]">
-            Solution:
-          </h4>
-          <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
-            <div className="lg:w-2/5 order-2 lg:order-1">
-              <p className="text-[18px]">
-                Our agency devised a strategic and cost-effective influencer
-                marketing campaign leveraging the power of short-form content
-                creators on Instagram. We identified four highly-regarded
-                creators within the business and marketing niche who possessed a
-                strong and engaged follower base.
-              </p>
-              <br />
-              <div className="flex justify-center my-[30px] lg:hidden">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className="w-full lg:w-[80%] object-fill"
-                >
-                  <source src={videoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <p className="text-[18px]">
-                By strategically leveraging the power of micro-influencers and
-                captivating short-form content on Instagram, our agency
-                delivered a highly successful campaign for Scribe. This case
-                study demonstrates the potential for achieving superior results
-                at a fraction of the cost compared to traditional influencer
-                marketing approaches. It underscores the importance of
-                understanding target audiences, platform-specific strengths, and
-                the power of relatable content creation.
-              </p>
-            </div>
-            <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
+
+        <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
+          <div className="lg:w-1/2 order-2 lg:order-1">
+            <h4 className="text-[45px] w-full font-semibold pb-[20px]">
+              Solution:
+            </h4>
+            <p className="text-[18px]">
+              Our agency devised a strategic and cost-effective influencer
+              marketing campaign leveraging the power of short-form content
+              creators on Instagram. We identified four highly-regarded creators
+              within the business and marketing niche who possessed a strong and
+              engaged follower base.
+            </p>
+            <div className="flex justify-center my-[30px] lg:hidden">
               <video
                 autoPlay
                 muted
                 loop
-                className="w-full lg:w-[80%] object-fill"
+                className="w-full object-cover rounded-[25px]"
               >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
+            <p className="text-[18px]">
+              By strategically leveraging the power of micro-influencers and
+              captivating short-form content on Instagram, our agency delivered
+              a highly successful campaign for Scribe. This case study
+              demonstrates the potential for achieving superior results at a
+              fraction of the cost compared to traditional influencer marketing
+              approaches. It underscores the importance of understanding target
+              audiences, platform-specific strengths, and the power of relatable
+              content creation.
+            </p>
+          </div>
+          <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
+            <video
+              autoPlay
+              muted
+              loop
+              className="w-full object-cover rounded-[25px]"
+            >
+              <source src={videoSrc} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p className="text-[18px]">
             By cultivating closer relationship with their followers and
             fostering a more genuine tone, micro-influencers achieve higher

@@ -7,7 +7,8 @@ import { FaVideo } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
 import { GiClick } from "react-icons/gi";
 function Fum() {
-  const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/ooq82dotuizxdhipvluu.mp4";
+  const videoSrc =
+    "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/ooq82dotuizxdhipvluu.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -45,7 +46,7 @@ function Fum() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[10px]">Challenge:</h4>
+          <h4 className="text-[45px] font-semibold pb-[10px]">Challenge:</h4>
           <p className="text-[18px]">
             Fum, a unique smoke-free alternative offering plant-based oils to
             curb nacotine crevings, faced the hurdle of creating brand awareness
@@ -57,49 +58,47 @@ function Fum() {
         </div>
 
         {/* Solution section */}
-        <div className="pb-[50px]">
-          <h4 className="text-[35px] w-full font-semibold pb-[10px]">
-            Solution:
-          </h4>
-          <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
-            <div className="lg:w-2/5 order-2 lg:order-1">
-              <p className="text-[18px]">
-                We proposed an influencer marketing campaign with Geopold, a
-                popular YouTuber known for his witty and engaging approach to
-                complex topics. Geopold's audience consisting primarily of young
-                men in the United States, overlapped significantly with Fum's
-                target market. The strategy focused on leveraging Geopold's
-                humor to create a memorable and impactful message.
-              </p>
-              <div className="flex justify-center my-[30px] lg:hidden">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className="w-full lg:w-[80%] object-fill"
-                >
-                  <source src={videoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-            <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
+        <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
+          <div className="lg:w-1/2 order-2 lg:order-1">
+            <h4 className="text-[45px] w-full font-semibold pb-[10px]">
+              Solution:
+            </h4>
+            <p className="text-[18px]">
+              We proposed an influencer marketing campaign with Geopold, a
+              popular YouTuber known for his witty and engaging approach to
+              complex topics. Geopold's audience consisting primarily of young
+              men in the United States, overlapped significantly with Fum's
+              target market. The strategy focused on leveraging Geopold's humor
+              to create a memorable and impactful message.
+            </p>
+            <div className="flex justify-center my-[30px] lg:hidden">
               <video
                 autoPlay
                 muted
                 loop
-                className="w-full lg:w-[80%] object-fill"
+                className="w-full object-cover rounded-[25px]"
               >
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
           </div>
+          <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
+            <video
+              autoPlay
+              muted
+              loop
+              className="w-full object-cover rounded-[25px]"
+            >
+              <source src={videoSrc} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p className="text-[18px]">
             Homur effectively enhanced viewer engagement with the content,
             leading to a demonstrably positive impact on brand awareness and
@@ -108,7 +107,6 @@ function Fum() {
             esxtablished audience. Furthermore, we observed a notably higher
             engagement rate compared to previous campaigns.
           </p>
-          <br />
           <p className="text-[18px]">
             The Fum x Geopold collaboration serves as a blueprint for brands
             seeking to leverage homor and influencer marketing for success. The

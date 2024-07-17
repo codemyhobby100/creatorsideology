@@ -8,7 +8,8 @@ import { Link } from "react-router-dom";
 import { FaAnglesRight } from "react-icons/fa6";
 
 function Rskoso() {
-  const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952063/Brands%20%28Ads%29/vznzdo3dyfldoi181xtv.mp4";
+  const videoSrc =
+    "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952063/Brands%20%28Ads%29/vznzdo3dyfldoi181xtv.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -47,73 +48,70 @@ function Rskoso() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[20px]">Challenge:</h4>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
           <p className="text-[18px]">
             R'S Koso, a healthy alternative to coffe, needed to break into a
             saturate markert dominated by caffeine giants. Traditional
             advertising wouldn't resonate with their target
             audience-health-conscious individuals concemed about gut health.
           </p>
-          <br />
           <p className="text-[18px]">
-            they required a strategy that not only educated but also sparked a
+            They required a strategy that not only educated but also sparked a
             genuine interest in their product.
           </p>
         </div>
 
         {/* Solution section */}
-        <div className="pb-[50px]">
-          <h4 className="text-[35px] w-full font-semibold pb-[20px]">
-            Solution:
-          </h4>
-          <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
-            <div className="lg:w-2/5 order-2 lg:order-1">
-              <p className="text-[18px]">
-                Partnering with one of YouTube's best video essay channels -
-                Moon, we crafted a{" "}
-                <strong>12-minute documentary style video</strong> that tackled
-                a topic relevant to coffee drinkers:{" "}
-                <strong>
-                  the unhealthy competition in the coffee industry.
-                </strong>
-              </p>
-              <br />
-              <div className="flex justify-center my-[30px] lg:hidden">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className="w-full lg:w-[80%] object-fill"
-                >
-                  <source src={videoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <p className="text-[18px]">
-                The documentary presented a balanced perspective, educating
-                viewers on the concerns and the impact of industry competition
-                on coffee consumption. Importantly, it also introduced R'S Koso
-                as a delicious and gut-friendly beverage for those seeking an
-                alternative morning routine solution.
-              </p>
-            </div>
-            <div className="lg:w-3/5 order-1 lg:order-2 hidden lg:flex justify-center">
+        <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
+          <div className="lg:w-1/2 order-2 lg:order-1">
+            <h4 className="text-[45px] font-semibold pb-[20px]">Solution:</h4>
+            <p className="text-[18px]">
+              Partnering with one of YouTube's best video essay channels - Moon,
+              we crafted a <strong>12-minute documentary style video</strong>{" "}
+              that tackled a topic relevant to coffee drinkers:{" "}
+              <strong>the unhealthy competition in the coffee industry.</strong>
+            </p>
+            <div className="flex justify-center my-[30px] lg:hidden">
               <video
                 autoPlay
                 muted
                 loop
-                className="w-full lg:w-[80%] object-fill"
+                className="w-full object-cover rounded-[25px]"
               >
-                <source src={videoSrc} type="video/mp4" />
+                <source
+                  src="https://res.cloudinary.com/drjkeiinn/video/upload/v1720952063/Brands%20%28Ads%29/vznzdo3dyfldoi181xtv.mp4"
+                  type="video/mp4"
+                />
                 Your browser does not support the video tag.
               </video>
             </div>
+            <p className="text-[18px]">
+              The documentary presented a balanced perspective, educating
+              viewers on the concerns and the impact of industry competition on
+              coffee consumption. Importantly, it also introduced R'S Koso as a
+              delicious and gut-friendly beverage for those seeking an
+              alternative morning routine solution.
+            </p>
+          </div>
+          <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
+            <video
+              autoPlay
+              muted
+              loop
+              className="w-full object-cover rounded-[25px]"
+            >
+              <source
+                src="https://res.cloudinary.com/drjkeiinn/video/upload/v1720952063/Brands%20%28Ads%29/vznzdo3dyfldoi181xtv.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p className="text-[18px]">
             The campaign exceeded expactations, gamenning a total of{" "}
             <strong>200,000 impressions</strong> and over{" "}
@@ -121,7 +119,6 @@ function Rskoso() {
             singnificant increase in brand awareness and website traffic for R'S
             Koso.
           </p>
-          <br />
           <p className="text-[18px]">
             More importantly, the campaign resonated with the target audience,
             sparking curiosity and positive conversations about about good
