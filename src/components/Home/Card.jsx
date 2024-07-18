@@ -117,7 +117,7 @@ const Card = () => {
       </div>
       <div>
         <p className="text-white text-center pt-[30px] text-[18px] md:text-[21px]">
-          Connect with top brands seeking creator like you.
+          Connect with top brands seeking creators like you.
         </p>
         <div className="flex justify-center items-center pt-[30px] gap-[20px]">
           <button className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">

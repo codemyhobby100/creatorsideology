@@ -14,8 +14,8 @@ function Campaign() {
             <span className="text-[#441DBC]">Campaigns</span>
           </h1>
           <p className="text-[20px]">
-            Our agency designs influencer marketing campaigns across various
-            social media platforms, blogs, and other digital channels.
+            Creators Idoelogy strives to design and launch influencer marketing 
+            campaigns across various social media platforms, blogs and other digital channels
           </p>
         </div>
         <div className="lg:col-span-7 flex items-center px-[20px] lg:px-0 justify-center lg:justify-end">

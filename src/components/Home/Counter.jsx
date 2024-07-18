@@ -39,8 +39,7 @@ function Counter() {
               Engaged Customer
             </h1>
             <p className="px-4 text-[20px] lg:px-0">
-              We strategically match brands with the ideal audience segments,
-              driving real results not just reach.
+              We'll Strategically Match you with your Ideal Audience Segment Driving Real Results Not Just Reach
             </p>
           </div>
           <div className="lg:col-span-8 flex items-center px-[20px] lg:px-0 justify-center lg:justify-end">
@@ -93,8 +92,8 @@ function Counter() {
               ROAS
             </h1>
             <p className="px-4 text-[20px] lg:px-0">
-              Focus on what matters most -- creating a delightful customer
-              experience -- while we optimize your ad spend for a 4.7x return on
+              Focus on what matters most — creating a delightful customer
+              experience — while we optimize your ad spend for a 4.7x return on
               investment.
             </p>
           </div>

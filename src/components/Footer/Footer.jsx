@@ -43,7 +43,7 @@ function Footer() {
                 <FaMapMarkerAlt className="text-[14px] mt-[5px]" />
                 </span>
                 <span className="text-black">
-                  1 New Layout, <br /> Benin City,
+                  Benin City,
                   <br />
                   Nigeria
                 </span>

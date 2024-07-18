@@ -22,8 +22,8 @@ function Offer() {
             <br /> <span className="text-[#441DBC]">Representation</span>
           </h1>
           <p className="text-[20px]">
-            Our team finds authentic brand matches for your passions and
-            beliefs, ensuring that every campaign feels natural and genuine.
+            No more undervaluing your talent; we'll help you secure financially
+            rewarding partnerships that empower you to focus on what you love most - creating
           </p>
         </div>
         <div className="lg:col-span-7 flex items-center px-[20px] lg:px-0 justify-center lg:justify-end">
@@ -55,7 +55,7 @@ function Offer() {
               Deals <br />& Partnerships
             </span>
           </h1>
-          <p className="text-[20px]">We help you connect with top brands.</p>
+          <p className="text-[20px]">We'll help you connect with top brands in your industry.</p>
         </div>
       </div>
 
@@ -67,8 +67,8 @@ function Offer() {
             <br /> <span className="text-[#441DBC]">Management</span>
           </h1>
           <p className="px-4 text-[20px] lg:px-0">
-            Let's take the work off your hands -- inspiring and engaging your
-            community -- so you can focus on what you do best.
+            Creators Ideology handles the brand matchmaking, negotiation, 
+            and campaign set up, freeing up your valuable time
           </p>
         </div>
         <div className="lg:col-span-7 flex px-[20px] lg:px-0 items-center justify-center lg:justify-end">

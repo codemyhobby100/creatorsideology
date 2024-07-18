@@ -6,7 +6,7 @@ import img4 from "../../assets/Ryan_Pictures.png";
 import img5 from "../../assets/Moneyplix_Media.png";
 import img6 from "../../assets/Leelajournals.png";
 import { HiArrowLongRight } from "react-icons/hi2";
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -69,7 +69,7 @@ function CreatorCard() {
     },
     {
       name: "Ryan Pictures",
-      subscribers: "1.87M Subscribers",
+      subscribers: "140k Subscribers",
       image: img4,
       description: `
         <span class="font-bold"> Ryan Pictures</span> is a rapidly growing YouTube channel focused on producing mini-documentaries about popular online personalities. Their content offers in-depth insights into the lives and journeys of digital creators, attracting a highly engaged audience interested in the digital creator space.
@@ -78,22 +78,22 @@ function CreatorCard() {
     },
     {
       name: "Moneyplix Media",
-      subscribers: "1.87M Subscribers",
+      subscribers: "460k Followers",
       image: img5,
       description: `
         <span class="font-bold">Moneyplix Media is a TikTok finance creator</span>  taking the platform by storm with a combined following of  700k across all platforms. This creator breaks down the world of investing, tech, and saving money in a way that's both informative and hilarious. Forget dry lectures – Moneyplix Media makes financial literacy fun and engaging for everyone!
       `,
-      social: { platform: FaYoutube, handle: "@Moneyplix Media " },
+      social: { platform: FaTiktok, handle: "@Moneyplix Media " },
     },
     {
       name: "Leelajournals ",
-      subscribers: "1.87M Subscribers",
+      subscribers: "139k Subscribers",
       image: img6,
       description: `
         <span class="font-bold">Leelajournals is both an artist and entrepreneur!</span>  She shares her inspiring journey of building a business around her art, documenting the wins, struggles, and valuable lessons learned. Her authenticity and passion resonate with a highly engaged audience of aspiring business owners worldwide.
 
       `,
-      social: { platform: FaYoutube, handle: "@Leelajournals " },
+      social: { platform: FaInstagram, handle: "@Leelajournals " },
     },
   ];
 
