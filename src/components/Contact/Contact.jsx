@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
 import { FaGlobeAfrica, FaMapMarkerAlt } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { IoMdMail } from "react-icons/io";
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.sendForm('service_jcnd919', 'template_m8vjedc', form.current, 'V16X-XoiUCA4o9BeB')
+      .then((result) => {
+          Swal.fire({
+              icon: 'success',
+              title: 'Great!',
+              text: 'Your message has been sent successfully',
+              footer: '<a href="#">Go home</a>'
+            })
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+}
   return (
     <div className="bg-black my_container min-h-screen">
       <div className=" mx-auto py-10 px-4">
@@ -50,7 +70,7 @@ function Contact() {
             <h1 className="text-[48px] lg:text-[65px] text-white mb-8">
               Get in touch
             </h1>
-            <form action="" className="w-full space-y-6">
+            <form className="w-full space-y-6" ref={form} onSubmit={sendEmail}>
               <div className="flex flex-col md:flex-row md:space-x-4 mb-4">
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
                   <label
@@ -62,6 +82,7 @@ function Contact() {
                   <input
                     type="text"
                     id="firstName"
+                    name="name"
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                   />
                 </div>
@@ -73,8 +94,9 @@ function Contact() {
                     Phone
                   </label>
                   <input
-                    type="phone"
+                    type="tel"
                     id="phone"
+                    name="number"
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                   />
                 </div>
@@ -91,6 +113,7 @@ function Contact() {
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                   />
                 </div>
@@ -103,13 +126,14 @@ function Contact() {
                   </label>
                   <select
                     id="file"
+                    name="subject"
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[8px] px-[20px]"
                   >
                     <option value="" disabled selected>
                       Select Requirement
                     </option>
-                    <option value="option1">Creators</option>
-                    <option value="option2">Case Study</option>
+                    <option value="Creators">Creators</option>
+                    <option value="Case Study">Case Study</option>
                   </select>
                 </div>
               </div>
@@ -123,18 +147,19 @@ function Contact() {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                   rows="4"
                 ></textarea>
               </div>
 
-              <button
-                type="submit"
+              <div
+               
                 className="relative flex justify-center items-center w-full gap-3 button group mt-4 px-4 py-2 border border-white text-white rounded-[6px] overflow-hidden"
               >
-                Send a Message
+                <input type="submit" value="Send a Message" className="cursor-pointer"/>
                 <span className="button-hover absolute group-hover:w-[1400px] group-hover:h-[1200px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-              </button>
+              </div>
             </form>
           </div>
         </div>
