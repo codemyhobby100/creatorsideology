@@ -35,7 +35,7 @@ function Contact() {
                 <FaMapMarkerAlt className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
                 <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Address:</h3>
               </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">1 New Layout, Benin City, Nigeria.</p>
+              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">Benin City, Nigeria.</p>
             </div>
             <div className="pb-[20px]">
               <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
