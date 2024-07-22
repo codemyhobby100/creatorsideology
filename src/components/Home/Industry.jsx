@@ -32,7 +32,7 @@ function Industry() {
       <h1 className="text-white text-center text-[42px] lg:text-[54px]">
         Trusted by Industry Leaders
       </h1>
-      <div className=" mx-auto px-[15px] items-center pt-[30px] pb-[50px] lg:pt-[50px]">
+      <div className="mx-auto px-[15px] items-center pt-[30px] pb-[50px] lg:pt-[50px]">
         <Swiper
           className="flex justify-center"
           modules={[FreeMode, Autoplay]}
@@ -65,7 +65,7 @@ function Industry() {
         >
           {logos.map((logo) => (
             <SwiperSlide key={logo.id} className="flex justify-center">
-              <div className="py-[20px] px-[30px] flex justify-center items-center bg-[#181818] h-[120px] hover:border hover:border-white rounded-[10px]">
+              <div className="py-[10px] sm:py-[15px] md:py-[20px] px-[20px] sm:px-[25px] md:px-[30px] flex justify-center items-center bg-[#181818] h-[80px] sm:h-[100px] md:h-[120px] hover:border hover:border-white rounded-[10px]">
                 <img src={logo.src} alt={logo.alt} className="industry_logo" />
               </div>
             </SwiperSlide>

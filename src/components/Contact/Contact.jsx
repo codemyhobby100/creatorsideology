@@ -11,7 +11,7 @@ function Contact() {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_jcnd919', 'template_m8vjedc', form.current, 'V16X-XoiUCA4o9BeB')
+      emailjs.sendForm('service_fr7mzyk', 'template_4rbbqu6', form.current, 'GOOS12UayBRp6Ye2U')
       .then((result) => {
           Swal.fire({
               icon: 'success',
@@ -133,8 +133,8 @@ function Contact() {
                     <option value="" disabled selected>
                       Select Requirement
                     </option>
-                    <option value="Creators">Creators</option>
-                    <option value="Case Study">Case Study</option>
+                    <option value="Creators">Brand</option>
+                    <option value="Case Study">Creator</option>
                   </select>
                 </div>
               </div>
@@ -158,7 +158,8 @@ function Contact() {
                
                 className="relative flex justify-center items-center w-full gap-3 button group mt-4 px-4 py-2 border border-white text-white rounded-[6px] overflow-hidden"
               >
-                <input type="submit" value="Send a Message" className="cursor-pointer"/>
+                <button type="submit" className="cursor-pointer">Send Message</button>
+                {/* <input type="submit" value="Send a Message" className="cursor-pointer"/> */}
                 <span className="button-hover absolute group-hover:w-[1400px] group-hover:h-[1200px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
               </div>
             </form>

@@ -1,5 +1,5 @@
 import React from "react";
-import bg_img from "../../assets/crid.png";
+import bg_img from "../../assets/banner.png";
 
 function Banner() {
   return (
