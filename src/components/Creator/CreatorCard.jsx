@@ -97,8 +97,6 @@ function CreatorCard() {
     },
   ];
 
-
-
   return (
     <div className="bg-black my_container py-10">
       <h1 className="md:text-[52px] text-[38px] text-center lg:max-w-[1150px] mx-auto pb-[50px] text-white font-semibold px-4">
@@ -106,9 +104,9 @@ function CreatorCard() {
       </h1>
       <div className="mx-auto flex flex-col lg:flex-row lg:justify-between items-center px-[15px] lg:items-start">
         <Swiper
-          className="flex justify-center"
+          className="flex justify-center w-full"
           modules={[FreeMode, Autoplay]}
-          slidesPerView={6}
+          slidesPerView={1}
           spaceBetween={20}
           loop={true}
           freeMode={true}
@@ -117,20 +115,20 @@ function CreatorCard() {
             disableOnInteraction: false,
           }}
           breakpoints={{
-            20: {
+            320: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            1024: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            1280: {
+            1024: {
               slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1280: {
+              slidesPerView: 4,
               spaceBetween: 40,
             },
           }}
@@ -139,7 +137,7 @@ function CreatorCard() {
             <SwiperSlide key={index} className="flex justify-center">
               <div
                 onClick={() => handleCardClick(index)}
-                className="w-full mx-auto xl:max-w-[380px] lg:max-w-[320px] flex flex-col justify-center items-center my-4 p-6 border bg-white border-white rounded-[25px] gap-[30px] shadow-md cursor-pointer transition-transform duration-300 hover:scale-105"
+                className="w-full mx-auto max-w-[320px] lg:max-w-[320px] flex flex-col justify-center items-center my-4 p-6 border bg-white border-white rounded-[25px] gap-[30px] shadow-md cursor-pointer transition-transform duration-300 hover:scale-105"
               >
                 <div className="text-center">
                   <h2 className="text-[32px] md:text-[48px] font-semibold text-[#431CBC]">
