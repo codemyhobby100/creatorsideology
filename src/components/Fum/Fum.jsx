@@ -2,6 +2,10 @@ import React from "react";
 import Fum_banner from "../../assets/fum_banner.png";
 import fum_logo from "../../assets/fum_logo.png"; // Assuming you have this logo
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
+import Impression from "../../assets/heart.png";
+import Clicks from "../../assets/click.png";
+import Likes from "../../assets/like.png";
+import Comment from "../../assets/comment.png";
 import { Link } from "react-router-dom";
 import { FaVideo } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
@@ -48,12 +52,15 @@ function Fum() {
         <div className="pb-[50px]">
           <h4 className="text-[45px] font-semibold pb-[10px]">Challenge:</h4>
           <p className="text-[18px]">
-            Fum, a unique smoke-free alternative offering plant-based oils to
-            curb nacotine crevings, faced the hurdle of creating brand awareness
-            and establishing itself in a crowded market. Their target audience,
-            likely health-conscious individuals seeking to break free from
-            nicotine dependence, needed to be informed and engaged in a way that
-            resonated.
+            Fum, a revolutionary smoke-free alternative, aimed to disrupt the 
+            market with its unique plant-based oils designed to curb nicotine 
+            cravings. However, establishing themselves in a crowded marketplace 
+            saturated with traditional solutions proved challenging. They needed to 
+            not only create brand awareness but also build trust with their target 
+            audience: health-conscious individuals seeking freedom from nicotine 
+            dependence. The key was reaching these potential customers in a way that 
+            resonated with their desire for a healthier lifestyle without sacrificing 
+            enjoyment.
           </p>
         </div>
 
@@ -64,12 +71,21 @@ function Fum() {
               Solution:
             </h4>
             <p className="text-[18px]">
-              We proposed an influencer marketing campaign with Geopold, a
-              popular YouTuber known for his witty and engaging approach to
-              complex topics. Geopold's audience consisting primarily of young
-              men in the United States, overlapped significantly with Fum's
-              target market. The strategy focused on leveraging Geopold's humor
-              to create a memorable and impactful message.
+              We knew a traditional marketing approach wouldn't suffice. Instead, we 
+              crafted a strategic influencer marketing campaign. Our search led us to 
+              Geopold, a popular YouTuber known for his witty and engaging approach to 
+              complex topics. Geopold's audience, primarily young men in the United States,
+               significantly overlapped with Fum's target demographic. This partnership 
+               offered the potential to not only inform viewers about Fum's unique solution 
+               but also to engage them in a way that felt authentic and relatable. The 
+               campaign strategy capitalized on Geopold's signature humor to create a 
+               memorable and impactful message. Instead of a dry and conventional product 
+               presentation, the approach focused on crafting an entertaining and 
+               informative video segment seamlessly integrated within one of Geopold's 
+               popular videos. This humorous approach effectively cut through the noise 
+               and resonated with Geopold's audience. The video didn't just showcase Fum's
+               product; it painted a picture of a smoke-free life that could still be fun 
+               and engaging.
             </p>
             <div className="flex justify-center my-[30px] lg:hidden">
               <video
@@ -98,39 +114,46 @@ function Fum() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Results</h4>
           <p className="text-[18px]">
-            Homur effectively enhanced viewer engagement with the content,
-            leading to a demonstrably positive impact on brand awareness and
-            potential sales. The video granered signigicant attention within
-            just 14 days of launch capturing the interest of Geopold's
-            esxtablished audience. Furthermore, we observed a notably higher
-            engagement rate compared to previous campaigns.
+            The campaign's success was undeniable. Within just 14 days of launch, 
+            the video garnered more than a quarter million views, capturing the 
+            interest of Geopold's established audience. But the true impact went beyond 
+            viewership. Engagement rates soared compared to previous campaigns for both 
+            Fum and Geopold. Viewers weren't just watching; they were actively interacting, 
+            sharing, and commenting, demonstrating a genuine connection with the content. 
+            Many expressed curiosity about Fum and its potential to help them break free 
+            from nicotine dependence.
           </p>
           <p className="text-[18px]">
-            The Fum x Geopold collaboration serves as a blueprint for brands
-            seeking to leverage homor and influencer marketing for success. The
-            campaign demonstrates that a well-crafted integrated segment,
-            utilizing humor and targeting the right audience, can effectively
-            generate brand awareness and drive positive sales results.
+          The campaign not only generated significant brand awareness but also 
+          likely boosted potential sales 
+          through the increased engagement and positive brand association.
           </p>
         </div>
-        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <FaVideo className="text-[80px]" />
-            <p className="text-[30px] font-bold">425k </p>
-            <p className="text-[25px]">Views</p>
-          </div>
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <BiSolidLike className="text-[80px]" />
-            <p className="text-[30px] font-bold">30k </p>
-            <p className="text-[25px]">likes</p>
+        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">450k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Impression</p>
           </div>
 
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <GiClick className="text-[80px]" />
-            <p className="text-[30px] font-bold">5,000 </p>
-            <p className="text-[25px]">clicks</p>
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Likes} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">30k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Likes</p>
+          </div>
+
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Comment} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">2k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Comments</p>
+          </div>
+                        
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">900</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Clicks</p>
           </div>
         </div>
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">

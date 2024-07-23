@@ -1,6 +1,10 @@
 import React from "react";
 import Ekster_banner from "../../assets/Ekster_banner.png";
 import Ekster_logo from "../../assets/Ekster_logo.png";
+import Impression from "../../assets/heart.png";
+import Clicks from "../../assets/click.png";
+import Likes from "../../assets/like.png";
+import Share from "../../assets/share.png";
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { GiClick } from "react-icons/gi";
@@ -45,11 +49,11 @@ function Ekster() {
         <div className="pb-[50px]">
           <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
           <p className="text-[18px]">
-            Ekster, a leading provider of minimaslist wallet, approached us with
-            a challenge: increase brand awareness and drive sales despite a
-            limited marketing budget. They needed a strategic influencer
-            marketing campaign that delivered impactfull without breaking the
-            bank.
+            Ekster, a leading provider of minimalist wallets, faced a common challenge for 
+            innovative startups: increasing brand awareness and driving sales while working within a 
+            limited marketing budget. Traditional advertising often requires a significant financial 
+            investment, leaving Ekster in need of a strategic influencer marketing campaign that delivered 
+            positive results without breaking the bank.
           </p>
         </div>
         {/* Solution section */}
@@ -60,15 +64,13 @@ function Ekster() {
             Solution:
           </h4>
               <p className="text-[18px]">
-                Instead of focusing on securing a single high-profile
-                influencer, we developed a two-pronged approach utilizing
-                micro-influencers with distinct target audiences. We
-                meticulously selected two micro-influencers who resonated with
-                Ekster's brand message and target demographics. Both creators
-                featured Ekster wallets in a mini-documentary showcasing a young
-                entrepreneur known for their minimalist lifestyle. The focus was
-                on the wallet's sleek design, functionality, and ability to
-                streamline daily routines.
+                We knew a traditional approach of securing a single, high-profile influencer wouldn't be the most 
+                effective use of Ekster's resources. Instead, we proposed a campaign that harnessed the power of 
+                micro-influencers. These social media stars, boasting smaller but highly engaged audiences, often 
+                possess a deeper connection and stronger trust with their followers. By meticulously selecting 
+                micro-influencers whose target demographics closely aligned with Ekster's ideal customer – young, 
+                design-conscious individuals who embraced a minimalist lifestyle – we ensured the campaign 
+                resonated with the right people at the right time.
               </p>
               <div className="flex justify-center my-[30px] lg:hidden">
                 <video src="#" className="w-full object-cover rounded-[25px]" controls></video>
@@ -82,40 +84,42 @@ function Ekster() {
         <div className="pb-[50px]">
           <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p className="text-[18px]">
-            The campaign surpassed exjpectations! With over 740k views and an
-            impressive engagement rate exceeding 10%, partnering with
-            micro-influencers whose audiences directly align with the brand's
-            target demographies helped to maximize the campaign's effectiveness.
-            Interactive elements in the ad encouraged audience interaction,
-            bossting brand recognition and potential sales
-          </p>
-          <p className="text-[18px]">
-            By employing these strategies, we were able to help Ekster achieve
-            singnificant brand growth and sales success within the constraints
-            of their limited budget. This case study is a testament to the
-            effectivencess of a well-crefted influencer marketing campaign,
-            proving that big results are achievable with focused planning and
-            creative execution.
+            The campaign wasn't just about one-way communication. Interactive 
+            elements woven into the mini-documentary, 
+            such as polls and Q&A sessions, encouraged audience participation. 
+            This strategy not only boosted brand recognition but also generated 
+            valuable audience insights that Ekster could leverage to further refine their 
+            marketing efforts. The result? A campaign that not only generated over 1.5 million 
+            impressions but also demonstrably increased brand awareness and translated into a 
+            significant boost in sales.
           </p>
         </div>
-        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <FaVideo className="text-[80px]" />
-            <p className="text-[30px] font-bold">735k </p>
-            <p className="text-[25px]">Views</p>
+        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">1.5M</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Impression</p>
           </div>
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <BiSolidLike className="text-[80px]" />
-            <p className="text-[30px] font-bold">13k </p>
-            <p className="text-[25px]">likes</p>
+
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Likes} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">60k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Likes</p>
           </div>
-          
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <GiClick className="text-[80px]" />
-            <p className="text-[30px] font-bold">6,000 </p>
-            <p className="text-[25px]">clicks</p>
+
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Share} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">13k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Shares</p>
+          </div>
+                        
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">7,000</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Clicks</p>
           </div>
         </div>
+
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
           <Link to={"/fum"}>
             <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
