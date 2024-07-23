@@ -1,5 +1,5 @@
 /* src/fonts/fonts.css */
-@font-face {
+/* @font-face {
     font-family: 'Familjen Grotesk';
     src: url('/FamiljenGrotesk-Regular.woff2') format('woff2'),
          url('/FamiljenGrotesk-Regular.woff') format('woff'),
@@ -8,4 +8,12 @@
     font-style: normal;
     font-optical-sizing: auto;
   }
-  
+   */
+
+   @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+   *{
+     font-family: 'Familjen Grotesk';
+     font-weight: normal;
+     font-style: normal;
+     font-optical-sizing: auto;
+   }
