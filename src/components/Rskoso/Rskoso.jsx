@@ -4,6 +4,10 @@ import koso_logo from "../../assets/koso_logo.png";
 import { FaComment, FaShare, FaVideo } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
 import { GiClick } from "react-icons/gi";
+import Impression from "../../assets/heart.png";
+import Clicks from "../../assets/click.png";
+import Likes from "../../assets/like.png";
+import Share from "../../assets/share.png";
 import { Link } from "react-router-dom";
 import { FaAnglesRight } from "react-icons/fa6";
 
@@ -50,14 +54,12 @@ function Rskoso() {
         <div className="pb-[50px]">
           <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
           <p className="text-[18px]">
-            R'S Koso, a healthy alternative to coffe, needed to break into a
-            saturate markert dominated by caffeine giants. Traditional
-            advertising wouldn't resonate with their target
-            audience-health-conscious individuals concemed about gut health.
-          </p>
-          <p className="text-[18px]">
-            They required a strategy that not only educated but also sparked a
-            genuine interest in their product.
+            R's Koso, a delicious and gut-friendly beverage, faced a daunting challenge. 
+            They aimed to carve a niche in the oversaturated world of coffee, a market 
+            dominated by established giants with seemingly endless advertising budgets. 
+            Traditional marketing tactics wouldn't resonate with their target audience – 
+            health-conscious individuals who prioritized gut health alongside their 
+            morning pick-me-up.
           </p>
         </div>
 
@@ -66,10 +68,7 @@ function Rskoso() {
           <div className="lg:w-1/2 order-2 lg:order-1">
             <h4 className="text-[45px] font-semibold pb-[20px]">Solution:</h4>
             <p className="text-[18px]">
-              Partnering with one of YouTube's best video essay channels - Moon,
-              we crafted a <strong>12-minute documentary style video</strong>{" "}
-              that tackled a topic relevant to coffee drinkers:{" "}
-              <strong>the unhealthy competition in the coffee industry.</strong>
+              P We knew a different approach was necessary. R's Koso needed a strategy that not only educated but also sparked genuine interest in their product. Forget flashy commercials and generic slogans – we needed to create a connection built on trust and shared values. The answer came in the form of a strategic collaboration. We identified "Moon," a highly respected YouTube channel known for its insightful video essays, as the perfect partner. Moon's audience – a community deeply engaged with thoughtful and informative content – perfectly aligned with R's Koso's target demographic. 
             </p>
             <div className="flex justify-center my-[30px] lg:hidden">
               <video
@@ -86,11 +85,7 @@ function Rskoso() {
               </video>
             </div>
             <p className="text-[18px]">
-              The documentary presented a balanced perspective, educating
-              viewers on the concerns and the impact of industry competition on
-              coffee consumption. Importantly, it also introduced R'S Koso as a
-              delicious and gut-friendly beverage for those seeking an
-              alternative morning routine solution.
+              Together with Moon, we crafted a captivating 12-minute documentary-style video. Instead of a hard sell, the video tackled a topic relevant to all coffee drinkers: the often-unseen pressures and hidden costs within the coffee industry. The documentary presented a balanced perspective, educating viewers on the concerns surrounding the industry's practices and their potential impact on coffee consumption. Importantly, the video didn't stop at highlighting the problems. It organically introduced R's Koso as a solution. The documentary showcased R's Koso as a delicious and gut-friendly alternative, perfect for those seeking a healthier and more conscious approach to their morning routine.
             </p>
           </div>
           <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
@@ -109,42 +104,44 @@ function Rskoso() {
           </div>
         </div>
 
+        {/* Result */}
+        <div className="pb-[50px]">
+          <h4 className="text-[45px] font-semibold pb-[20px]">Result</h4>
+          <p className="text-[18px]">
+            The campaign proved to be a beautiful blend of education and engagement. It resonated deeply with the audience, generating over 230,000 impressions and a remarkable 2,000 link clicks. These numbers illustrate the level of curiosity and genuine interest the video sparked. More importantly, the well-crafted documentary subtly shaped viewers' perspectives, creating a positive sentiment for the R's Koso brand. This positive association translated into high call-to-action engagement, demonstrating the effectiveness of this influencer marketing strategy.
+          </p>
+        </div>
+
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
           <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p className="text-[18px]">
-            The campaign exceeded expactations, gamenning a total of{" "}
-            <strong>200,000 impressions</strong> and over{" "}
-            <strong>3,000 unique clicks.</strong> This translated into a
-            singnificant increase in brand awareness and website traffic for R'S
-            Koso.
-          </p>
-          <p className="text-[18px]">
-            More importantly, the campaign resonated with the target audience,
-            sparking curiosity and positive conversations about about good
-            health and alternative beverage options.
+            R's Koso's success story highlights the power of a well-executed influencer marketing campaign. By partnering with the right voice and creating engaging content that resonates with their target audience, brands can break through the noise and establish themselves as genuine contenders in even the most crowded markets.
           </p>
         </div>
-        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <FaVideo className="text-[80px]" />
-            <p className="text-[30px] font-bold">200k </p>
-            <p className="text-[25px]">Impressions</p>
+        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">230k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Impression</p>
           </div>
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <BiSolidLike className="text-[80px]" />
-            <p className="text-[30px] font-bold">7,500+ </p>
-            <p className="text-[25px]">likes</p>
+
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Likes} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">8k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Likes</p>
           </div>
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <FaComment className="text-[80px]" />
-            <p className="text-[30px] font-bold">1200+ </p>
-            <p className="text-[25px]">comments</p>
+
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Share} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">1200</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Shares</p>
           </div>
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <GiClick className="text-[80px]" />
-            <p className="text-[30px] font-bold">3000 </p>
-            <p className="text-[25px]">clicks</p>
+                        
+          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
+            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">1000</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Clicks</p>
           </div>
         </div>
         <div className="flex items-center justify-center">
