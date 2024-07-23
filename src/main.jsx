@@ -11,7 +11,7 @@ import Study from './components/Study/Study'
 import Contact from './components/Contact/Contact'
 import Creator from './components/Creator/Creator';
 import About from './components/About/About';
-import './fonts/fonts.css';
+import '/fonts/fonts.css';
 import Ekster from './components/Ekster/Ekster';
 import Fum from './components/Fum/Fum';
 import Rskoso from './components/Rskoso/Rskoso';
