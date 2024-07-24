@@ -134,28 +134,29 @@ function Fum() {
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">450k</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Impression</p>
+            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">450k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Impression</p>
           </div>
 
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Likes} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">30k</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Likes</p>
+            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">30k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Likes</p>
           </div>
 
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Comment} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">2k</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Comments</p>
+            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">2k</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Comments</p>
           </div>
                         
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[15px] font-bold">900</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[12px]">Clicks</p>
+            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">900</p>
+            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Clicks</p>
           </div>
         </div>
+
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
           <Link to={"/koso"}>
             <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
