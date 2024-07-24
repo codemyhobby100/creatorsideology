@@ -21,7 +21,8 @@
     "react-router-dom": "^6.23.1",
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.12.2",
-    "swiper": "^11.1.4"
+    "swiper": "^11.1.4",
+    "@emailjs/browser": "4.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
