@@ -2,7 +2,8 @@ import React, { useRef } from "react";
 import { FaGlobeAfrica, FaMapMarkerAlt } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { IoMdMail } from "react-icons/io";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
 
 function Contact() {
