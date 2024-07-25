@@ -44,7 +44,7 @@ function CreatorCard() {
       social: { platform: FaYoutube, handle: "@Moon-Real" },
     },
     {
-      name: "Marketing Psychology",
+      name: "M Psychology",
       subscribers: "745K Followers",
       image: img2,
       description: `
@@ -77,11 +77,14 @@ function CreatorCard() {
       social: { platform: FaYoutube, handle: "@Ryan Pictures " },
     },
     {
-      name: "Moneyplix Media",
+      name: "Moneyplix",
       subscribers: "460k Followers",
       image: img5,
       description: `
-        <span class="font-bold">Moneyplix Media is a TikTok finance creator</span>  taking the platform by storm with a combined following of  700k across all platforms. This creator breaks down the world of investing, tech, and saving money in a way that's both informative and hilarious. Forget dry lectures – Moneyplix Media makes financial literacy fun and engaging for everyone!
+        <span class="font-bold">Moneyplix Media is a TikTok finance creator</span>  
+        taking the platform by storm with a combined following of  700k across all platforms. 
+        This creator breaks down the world of investing, tech, and saving money in a way that's both 
+        informative and hilarious. Forget dry lectures – Moneyplix Media makes financial literacy fun and engaging for everyone!
       `,
       social: { platform: FaTiktok, handle: "@Moneyplix Media " },
     },

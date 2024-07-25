@@ -42,7 +42,10 @@ function Scribe() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[35px] font-semibold pb-[20px]">Challenge: Reaching Busy Teams on a Budget</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE CHALLENGE
+          </p>
+          <h4 className="text-[35px] font-semibold pb-[20px]">CAC Reduction</h4>
           <p className="text-[18px]">
             Scribe, a revolutionary AI-powered tool that simplifies creating step-by-step workflow guides, faced a unique challenge. Their target audience – busy teams seeking streamlined processes – was scattered across various platforms. Traditional influencer marketing on YouTube, while seemingly ideal, proved cost-prohibitive. High creator fees and a potential mismatch between Scribe's average order value and YouTube's ad structure limited its effectiveness.
           </p>
@@ -52,8 +55,11 @@ function Scribe() {
 
         <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
+            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE SOLUTION
+            </p>
             <h4 className="text-[35px] w-full font-semibold pb-[20px]">
-            Solution: Platform Optimization and Strategic Partnerships
+            Platform Optimization and Strategic Partnerships
             </h4>
             <p className="text-[18px]">
               Understanding the need for a more targeted approach, we delved deep into Scribe's marketing goals. We analyzed their target cost-per-thousand-impressions (CPM) for short-form video content (reels) and their desired reach. Our philosophy aligns perfectly with Scribe's: maximizing return on investment.
@@ -93,7 +99,10 @@ function Scribe() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE RESULTS
+            </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Key Metrics</h4>
           <p className="text-[18px]">
             The campaign exceeded all expectations. Scribe achieved over 1.8 million impressions and garnered an impressive 90,000 likes. More importantly, they secured a cost-per-engagement (CPE) of just over $0.50, demonstrating the campaign's remarkable efficiency.
             This success wasn't solely a result of platform optimization. The commitment from the creators, like Marketing Psychology, who ensured the content aligned with Scribe's goals, played a crucial role. The positive outcome led to multiple renewed opportunities for the creators involved, fostering a long-term, mutually beneficial partnership. This case study illustrates the power of targeted influencer marketing. By understanding platform strengths, audience demographics, and cost structures, we were able to deliver exceptional results for Scribe while cultivating valuable partnerships with established content creators.

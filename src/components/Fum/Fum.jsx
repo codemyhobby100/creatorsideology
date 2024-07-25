@@ -50,7 +50,10 @@ function Fum() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[10px]">Challenge:</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+              THE CHALLENGE
+          </p>
+          <h4 className="text-[45px] font-semibold pb-[10px]">Product Desireability</h4>
           <p className="text-[18px]">
             Fum, a revolutionary smoke-free alternative, aimed to disrupt the 
             market with its unique plant-based oils designed to curb nicotine 
@@ -67,8 +70,11 @@ function Fum() {
         {/* Solution section */}
         <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
+            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE SOLUTION
+            </p>
             <h4 className="text-[45px] w-full font-semibold pb-[10px]">
-              Solution:
+              Building Trust
             </h4>
             <p className="text-[18px]">
               We knew a traditional marketing approach wouldn't suffice. Instead, we 
@@ -114,7 +120,10 @@ function Fum() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Results</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+              THE RESULT
+          </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">kEY Matrics</h4>
           <p className="text-[18px]">
             The campaign's success was undeniable. Within just 14 days of launch, 
             the video garnered more than a quarter million views, capturing the 

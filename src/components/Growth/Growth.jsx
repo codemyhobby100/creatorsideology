@@ -35,32 +35,32 @@ function Growth() {
       {/* Content section */}
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
-        <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
-          <p className="text-[18px]">
-            Scribe, a revolutionary AI-powered tool that simplifies creating
-            step-by-step workflow guides, needed to reach its target
-            audience-busy teams seeking streamlned processes. However,
-            traditional influencers marketing on platforms like YouTube proved
-            cost-prohibitive due to high creator fees and a potential mismatch
-            between Scribe's average order value and the platform's cost
-            structure.
+        <div className="pb-[50px] text-center px-0 md:px-4">
+          <p className="text-[16px] md:text-[20px] text-[#098B72]">
+              THE CHALLENGE
+          </p>
+          <h4 className="text-[24px] md:text-[36px] font-semibold pb-[20px]">Equipping Students, Redefining Education</h4>
+          <p className="text-[16px]">
+            Growth School, a community-driven online learning platform, disrupts the traditional education model by bridging a critical gap between outdated academic curricula and the dynamic skillsets employers demand in today's job market. Their innovative AI-driven approach utilizes intensive cohort programs that equip students with the most in-demand skills – all designed for immediate job readiness.
+          </p>
+          <p className="text-[16px] pt-2">
+            Growth School approached Creators Ideology in Q2 with a clear objective: expand their reach and attract a wider audience of Teams through a strategic and cost-effective influencer marketing campaign. Their previous attempts with a limited pool of YouTube creators proved ineffective. While these creators generated some initial buzz, the exorbitant fees and ultimately negative return on investment (ROI) forced Growth School to seek a more sustainable and targeted solution.
           </p>
         </div>
 
         {/* Solution section */}
-        <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
+        <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <h4 className="text-[45px] w-full font-semibold pb-[20px]">
-              Solution:
-            </h4>
-            <p className="text-[18px]">
-              Our agency devised a strategic and cost-effective influencer
-              marketing campaign leveraging the power of short-form content
-              creators on Instagram. We identified four highly-regarded creators
-              within the business and marketing niche who possessed a strong and
-              engaged follower base.
+            <p className="text-[16px] md:text-[20px] text-[#098B72]">
+                THE SOLUTION
             </p>
+            <h4 className="text-[24px] md:text-[36px] w-full font-semibold pb-[20px]">
+            Micro-Influencers: The Perfect Match
+            </h4>
+            <p className="text-[16px]">
+              Creators Ideology recognized the unique challenges Growth School faced. With a dedicated budget of $50,000, our team conducted a comprehensive analysis of Growth School's marketing goals and target audience. We identified a shift towards a micro-influencer strategy – prioritizing cost-efficiency while maximizing impact was key.
+            </p>
+            
             <div className="flex justify-center my-[30px] lg:hidden">
               <video
                 autoPlay
@@ -72,15 +72,8 @@ function Growth() {
                 Your browser does not support the video tag.
               </video>
             </div>
-            <p className="text-[18px]">
-              By strategically leveraging the power of micro-influencers and
-              captivating short-form content on Instagram, our agency delivered
-              a highly successful campaign for Scribe. This case study
-              demonstrates the potential for achieving superior results at a
-              fraction of the cost compared to traditional influencer marketing
-              approaches. It underscores the importance of understanding target
-              audiences, platform-specific strengths, and the power of relatable
-              content creation.
+            <p className="text-[16px] pt-2">
+              Initially, Growth School harboured reservations about the effectiveness of micro-influencers. Their perception was that a wider reach could only be achieved through established, high-profile creators. However, Creators Ideology presented a compelling argument. We emphasized the power of micro-influencers to cultivate highly engaged, niche communities. These communities often boast a deeper level of trust and loyalty towards the creators they follow. Furthermore, micro-influencers tend to have a more focused audience demographic, allowing for a more targeted approach that aligns perfectly with Growth School's ideal profile.
             </p>
           </div>
           <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
@@ -95,22 +88,26 @@ function Growth() {
             </video>
           </div>
         </div>
+        {/* Result */}
+        <div className="pb-[50px]">
+          <p className="text-[16px] md:text-[20px] text-[#098B72]">
+                THE RESULTS
+            </p>
+          <h4 className="text-[24px] md:text-[36px] font-semibold pb-[20px]">Exponential Growth, Reduced Costs</h4>
+          <p className="text-[16px]">
+            The micro-influencer strategy proved to be a resounding success. Within the first 30 days of launch, the campaign generated over 3 million impressions, a staggering testament to the reach achieved. Engagement levels were equally impressive, with over 150,000 likes signifying a captivated audience actively responding to the content. The campaign also generated a remarkable 13,000 link clicks, translating directly into potential sales for Growth School.
+            But the true impact transcended beyond vanity metrics. The micro-influencer approach significantly reduced Growth School's customer acquisition cost (CAC) by 20% highlighting the exceptional return on investment achieved through this campaign.
+          </p>
+        </div>
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
-          <p className="text-[18px]">
-            By cultivating closer relationship with their followers and
-            fostering a more genuine tone, micro-influencers achieve higher
-            engagement with the brand, while their dedicated followings within
-            the precise businedd and marketing demographic ensure targeted reach
-            for brand messaging. This cost-effective approach, offering an 80%
-            reduction compared to high-profile YouTube personalities, allowed
-            Scribe to stretch its marketing budget forther and achieve
-            exceptional results exceeding traditional YouTube advertising
-            benchmarks.
+          <h4 className="text-[24px] md:text-[36px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <p className="text-[16px]">
+            The Growth School case study serves as a powerful testament to the effectiveness of micro-influencers in achieving successful influencer marketing campaign goals. Creators Ideology's strategy not only delivered cost-efficiency and impressive reach but also fostered genuine engagement between Growth School and the influencer's community. This authenticity translated into increased brand trust and perceived value, ultimately driving positive conversions for Growth School.
           </p>
         </div>
+
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
           <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
             <FaVideo className="text-[80px]" />

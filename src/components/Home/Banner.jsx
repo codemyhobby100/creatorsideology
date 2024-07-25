@@ -27,7 +27,7 @@ function Banner() {
               Join Our Network
               <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>
-            <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">
+            <button className="px-[25px] py-[10px] border-2 text-primary  border-white rounded button group">
               Learn more
               <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>

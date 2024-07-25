@@ -47,7 +47,10 @@ function Ekster() {
       <div className="my_container text-white py-[80px]">
         {/* challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+              THE CHALLENGE
+          </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Brand Reputation</h4>
           <p className="text-[18px]">
             Ekster, a leading provider of minimalist wallets, faced a common challenge for 
             innovative startups: increasing brand awareness and driving sales while working within a 
@@ -60,8 +63,11 @@ function Ekster() {
           
           <div className="flex flex-col gap-[30px] lg:flex-row pb-[30px]">
             <div className="lg:w-1/2 order-2 lg:order-1">
+            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE SOLUTION
+            </p>
             <h4 className="text-[45px] w-full font-semibold pb-[20px]">
-            Solution:
+              High-Quality Content
           </h4>
               <p className="text-[18px]">
                 We knew a traditional approach of securing a single, high-profile influencer wouldn't be the most 
@@ -82,7 +88,10 @@ function Ekster() {
           </div>
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+              THE KEY TAKEAWAY
+            </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Reaches Taeget Audience</h4>
           <p className="text-[18px]">
             The campaign wasn't just about one-way communication. Interactive 
             elements woven into the mini-documentary, 

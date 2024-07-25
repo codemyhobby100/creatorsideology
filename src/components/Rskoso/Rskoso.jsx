@@ -52,7 +52,10 @@ function Rskoso() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Challenge:</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+              THE CHALLENGE
+          </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Building Awareness</h4>
           <p className="text-[18px]">
             R's Koso, a delicious and gut-friendly beverage, faced a daunting challenge. 
             They aimed to carve a niche in the oversaturated world of coffee, a market 
@@ -66,9 +69,12 @@ function Rskoso() {
         {/* Solution section */}
         <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <h4 className="text-[45px] font-semibold pb-[20px]">Solution:</h4>
+            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE SOLUTION
+            </p>
+            <h4 className="text-[45px] font-semibold pb-[20px]">Target Audience Reach</h4>
             <p className="text-[18px]">
-              P We knew a different approach was necessary. R's Koso needed a strategy that not only educated but also sparked genuine interest in their product. Forget flashy commercials and generic slogans – we needed to create a connection built on trust and shared values. The answer came in the form of a strategic collaboration. We identified "Moon," a highly respected YouTube channel known for its insightful video essays, as the perfect partner. Moon's audience – a community deeply engaged with thoughtful and informative content – perfectly aligned with R's Koso's target demographic. 
+              We knew a different approach was necessary. R's Koso needed a strategy that not only educated but also sparked genuine interest in their product. Forget flashy commercials and generic slogans – we needed to create a connection built on trust and shared values. The answer came in the form of a strategic collaboration. We identified "Moon," a highly respected YouTube channel known for its insightful video essays, as the perfect partner. Moon's audience – a community deeply engaged with thoughtful and informative content – perfectly aligned with R's Koso's target demographic. 
             </p>
             <div className="flex justify-center my-[30px] lg:hidden">
               <video
@@ -106,7 +112,10 @@ function Rskoso() {
 
         {/* Result */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Result</h4>
+          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+              THE SOLUTION
+          </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Key Metrics</h4>
           <p className="text-[18px]">
             The campaign proved to be a beautiful blend of education and engagement. It resonated deeply with the audience, generating over 230,000 impressions and a remarkable 2,000 link clicks. These numbers illustrate the level of curiosity and genuine interest the video sparked. More importantly, the well-crafted documentary subtly shaped viewers' perspectives, creating a positive sentiment for the R's Koso brand. This positive association translated into high call-to-action engagement, demonstrating the effectiveness of this influencer marketing strategy.
           </p>
@@ -114,7 +123,10 @@ function Rskoso() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[45px] font-semibold pb-[20px]">Key Takeaway</h4>
+            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+                THE KEY TAKEAWAY
+            </p>
+          <h4 className="text-[45px] font-semibold pb-[20px]">Reaches Target Audience</h4>
           <p className="text-[18px]">
             R's Koso's success story highlights the power of a well-executed influencer marketing campaign. By partnering with the right voice and creating engaging content that resonates with their target audience, brands can break through the noise and establish themselves as genuine contenders in even the most crowded markets.
           </p>

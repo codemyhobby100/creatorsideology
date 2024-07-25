@@ -8,7 +8,8 @@ function CaseStudy() {
       <div className="mx-auto px-[10px]"> {/* Reduced padding */}
         <h1 className="md:text-[38px] text-[24px] text-center pb-[20px] mx-[5px] md:mx-auto text-[#828282] font-semibold"> {/* Adjusted margins */}
           Discover how we've{" "}
-          <span className="text-white">Elevated Brands, Increased ROI,</span>{" "}
+          <span className="text-white">Elevated Brands</span>{" "},
+          <span className="text-white"> Increased ROI</span>{" "},
           and <span className="text-white">Crafted Memorable Narratives</span>{" "}
           through strategic influencer collaborations
         </h1>
@@ -31,7 +32,7 @@ function CaseStudy() {
         <h1 className="text-white text-[32px] md:text-[42px] lg:text-[65px] font-bold">
           Ready to work with us?
         </h1>
-        <button className="flex items-center button border bg-primary text-black rounded-[6px] group">
+        <button className="flex items-center button border bg-primary text-black rounded-[6px] mt-4 group outline-none border-none">
           <Link to="/contact">Start a Project</Link>
           <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
         </button>
