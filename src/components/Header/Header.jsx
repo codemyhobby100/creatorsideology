@@ -96,7 +96,7 @@ function Header() {
           </ul>
           <div className="pl-[20px]">
             <Link
-              to="#"
+              to="/contact"
               className="px-[25px] py-[10px] border-2 button group text-primary font-semibold border-primary rounded bg-inherit"
             >
               Start a Project
