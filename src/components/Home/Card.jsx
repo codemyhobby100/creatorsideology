@@ -13,6 +13,7 @@ import Collaborate from "../../assets/collaborate.png";
 import Create from "../../assets/create.png";
 import Captivate from "../../assets/captivate.png";
 import './home.css'
+import { Link } from "react-router-dom";
 
 const Card = () => {
   const [showMore, setShowMore] = useState({});
@@ -108,12 +109,12 @@ const Card = () => {
         </p>
         <div className="flex justify-center items-center pt-[30px] gap-[20px]">
           <button className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
-            Get me Started
+            <Link to="/creators">Get me Started</Link>
             <span className="button-hover group-hover:w-[330px] group-hover:h-[330px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
 
           <button className="px-[25px] py-[10px] border-2 text-primary border-primary rounded button group">
-            Learn More
+          <Link to="/creators">Learn More</Link>
             <span className="button-hover group-hover:w-[270px] group-hover:h-[270px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
         </div>
