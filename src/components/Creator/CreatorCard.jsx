@@ -45,7 +45,7 @@ function CreatorCard() {
       social: { platform: FaYoutube, handle: "@Moon-Real" },
     },
     {
-      name: "M Psychology",
+      name: "M. Psychology",
       subscribers: "745K Followers",
       image: img2,
       description: `
@@ -144,7 +144,7 @@ function CreatorCard() {
               className="w-full mx-auto max-w-[320px] lg:max-w-[320px] flex flex-col justify-center items-center my-4 p-6 border bg-white border-white rounded-[25px] gap-[30px] shadow-md cursor-pointer transition-transform duration-300 hover:scale-105"
             >
               <div className="text-center">
-                <h2 className="text-[28px] md:text-[35px] font-semibold text-[#431CBC]">
+                <h2 className="text-[25px] md:text-[30px] font-semibold text-[#431CBC]">
                   {creator.name}
                 </h2>
                 <h4 className="text-[18px] md:text-[23px] text-[#B7B7B7]">

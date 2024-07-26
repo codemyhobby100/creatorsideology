@@ -41,7 +41,7 @@ function Growth() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px] text-center px-0 md:px-4">
-          <p className="text-[16px] md:text-[20px] text-[#098B72]">
+          <p className="text-[12px] md:text-[16px] text-[#098B72]">
               THE CHALLENGE
           </p>
           <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Equipping Students, Redefining Education</h4>
@@ -56,7 +56,7 @@ function Growth() {
         {/* Solution section */}
         <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[16px] md:text-[20px] text-[#098B72]">
+            <p className="text-[12px] md:text-[16px] text-[#098B72]">
                 THE SOLUTION
             </p>
             <h4 className="text-[35px] md:text-[36px] w-full font-semibold pb-[20px]">
@@ -95,7 +95,7 @@ function Growth() {
         </div>
         {/* Result */}
         <div className="pb-[50px]">
-          <p className="text-[16px] md:text-[20px] text-[#098B72]">
+          <p className="text-[12px] md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>
           <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Exponential Growth, Reduced Costs</h4>
@@ -133,7 +133,7 @@ function Growth() {
           </div>
                         
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
-            <RiCustomerService2Fill className="text-[#098b72] w-[50px] h-[50px]" />
+            <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
             <p className="text-[25px] font-bold">13k</p>
             <p className="text-[20px]">Clicks</p>
           </div>

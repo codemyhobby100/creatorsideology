@@ -49,7 +49,7 @@ function Ekster() {
       <div className="my_container text-white py-[80px]">
         {/* challenge section */}
         <div className="pb-[50px] challenge">
-          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
+          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
               THE CHALLENGE
           </p>
           <h4 className="text-[40px] font-semibold pb-[20px]">Brand Reputation</h4>
@@ -65,12 +65,12 @@ function Ekster() {
           
           <div className="flex flex-col gap-[30px] lg:flex-row pb-[30px]">
             <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[20px]  md:text-[30px] text-[#098B72]">
-                THE SOLUTION
-            </p>
-            <h4 className="text-[40px] w-full font-semibold pb-[20px]">
-              High-Quality Content
-          </h4>
+              <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+                  THE SOLUTION
+              </p>
+              <h4 className="text-[40px] w-full font-semibold pb-[20px]">
+                High-Quality Content
+              </h4>
               <p className="text-[16px]">
                 We knew a traditional approach of securing a single, high-profile influencer wouldn't be the most 
                 effective use of Ekster's resources. Instead, we proposed a campaign that harnessed the power of 
@@ -80,10 +80,16 @@ function Ekster() {
                 design-conscious individuals who embraced a minimalist lifestyle – we ensured the campaign 
                 resonated with the right people at the right time.
               </p>
+              <button className="flex items-center button border bg-primary text-black rounded-[6px] mt-4 group outline-none border-none">
+                <Link to="/contact">Start a Project</Link>
+                <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
+              </button>
               <div className="flex justify-center my-[30px] lg:hidden">
-              <video src={EksterVid} autoPlay
-                muted
-                loop className="w-full object-cover rounded-[25px]" ></video>
+                <video src={EksterVid} autoPlay
+                  muted
+                  loop 
+                  className="w-full object-cover rounded-[25px]" >
+                </video>
               </div>
             </div>
             <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
@@ -93,8 +99,8 @@ function Ekster() {
             </div>
           </div>
         {/* Key Takeaway section */}
-        <div className="pb-[50px]">
-          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
+        <div className="pb-[50px] mt-5">
+          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
               THE KEY TAKEAWAY
             </p>
           <h4 className="text-[40px] font-semibold pb-[20px]">Reaches Taeget Audience</h4>

@@ -42,7 +42,7 @@ function Scribe() {
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
         <div className="pb-[50px] challenge">
-          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
+          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE CHALLENGE
           </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">CAC Reduction</h4>
@@ -55,7 +55,7 @@ function Scribe() {
 
         <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[20px]  md:text-[30px] text-[#098B72]">
+            <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE SOLUTION
             </p>
             <h4 className="text-[35px] w-full font-semibold pb-[20px]">
@@ -99,7 +99,7 @@ function Scribe() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
+          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">Key Metrics</h4>
@@ -128,7 +128,7 @@ function Scribe() {
           </div>
                         
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
-            <RiCustomerService2Fill className="text-[#098b72] w-[50px] h-[50px]" />
+          <img className="w-[50px]" src={Clicks} alt="" />
             <p className="text-[25px] font-bold">1000</p>
             <p className="text-[20px]">Clicks</p>
           </div>
