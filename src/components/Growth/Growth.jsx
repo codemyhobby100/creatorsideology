@@ -6,6 +6,11 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Scribe_logo from "../../assets/scribe_logo.png";
 import { GiClick } from "react-icons/gi";
+import Impression from "../../assets/heart.png";
+import Clicks from "../../assets/click.png";
+import Likes from "../../assets/like.png";
+import Share from "../../assets/share.png";
+import "./growth.css"
 function Growth() {
   const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/czg6ahu3bxgjqalf2i6s.mp4";
   return (
@@ -39,7 +44,7 @@ function Growth() {
           <p className="text-[16px] md:text-[20px] text-[#098B72]">
               THE CHALLENGE
           </p>
-          <h4 className="text-[24px] md:text-[36px] font-semibold pb-[20px]">Equipping Students, Redefining Education</h4>
+          <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Equipping Students, Redefining Education</h4>
           <p className="text-[16px]">
             Growth School, a community-driven online learning platform, disrupts the traditional education model by bridging a critical gap between outdated academic curricula and the dynamic skillsets employers demand in today's job market. Their innovative AI-driven approach utilizes intensive cohort programs that equip students with the most in-demand skills – all designed for immediate job readiness.
           </p>
@@ -54,7 +59,7 @@ function Growth() {
             <p className="text-[16px] md:text-[20px] text-[#098B72]">
                 THE SOLUTION
             </p>
-            <h4 className="text-[24px] md:text-[36px] w-full font-semibold pb-[20px]">
+            <h4 className="text-[35px] md:text-[36px] w-full font-semibold pb-[20px]">
             Micro-Influencers: The Perfect Match
             </h4>
             <p className="text-[16px]">
@@ -93,7 +98,7 @@ function Growth() {
           <p className="text-[16px] md:text-[20px] text-[#098B72]">
                 THE RESULTS
             </p>
-          <h4 className="text-[24px] md:text-[36px] font-semibold pb-[20px]">Exponential Growth, Reduced Costs</h4>
+          <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Exponential Growth, Reduced Costs</h4>
           <p className="text-[16px]">
             The micro-influencer strategy proved to be a resounding success. Within the first 30 days of launch, the campaign generated over 3 million impressions, a staggering testament to the reach achieved. Engagement levels were equally impressive, with over 150,000 likes signifying a captivated audience actively responding to the content. The campaign also generated a remarkable 13,000 link clicks, translating directly into potential sales for Growth School.
             But the true impact transcended beyond vanity metrics. The micro-influencer approach significantly reduced Growth School's customer acquisition cost (CAC) by 20% highlighting the exceptional return on investment achieved through this campaign.
@@ -102,30 +107,38 @@ function Growth() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <h4 className="text-[24px] md:text-[36px] font-semibold pb-[20px]">Key Takeaway</h4>
+          <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Key Takeaway</h4>
           <p className="text-[16px]">
             The Growth School case study serves as a powerful testament to the effectiveness of micro-influencers in achieving successful influencer marketing campaign goals. Creators Ideology's strategy not only delivered cost-efficiency and impressive reach but also fostered genuine engagement between Growth School and the influencer's community. This authenticity translated into increased brand trust and perceived value, ultimately driving positive conversions for Growth School.
           </p>
         </div>
 
-        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098B72] pb-[80px] font-semibold">
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <FaVideo className="text-[80px]" />
-            <p className="text-[30px] text-center font-bold">2M </p>
-            <p className="text-[25px]">Views</p>
-          </div>
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <BiSolidLike className="text-[80px]" />
-            <p className="text-[30px] font-bold">200k</p>
-            <p className="text-[25px]">likes</p>
+        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[50px]" src={Impression} alt="" />
+            <p className="text-[25px] font-bold">3M</p>
+            <p className="text-[20px]">Impression</p>
           </div>
 
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[350px] lg:w-[250px] px-[30px] gap-[10px]">
-            <GiClick className="text-[80px]" />
-            <p className="text-[30px] font-bold">20,000 </p>
-            <p className="text-[25px]">clicks</p>
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[50px]" src={Likes} alt="" />
+            <p className="text-[25px] font-bold">300k</p>
+            <p className="text-[20px]">Likes</p>
+          </div>
+
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+            <img className="w-[50px]" src={Share} alt="" />
+            <p className="text-[25px] font-bold">12k</p>
+            <p className="text-[20px]">Shares</p>
+          </div>
+                        
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+            <RiCustomerService2Fill className="text-[#098b72] w-[50px] h-[50px]" />
+            <p className="text-[25px] font-bold">13k</p>
+            <p className="text-[20px]">Clicks</p>
           </div>
         </div>
+
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
           <Link to={"/scribe"}>
             <button className="px-[25px] py-[10px] border-2 text-white  border-white rounded button group">

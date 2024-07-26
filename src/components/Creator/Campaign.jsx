@@ -11,7 +11,7 @@ function Campaign() {
 
       <div className="pt-[40px] md:pb-[70px] mx-auto px-[15px] md:px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-[32px] md:text-[57px] 2xl:text-[80px] leading-[40px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
+          <h1 className="text-[32px] md:text-[45px] 2xl:text-[65px] leading-[40px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
             Multi-Platform <br />{" "}
             <span className="text-[#441DBC]">Campaigns</span>
           </h1>
@@ -33,7 +33,7 @@ function Campaign() {
         <h1 className="text-white text-[32px] md:text-[65px] font-bold leading-[40px] md:leading-[60px]">
           Ready to work with us?
         </h1>
-        <button className="flex items-center button border bg-primary text-black rounded-[6px] group">
+        <button className="flex items-center button border mt-4 bg-primary text-black rounded-[6px] group">
           <Link to="/contact">Start a Project</Link>
           <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
         </button>

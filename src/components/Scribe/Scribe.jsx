@@ -22,7 +22,7 @@ function Scribe() {
           <h4 className="text-[23px] font-semibold">Case studies</h4>
         </div>
         <div>
-          <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
+          <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[35px] text-center md:text-left">
             Supercharging Workflow Efficiency with Scribe:
           </h2>
           <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
@@ -41,8 +41,8 @@ function Scribe() {
       {/* Content section */}
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
-        <div className="pb-[50px]">
-          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+        <div className="pb-[50px] challenge">
+          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
                 THE CHALLENGE
           </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">CAC Reduction</h4>
@@ -55,20 +55,20 @@ function Scribe() {
 
         <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+            <p className="text-[20px]  md:text-[30px] text-[#098B72]">
                 THE SOLUTION
             </p>
             <h4 className="text-[35px] w-full font-semibold pb-[20px]">
             Platform Optimization and Strategic Partnerships
             </h4>
-            <p className="text-[18px]">
+            <p className="text-[16px]">
               Understanding the need for a more targeted approach, we delved deep into Scribe's marketing goals. We analyzed their target cost-per-thousand-impressions (CPM) for short-form video content (reels) and their desired reach. Our philosophy aligns perfectly with Scribe's: maximizing return on investment.
             </p>
             <ul>
-              <li className="pt-2">
+              <li className="pt-2 text-[16px]">
                 <b>Leveraging Instagram's Power:</b> We identified the best marketing and business content creators on Instagram, a platform known for its engaged audience and cost-effective advertising options. We curated a list whose reach closely matched Scribe's desired CPM.
               </li>
-              <li className="pt-2">
+              <li className="pt-2 text-[16px]">
                 <b>Collaboration for Success:</b>  Partnering with these creators ensured targeted messaging and maximized ROI. Scribe benefited from the creators' established audience of busy professionals, while the creators gained a valuable partnership opportunity. Marketing Psychology, for example, went above and beyond, fully committing to creating exceptional content that resonated with Scribe's target audience.
               </li>
             </ul>
@@ -99,35 +99,35 @@ function Scribe() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
                 THE RESULTS
             </p>
-          <h4 className="text-[45px] font-semibold pb-[20px]">Key Metrics</h4>
-          <p className="text-[18px]">
+          <h4 className="text-[35px] font-semibold pb-[20px]">Key Metrics</h4>
+          <p className="text-[16px]">
             The campaign exceeded all expectations. Scribe achieved over 1.8 million impressions and garnered an impressive 90,000 likes. More importantly, they secured a cost-per-engagement (CPE) of just over $0.50, demonstrating the campaign's remarkable efficiency.
             This success wasn't solely a result of platform optimization. The commitment from the creators, like Marketing Psychology, who ensured the content aligned with Scribe's goals, played a crucial role. The positive outcome led to multiple renewed opportunities for the creators involved, fostering a long-term, mutually beneficial partnership. This case study illustrates the power of targeted influencer marketing. By understanding platform strengths, audience demographics, and cost structures, we were able to deliver exceptional results for Scribe while cultivating valuable partnerships with established content creators.
           </p>
         </div>
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[50px]" src={Impression} alt="" />
             <p className="text-[25px] font-bold">1.8M</p>
             <p className="text-[20px]">Impression</p>
           </div>
 
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[50px]" src={Likes} alt="" />
             <p className="text-[25px] font-bold">90k</p>
             <p className="text-[20px]">Likes</p>
           </div>
 
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[50px]" src={Share} alt="" />
             <p className="text-[25px] font-bold">20K</p>
             <p className="text-[20px]">Shares</p>
           </div>
                         
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
             <RiCustomerService2Fill className="text-[#098b72] w-[50px] h-[50px]" />
             <p className="text-[25px] font-bold">1000</p>
             <p className="text-[20px]">Clicks</p>

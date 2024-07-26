@@ -1,9 +1,18 @@
 /* src/fonts/fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: 'Familjen Grotesk';
     src: url('/FamiljenGrotesk-Regular.woff2') format('woff2'),
          /* url('/FamiljenGrotesk-Regular.woff') format('woff'), */
          /* url('/FamiljenGrotesk-Regular.ttf') format('truetype'); */;
+    font-weight: normal;
+    font-style: normal;
+    font-optical-sizing: auto;
+  }
+
+  .archivo{
+    font-family: "Archivo", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-optical-sizing: auto;

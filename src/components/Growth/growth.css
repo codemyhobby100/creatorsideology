@@ -1,0 +1,32 @@
+/* src/fonts/fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    font-family: "Archivo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.hover-move-up {
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .hover-move-up:hover {
+    transform: translateY(-10px);
+  }
+
+/* In your CSS file */
+.challenge {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .challenge {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }

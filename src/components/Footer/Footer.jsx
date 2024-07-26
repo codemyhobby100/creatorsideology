@@ -19,7 +19,9 @@ function Footer() {
               <li className="list-none">
                 <a
                   href="https://instagram.com/creatorsideology?igshid=MzNlNGNkZWQ4Mg=="
-                  className=" w-10 h-10 bg-gray-600 flex justify-center text-white items-center mr-2 rounded transition-all duration-500 hover:bg-yellow-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-gray-600 flex justify-center text-white items-center mr-2 rounded transition-all duration-500 hover:bg-yellow-400"
                 >
                   <FaInstagram />
                 </a>
@@ -27,12 +29,15 @@ function Footer() {
               <li className="list-none">
                 <a
                   href="https://www.linkedin.com/company/creators-ideology/"
-                  className=" w-10 h-10 bg-gray-600 flex justify-center text-white items-center mr-2 rounded transition-all duration-500 hover:bg-yellow-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-gray-600 flex justify-center text-white items-center mr-2 rounded transition-all duration-500 hover:bg-yellow-400"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
             </ul>
+
           </div>
 
           <div className="sec contactBx lg:flex lg:flex-col lg:pl-[150px]  lg:w-1/3 w-full">

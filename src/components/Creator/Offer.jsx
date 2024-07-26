@@ -9,7 +9,7 @@ function Offer() {
       <h1 className="md:text-[52px] text-[32px] leading-[36px] text-center lg:max-w-[1150px] mx-auto text-white font-semibold px-2 md:px-4">
         What we offer <span className="text-[#441DBC]">Creators</span>
       </h1>
-      <p className="text-white text-center text-[16px] md:text-[20px] px-2 md:px-4">
+      <p className="text-white text-center text-[16px] md:text-[20px] px-2 pt-4 md:px-4">
         Join our influencer marketplace and start partnering with brands you can
         trust
       </p>
@@ -17,7 +17,7 @@ function Offer() {
       {/* 1st offer */}
       <div className="pt-[80px] pb-[70px] mx-auto px-[10px] md:px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[57px] 2xl:text-[80px] leading-[45px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
+          <h1 className="text-4xl md:text-[45px] 2xl:text-[65px] leading-[45px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
             Talent
             <br /> <span className="text-[#441DBC]">Representation</span>
           </h1>
@@ -49,7 +49,7 @@ function Offer() {
           </video>
         </div>
         <div className="lg:col-span-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[60px] 2xl:text-[80px] leading-[45px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
+          <h1 className="text-4xl md:text-[45px] 2xl:text-[65px] leading-[45px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
             Brand {""}
             <span className="text-[#441DBC]">
               Deals <br />& Partnerships
@@ -62,7 +62,7 @@ function Offer() {
       {/* 3rd Offer */}
       <div className="pb-12 mx-auto px-[10px] md:px-[20px] grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         <div className="lg:col-span-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <h1 className="text-4xl md:text-[60px] 2xl:text-[80px] leading-[45px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
+          <h1 className="text-4xl md:text-[45px] 2xl:text-[65px] leading-[45px] md:leading-[60px] 2xl:leading-[85px] font-bold pb-[15px]">
             Talent
             <br /> <span className="text-[#441DBC]">Management</span>
           </h1>

@@ -30,7 +30,7 @@ function CreatorBanner() {
             top global brands.
           </p>
           <div className="flex flex-row items-center md:items-start justify-center md:justify-start pt-[50px] gap-[20px] md:gap-[30px]">
-            <button className="flex items-center button px-[25px] py-[10px] border-2 rounded bg-primary text-black group ">
+            <button className="flex items-center button px-[25px] py-[10px] border-2 rounded bg-primary text-black group border-none">
               <Link to="/contact">Get me Started</Link>
               <span className="button-hover group-hover:w-[330px] group-hover:h-[330px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </button>

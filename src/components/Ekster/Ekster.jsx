@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 import { GiClick } from "react-icons/gi";
 import { BiSolidLike } from "react-icons/bi";
 import { FaVideo } from "react-icons/fa";
+import EksterVid from "../../assets/video/Ekster.mp4";
+import './ekster.css';
 
 function Ekster() {
   return (
@@ -46,12 +48,12 @@ function Ekster() {
       </div>
       <div className="my_container text-white py-[80px]">
         {/* challenge section */}
-        <div className="pb-[50px]">
-          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+        <div className="pb-[50px] challenge">
+          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
               THE CHALLENGE
           </p>
-          <h4 className="text-[45px] font-semibold pb-[20px]">Brand Reputation</h4>
-          <p className="text-[18px]">
+          <h4 className="text-[40px] font-semibold pb-[20px]">Brand Reputation</h4>
+          <p className="text-[16px]">
             Ekster, a leading provider of minimalist wallets, faced a common challenge for 
             innovative startups: increasing brand awareness and driving sales while working within a 
             limited marketing budget. Traditional advertising often requires a significant financial 
@@ -63,13 +65,13 @@ function Ekster() {
           
           <div className="flex flex-col gap-[30px] lg:flex-row pb-[30px]">
             <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+            <p className="text-[20px]  md:text-[30px] text-[#098B72]">
                 THE SOLUTION
             </p>
-            <h4 className="text-[45px] w-full font-semibold pb-[20px]">
+            <h4 className="text-[40px] w-full font-semibold pb-[20px]">
               High-Quality Content
           </h4>
-              <p className="text-[18px]">
+              <p className="text-[16px]">
                 We knew a traditional approach of securing a single, high-profile influencer wouldn't be the most 
                 effective use of Ekster's resources. Instead, we proposed a campaign that harnessed the power of 
                 micro-influencers. These social media stars, boasting smaller but highly engaged audiences, often 
@@ -79,19 +81,23 @@ function Ekster() {
                 resonated with the right people at the right time.
               </p>
               <div className="flex justify-center my-[30px] lg:hidden">
-                <video src="#" className="w-full object-cover rounded-[25px]" controls></video>
+              <video src={EksterVid} autoPlay
+                muted
+                loop className="w-full object-cover rounded-[25px]" ></video>
               </div>
             </div>
             <div className="lg:w-1/2 order-1 lg:order-2 hidden lg:flex justify-center">
-              <video src="#" className="w-full object-cover rounded-[25px]" controls></video>
+              <video src={EksterVid} autoPlay
+                muted
+                loop className="w-full object-cover rounded-[25px]" ></video>
             </div>
           </div>
         {/* Key Takeaway section */}
         <div className="pb-[50px]">
-          <p className="text-[22px]  md:text-[30px] text-[#098B72]">
+          <p className="text-[20px]  md:text-[30px] text-[#098B72]">
               THE KEY TAKEAWAY
             </p>
-          <h4 className="text-[45px] font-semibold pb-[20px]">Reaches Taeget Audience</h4>
+          <h4 className="text-[40px] font-semibold pb-[20px]">Reaches Taeget Audience</h4>
           <p className="text-[18px]">
             The campaign wasn't just about one-way communication. Interactive 
             elements woven into the mini-documentary, 
@@ -104,30 +110,30 @@ function Ekster() {
           </p>
         </div>
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
             <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">1.5M</p>
             <p className="text-[20px] md:text-[15px] lg:text-[18px]">Impression</p>
           </div>
 
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Likes} alt="" />
             <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">60k</p>
             <p className="text-[20px] md:text-[15px] lg:text-[18px]">Likes</p>
           </div>
 
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Share} alt="" />
             <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">13k</p>
             <p className="text-[20px] md:text-[15px] lg:text-[18px]">Shares</p>
           </div>
                         
-          <div className="flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
+          <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
             <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">7,000</p>
             <p className="text-[20px] md:text-[15px] lg:text-[18px]">Clicks</p>
           </div>
-        </div>
+       </div>
 
 
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
