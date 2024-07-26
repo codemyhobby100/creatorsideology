@@ -12,6 +12,7 @@ import img3 from "../../assets/honey.png";
 import Collaborate from "../../assets/collaborate.png";
 import Create from "../../assets/create.png";
 import Captivate from "../../assets/captivate.png";
+import './home.css'
 
 const Card = () => {
   const [showMore, setShowMore] = useState({});
@@ -34,83 +35,71 @@ const Card = () => {
       <div className="w-full mx-auto flex-col lg:flex-row flex justify-between items-center py-[40px]">
         {/* card-1 */}
         <div className="xl:max-w-sm md:max-w-[300px] max-w-[380px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
-          <img
-            src={Collaborate}
-            className="h-auto w-full object-cover"
-            alt=""
-          />
-          <h2 className="text-[32px] font-semibold text-white my-[15px]">
-            Collaborate
-          </h2>
+          <img src={Collaborate} className="h-auto w-full object-cover" alt="" />
+          <h2 className="text-[32px] font-semibold text-white my-[15px]">Collaborate</h2>
           <button
             onClick={() => toggleShowMore("card1")}
-            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded "
+            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded"
           >
             {showMore.card1 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
             <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
-          {showMore.card1 && (
+          <div
+            className={`overflow-hidden transition-all duration-500 ${
+              showMore.card1 ? "max-h-[150px]" : "max-h-0"
+            }`}
+          >
             <p className="mt-4 text-white">
-              We get to know you inside and out – your values, aspirations, and
-              who you're trying to reach. Then, we team you up with a dream
-              squad of creators whose styles and audiences perfectly match
-              yours.
+              We get to know you inside and out – your values, aspirations, and who you're trying to reach. Then, we team you up with a dream squad of creators whose styles and audiences perfectly match yours.
             </p>
-          )}
+          </div>
         </div>
 
         {/* card-2 */}
         <div className="xl:max-w-sm md:max-w-[300px] max-w-[350px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
-          <img
-            src={Create}
-            className="h-auto w-full object-cover"
-            alt=""
-          />
-          <h2 className="text-[32px] font-semibold text-white my-[15px]">
-            Create
-          </h2>
+          <img src={Create} className="h-auto w-full object-cover" alt="" />
+          <h2 className="text-[32px] font-semibold text-white my-[15px]">Create</h2>
           <button
             onClick={() => toggleShowMore("card2")}
-            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded "
+            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded"
           >
             {showMore.card2 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
             <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
-          {showMore.card2 && (
+          <div
+            className={`overflow-hidden transition-all duration-500 ${
+              showMore.card2 ? "max-h-[150px]" : "max-h-0"
+            }`}
+          >
             <p className="mt-4 text-white">
-              Every campaign is meticulously planned, with quantifiable KPIs
-              aligned to your specific goals, ensuring every collaboration
-              delivers tangible value.
+              Every campaign is meticulously planned, with quantifiable KPIs aligned to your specific goals, ensuring every collaboration delivers tangible value.
             </p>
-          )}
+          </div>
         </div>
 
         {/* card-3 */}
         <div className="xl:max-w-sm md:max-w-[300px] max-w-[350px] mx-auto my-4 p-6 bg-transparent border border-white rounded-[25px] shadow-md">
-          <img
-            src={Captivate}
-            className="h-auto w-full object-cover"
-            alt=""
-          />
-          <h2 className="text-[32px] font-semibold text-white my-[15px]">
-            Captivate
-          </h2>
+          <img src={Captivate} className="h-auto w-full object-cover" alt="" />
+          <h2 className="text-[32px] font-semibold text-white my-[15px]">Captivate</h2>
           <button
             onClick={() => toggleShowMore("card3")}
-            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded "
+            className="flex items-center button group mt-4 px-4 py-2 border border-white text-white rounded"
           >
             {showMore.card3 ? "Back" : "Explore"}
             <HiArrowLongRight className="text-[25px]" />
             <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </button>
-          {showMore.card3 && (
+          <div
+            className={`overflow-hidden transition-all duration-500 ${
+              showMore.card3 ? "max-h-[150px]" : "max-h-0"
+            }`}
+          >
             <p className="mt-4 text-white">
-              Turning customers into true believers is our vision, the kind who
-              not only clicks but truly cares about your brand.
+              Turning customers into true believers is our vision, the kind who not only clicks but truly cares about your brand.
             </p>
-          )}
+          </div>
         </div>
       </div>
       <div>
