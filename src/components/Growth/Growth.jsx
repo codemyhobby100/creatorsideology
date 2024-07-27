@@ -10,30 +10,41 @@ import Impression from "../../assets/heart.png";
 import Clicks from "../../assets/click.png";
 import Likes from "../../assets/like.png";
 import Share from "../../assets/share.png";
+import growth_banner from "../../assets/growth-school.png";
 import "./growth.css"
 function Growth() {
   const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/czg6ahu3bxgjqalf2i6s.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
-      <div className="my_container flex flex-col justify-center bg-black text-white h-screen w-full">
-        <div className="lg:pb-[15vh] pb-[50px]">
-          <h4 className="text-[23px] font-semibold">Case studies</h4>
-        </div>
-        <div>
-          <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
-            Supercharging Workflow Efficiency with Scribe:
-          </h2>
-          <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
-            How we Achieved Double the results at a Third of the Cost.
-          </p>
-        </div>
-        <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
-          <div className="inline-block border border-white px-[30px] py-[10px] bg-black max-w-max">
-            <div className="flex items-center justify-end text-white">
-              <img src={Scribe_logo} className="w-[100px]" alt="Fum Logo" />
-            </div>
+      {/* Banner section */}
+      <div
+        className="my_container flex flex-col justify-center text-white h-screen w-full relative"
+        style={{
+          backgroundImage: `url(${growth_banner})`,
+          backgroundSize: "cover",
+          backgroundPosition: "bottom",
+        }}
+      >
+        <div className="my_container flex flex-col justify-center text-white h-screen w-full">
+          <div className="lg:pb-[15vh] pb-[50px]">
+            <h4 className="text-[23px] font-semibold">Case studies</h4>
           </div>
+          <div>
+            <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
+              Supercharging Workflow Efficiency with Scribe:
+            </h2>
+            <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
+              How we Achieved Double the results at a Third of the Cost.
+            </p>
+          </div>
+          {/* <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
+            <div className="inline-block border border-white px-[30px] py-[10px] bg-black max-w-max">
+              <div className="flex items-center justify-end text-white">
+                <img src={Scribe_logo} className="w-[100px]" alt="Fum Logo" />
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
 
