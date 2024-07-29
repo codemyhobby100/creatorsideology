@@ -52,13 +52,13 @@ function Ekster() {
           <p className="text-[12px]  md:text-[16px] text-[#098B72]">
               THE CHALLENGE
           </p>
-          <h4 className="text-[40px] font-semibold pb-[20px]">Brand Reputation</h4>
+          <h4 className="text-[40px] font-semibold pb-[20px]">Budget Battle</h4>
           <p className="text-[16px]">
-            Ekster, a leading provider of minimalist wallets, faced a common challenge for 
-            innovative startups: increasing brand awareness and driving sales while working within a 
-            limited marketing budget. Traditional advertising often requires a significant financial 
-            investment, leaving Ekster in need of a strategic influencer marketing campaign that delivered 
-            positive results without breaking the bank.
+            Ekster, a leading provider of minimalist wallets, faced a common challenge for innovative 
+            startups: increasing brand awareness and driving sales while working within a limited marketing 
+            budget. Traditional advertising often requires a significant financial investment, leaving Ekster 
+            in need of a strategic influencer marketing campaign that delivered positive results without 
+            breaking the bank.
           </p>
         </div>
         {/* Solution section */}
@@ -69,16 +69,16 @@ function Ekster() {
                   THE SOLUTION
               </p>
               <h4 className="text-[40px] w-full font-semibold pb-[20px]">
-                High-Quality Content
+                Micro Infleuncers
               </h4>
               <p className="text-[16px]">
                 We knew a traditional approach of securing a single, high-profile influencer wouldn't be the most 
                 effective use of Ekster's resources. Instead, we proposed a campaign that harnessed the power of 
-                micro-influencers. These social media stars, boasting smaller but highly engaged audiences, often 
-                possess a deeper connection and stronger trust with their followers. By meticulously selecting 
-                micro-influencers whose target demographics closely aligned with Ekster's ideal customer – young, 
-                design-conscious individuals who embraced a minimalist lifestyle – we ensured the campaign 
-                resonated with the right people at the right time.
+                micro-influencers. These social media stars, boasting less than 100k subscribers but highly engaged 
+                audiences, often possess a deeper connection and stronger trust with their followers. By meticulously 
+                selecting 4 micro-influencers whose target demographics closely aligned with Ekster's ideal 
+                customer – young, design-conscious individuals who embraced a minimalist lifestyle – we we’re able to 
+                ensure the campaign resonated with the right people at the right price.
               </p>
               <button className="flex items-center button border bg-primary text-black rounded-[6px] mt-4 group outline-none border-none">
                 <Link to="/contact">Start a Project</Link>
@@ -101,24 +101,21 @@ function Ekster() {
         {/* Key Takeaway section */}
         <div className="pb-[50px] mt-5">
           <p className="text-[12px]  md:text-[16px] text-[#098B72]">
-              THE KEY TAKEAWAY
+              THE RESULT
             </p>
-          <h4 className="text-[40px] font-semibold pb-[20px]">Reaches Taeget Audience</h4>
+          <h4 className="text-[40px] font-semibold pb-[20px]">A Hollistic Campaign Success</h4>
           <p className="text-[18px]">
-            The campaign wasn't just about one-way communication. Interactive 
-            elements woven into the mini-documentary, 
-            such as polls and Q&A sessions, encouraged audience participation. 
-            This strategy not only boosted brand recognition but also generated 
-            valuable audience insights that Ekster could leverage to further refine their 
-            marketing efforts. The result? A campaign that not only generated over 1.5 million 
-            impressions but also demonstrably increased brand awareness and translated into a 
-            significant boost in sales.
+             The campaign wasn't just about one-way communication. Interactive elements woven into the mini-documentary,
+             such as polls and Q&A sessions, encouraged audience participation. This strategy not only boosted brand 
+             recognition but also generated valuable audience insights that Ekster could leverage to further refine 
+             their marketing efforts. The result? A campaign that not only generated over 2 million impressions but 
+             also demonstrably increased brand awareness and translated into a significant boost in sales.
           </p>
         </div>
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">1.5M</p>
+            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">2M</p>
             <p className="text-[20px] md:text-[15px] lg:text-[18px]">Impression</p>
           </div>
 

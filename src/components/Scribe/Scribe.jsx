@@ -56,7 +56,7 @@ function Scribe() {
           <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE CHALLENGE
           </p>
-          <h4 className="text-[35px] font-semibold pb-[20px]">CAC Reduction</h4>
+          <h4 className="text-[35px] font-semibold pb-[20px]">High CAC</h4>
           <p className="text-[18px]">
             Scribe, a revolutionary AI-powered tool that simplifies creating step-by-step workflow guides, faced a unique challenge. Their target audience – busy teams seeking streamlined processes – was scattered across various platforms. Traditional influencer marketing on YouTube, while seemingly ideal, proved cost-prohibitive. High creator fees and a potential mismatch between Scribe's average order value and YouTube's ad structure limited its effectiveness.
           </p>
@@ -70,7 +70,7 @@ function Scribe() {
                 THE SOLUTION
             </p>
             <h4 className="text-[35px] w-full font-semibold pb-[20px]">
-            Platform Optimization and Strategic Partnerships
+              Platform Optimization and Strategic Partnerships
             </h4>
             <p className="text-[16px]">
               Understanding the need for a more targeted approach, we delved deep into Scribe's marketing goals. We analyzed their target cost-per-thousand-impressions (CPM) for short-form video content (reels) and their desired reach. Our philosophy aligns perfectly with Scribe's: maximizing return on investment.
@@ -113,10 +113,9 @@ function Scribe() {
           <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>
-          <h4 className="text-[35px] font-semibold pb-[20px]">Key Metrics</h4>
+          <h4 className="text-[35px] font-semibold pb-[20px]">CAC Reduction</h4>
           <p className="text-[16px]">
-            The campaign exceeded all expectations. Scribe achieved over 1.8 million impressions and garnered an impressive 90,000 likes. More importantly, they secured a cost-per-engagement (CPE) of just over $0.50, demonstrating the campaign's remarkable efficiency.
-            This success wasn't solely a result of platform optimization. The commitment from the creators, like Marketing Psychology, who ensured the content aligned with Scribe's goals, played a crucial role. The positive outcome led to multiple renewed opportunities for the creators involved, fostering a long-term, mutually beneficial partnership. This case study illustrates the power of targeted influencer marketing. By understanding platform strengths, audience demographics, and cost structures, we were able to deliver exceptional results for Scribe while cultivating valuable partnerships with established content creators.
+            The campaign exceeded all expectations. Scribe achieved over 1.8 million impressions and garnered an impressive 100,000 likes. More importantly, they secured a cost-per-engagement (CPE) of less than $0.50, demonstrating the campaign's remarkable efficiency. This success wasn't solely a result of platform optimization. The commitment from the creators who ensured the content aligned with Scribe's goals, played a crucial role. The positive outcome led to multiple renewed opportunities for the creators involved, fostering a long-term, mutually beneficial partnership. This case study illustrates the power of targeted influencer marketing. By understanding platform strengths, audience demographics, and cost structures, we were able to deliver exceptional results for Scribe while cultivating valuable partnerships with established content creators.
           </p>
         </div>
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
@@ -128,7 +127,7 @@ function Scribe() {
 
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] lg:w-[250px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[50px]" src={Likes} alt="" />
-            <p className="text-[25px] font-bold">90k</p>
+            <p className="text-[25px] font-bold">100k</p>
             <p className="text-[20px]">Likes</p>
           </div>
 

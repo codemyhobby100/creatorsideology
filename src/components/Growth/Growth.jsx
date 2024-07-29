@@ -32,10 +32,10 @@ function Growth() {
           </div>
           <div>
             <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
-              Supercharging Workflow Efficiency with Scribe:
+              Growth School
             </h2>
             <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
-              How we Achieved Double the results at a Third of the Cost.
+              From Struggling to Scaling: Our Strategy for Growth School's Success
             </p>
           </div>
           {/* <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
@@ -53,14 +53,11 @@ function Growth() {
         {/* Challenge section */}
         <div className="pb-[50px] text-center px-0 md:px-4">
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
-              THE CHALLENGE
+            THE CHALLENGE
           </p>
           <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Equipping Students, Redefining Education</h4>
           <p className="text-[16px]">
-            Growth School, a community-driven online learning platform, disrupts the traditional education model by bridging a critical gap between outdated academic curricula and the dynamic skillsets employers demand in today's job market. Their innovative AI-driven approach utilizes intensive cohort programs that equip students with the most in-demand skills – all designed for immediate job readiness.
-          </p>
-          <p className="text-[16px] pt-2">
-            Growth School approached Creators Ideology in Q2 with a clear objective: expand their reach and attract a wider audience of Teams through a strategic and cost-effective influencer marketing campaign. Their previous attempts with a limited pool of YouTube creators proved ineffective. While these creators generated some initial buzz, the exorbitant fees and ultimately negative return on investment (ROI) forced Growth School to seek a more sustainable and targeted solution.
+            Growth School, a community-driven online learning platform, bridges the gap between outdated academic curricula and the skills employers demand. Their intensive, cohort-based programs equip students with in-demand skills for immediate job readiness. Growth School approached us in Q2 seeking a cost-effective influencer marketing strategy to expand their reach. Previous attempts with a handful of YouTube creators resulted in exorbitant fees and negative ROI.
           </p>
         </div>
 
@@ -68,13 +65,13 @@ function Growth() {
         <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
             <p className="text-[12px] md:text-[16px] text-[#098B72]">
-                THE SOLUTION
+              THE SOLUTION
             </p>
             <h4 className="text-[35px] md:text-[36px] w-full font-semibold pb-[20px]">
-            Micro-Influencers: The Perfect Match
+              Micro-Influencers: The Perfect Match
             </h4>
             <p className="text-[16px]">
-              Creators Ideology recognized the unique challenges Growth School faced. With a dedicated budget of $50,000, our team conducted a comprehensive analysis of Growth School's marketing goals and target audience. We identified a shift towards a micro-influencer strategy – prioritizing cost-efficiency while maximizing impact was key.
+            Creators Ideology recognized the unique challenges Growth School faced. With a dedicated budget of $50,000, our team conducted a comprehensive analysis of Growth School's marketing goals and target audience. We identified a shift towards a micro-influencer strategy – prioritizing cost-efficiency while maximizing impact was key.
             </p>
             
             <div className="flex justify-center my-[30px] lg:hidden">
@@ -111,16 +108,7 @@ function Growth() {
             </p>
           <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Exponential Growth, Reduced Costs</h4>
           <p className="text-[16px]">
-            The micro-influencer strategy proved to be a resounding success. Within the first 30 days of launch, the campaign generated over 3 million impressions, a staggering testament to the reach achieved. Engagement levels were equally impressive, with over 150,000 likes signifying a captivated audience actively responding to the content. The campaign also generated a remarkable 13,000 link clicks, translating directly into potential sales for Growth School.
-            But the true impact transcended beyond vanity metrics. The micro-influencer approach significantly reduced Growth School's customer acquisition cost (CAC) by 20% highlighting the exceptional return on investment achieved through this campaign.
-          </p>
-        </div>
-
-        {/* Key Takeaway section */}
-        <div className="pb-[50px]">
-          <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Key Takeaway</h4>
-          <p className="text-[16px]">
-            The Growth School case study serves as a powerful testament to the effectiveness of micro-influencers in achieving successful influencer marketing campaign goals. Creators Ideology's strategy not only delivered cost-efficiency and impressive reach but also fostered genuine engagement between Growth School and the influencer's community. This authenticity translated into increased brand trust and perceived value, ultimately driving positive conversions for Growth School.
+            The micro-influencer strategy proved to be a resounding success. Within the first 30 days of launch, the campaign generated over 3 million impressions, a staggering testament to the reach achieved. Engagement levels were equally impressive, with over 150,000 likes signifying a captivated audience actively responding to the content. The campaign also generated a remarkable 13,000 link clicks, translating directly into potential sales for Growth School. But the true impact transcended beyond vanity metrics. The micro-influencer approach significantly tripled Growth School's conversions highlighting the exceptional return on investment achieved through this campaign.
           </p>
         </div>
 

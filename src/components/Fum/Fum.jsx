@@ -55,17 +55,9 @@ function Fum() {
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
             THE CHALLENGE
           </p>
-          <h4 className="text-[35px] font-semibold pb-[10px]">Product Desireability</h4>
+          <h4 className="text-[35px] font-semibold pb-[10px]">Product Desirability</h4>
           <p className="text-[16px]">
-            Fum, a revolutionary smoke-free alternative, aimed to disrupt the 
-            market with its unique plant-based oils designed to curb nicotine 
-            cravings. However, establishing themselves in a crowded marketplace 
-            saturated with traditional solutions proved challenging. They needed to 
-            not only create brand awareness but also build trust with their target 
-            audience: health-conscious individuals seeking freedom from nicotine 
-            dependence. The key was reaching these potential customers in a way that 
-            resonated with their desire for a healthier lifestyle without sacrificing 
-            enjoyment.
+            Fum, a revolutionary smoke-free alternative, aimed to disrupt the market with its unique plant-based oils designed to curb nicotine cravings. They needed to not only drive engagement  but also build trust with their target audience: health-conscious individuals seeking freedom from nicotine dependence. The key was reaching these potential customers in a way that resonated with their desire for a healthier lifestyle without sacrificing enjoyment.
           </p>
         </div>
 
@@ -79,21 +71,15 @@ function Fum() {
               Building Trust
             </h4>
             <p className="text-[16px]">
-              We knew a traditional marketing approach wouldn't suffice. Instead, we 
-              crafted a strategic influencer marketing campaign. Our search led us to 
-              Geopold, a popular YouTuber known for his witty and engaging approach to 
-              complex topics. Geopold's audience, primarily young men in the United States,
-              significantly overlapped with Fum's target demographic. This partnership 
-              offered the potential to not only inform viewers about Fum's unique solution 
-              but also to engage them in a way that felt authentic and relatable. The 
-              campaign strategy capitalized on Geopold's signature humor to create a 
-              memorable and impactful message. Instead of a dry and conventional product 
-              presentation, the approach focused on crafting an entertaining and 
-              informative video segment seamlessly integrated within one of Geopold's 
-              popular videos. This humorous approach effectively cut through the noise 
-              and resonated with Geopold's audience. The video didn't just showcase Fum's
-              product; it painted a picture of a smoke-free life that could still be fun 
-              and engaging.
+              We knew a traditional marketing approach wouldn't suffice. Instead, we crafted a strategic influencer 
+              marketing campaign. Our search led us to Geopold, a popular YouTuber known for his witty and engaging 
+              approach to complex topics. Geopold's audience, primarily young men in the United States, significantly 
+              overlapped with Fum's target demographic. This partnership offered the potential to not only inform 
+              viewers about Fum's unique solution but also to engage them in a way that felt authentic and relatable. 
+              Instead of a dry and conventional product presentation, the approach focused on crafting an entertaining 
+              and informative video segment seamlessly integrated within one of Geopold's popular videos. This humorous 
+              approach effectively cut through the noise and resonated deeply with Geopold's audience. The video didn't 
+              just showcase Fum's product; it painted a picture of a smoke-free life that could still be fun and engaging.
             </p>
             <div className="flex justify-center my-[30px] lg:hidden">
               <video
@@ -125,21 +111,9 @@ function Fum() {
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
             THE RESULT
           </p>
-          <h4 className="text-[35px] font-semibold pb-[20px]">Key Matrics</h4>
+          <h4 className="text-[35px] font-semibold pb-[20px]">Positive Brand Sentiment</h4>
           <p className="text-[16px]">
-            The campaign's success was undeniable. Within just 14 days of launch, 
-            the video garnered more than a quarter million views, capturing the 
-            interest of Geopold's established audience. But the true impact went beyond 
-            viewership. Engagement rates soared compared to previous campaigns for both 
-            Fum and Geopold. Viewers weren't just watching; they were actively interacting, 
-            sharing, and commenting, demonstrating a genuine connection with the content. 
-            Many expressed curiosity about Fum and its potential to help them break free 
-            from nicotine dependence.
-          </p>
-          <p className="text-[16px]">
-            The campaign not only generated significant brand awareness but also 
-            likely boosted potential sales 
-            through the increased engagement and positive brand association.
+            The campaign's success was undeniable. Within just 14 days of launch, the video garnered more than a quarter million views, capturing the interest of Geopold's established audience. But the true impact went beyond viewership. Engagement rates soared compared to previous campaigns for both Fum and Geopold. Viewers weren't just watching; they were actively interacting, sharing, and commenting, demonstrating a genuine connection with the content. Many expressed curiosity about Fum and its potential to help them break free from nicotine dependence. The campaign not only generated significant brand awareness but also boosted sales through the increased engagement and positive brand association.
           </p>
         </div>
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
