@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 function CaseStudy() {
   return (
     <div className="bg-black my_container pt-[50px] pb-[50px]">
-      <div className="mx-auto px-[10px]"> {/* Reduced padding */}
-        <h1 className="md:text-[38px] text-[24px] text-center pb-[20px] mx-[5px] md:mx-auto text-[#828282] font-semibold"> {/* Adjusted margins */}
-          Discover how we've{" "}
-          <span className="text-white">Elevated Brands</span>{" "},
-          <span className="text-white"> Increased ROI</span>{" "},
-          and <span className="text-white">Crafted Memorable Narratives</span>{" "}
-          through strategic influencer collaborations
-        </h1>
+      <div className="mx-auto px-[5px]"> {/* Reduced padding */}
+      <h1 className="md:text-[38px] text-[24px] text-center pb-[20px] -mx-[10px] md:mx-auto text-[#828282] font-semibold"> {/* Adjusted margins */}
+        Discover how we've{" "}
+        <span className="text-white">Elevated Brands</span>{" "},
+        <span className="text-white">Increased ROI</span>{" "},
+        and <span className="text-white">Crafted Memorable Narratives</span>{" "}
+        through strategic influencer collaborations
+      </h1>
+
+
         <div
           className="relative h-[30vh] w-full flex items-center justify-center border border-white rounded-[12px]"
           style={{
@@ -22,20 +24,20 @@ function CaseStudy() {
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50 rounded-[12px]"></div>
-          <button className="border border-primary text-white rounded-[6px] group button">
+          <Link to="/contact" className="border border-primary text-white rounded-[6px] group button">
             View Case Study
             <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-          </button>
+          </Link>
         </div>
       </div>
       <div className="container pb-[50px] mx-auto flex flex-col items-center justify-center pt-[50px] text-center">
         <h1 className="text-white text-[32px] md:text-[42px] lg:text-[65px] font-bold">
           Ready to work with us?
         </h1>
-        <button className="flex items-center button border bg-primary text-black rounded-[6px] mt-4 group outline-none border-none">
-          <Link to="/contact">Start a Project</Link>
+        <Link to="/contact" className="flex items-center button border mt-4 bg-primary text-black rounded-[6px] group">
+            Start a Project
           <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ function Growth() {
       </div>
 
       {/* Content section */}
-      <div className="my_container text-white py-[80px]">
+      <div className="my_container text-white py-[80px] pt-6">
         {/* Challenge section */}
         <div className="pb-[50px] text-center px-0 md:px-4">
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
@@ -102,7 +102,7 @@ function Growth() {
           </div>
         </div>
         {/* Result */}
-        <div className="pb-[50px]">
+        <div className="pb-[50px] pt-10">
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>

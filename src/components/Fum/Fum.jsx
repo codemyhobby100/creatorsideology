@@ -107,7 +107,7 @@ function Fum() {
         </div>
 
         {/* Key Takeaway section */}
-        <div className="pb-[50px]">
+        <div className="pb-[50px] pt-10">
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
             THE RESULT
           </p>

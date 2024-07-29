@@ -33,10 +33,10 @@ function Campaign() {
         <h1 className="text-white text-[32px] md:text-[65px] font-bold leading-[40px] md:leading-[60px]">
           Ready to work with us?
         </h1>
-        <button className="flex items-center button border mt-4 bg-primary text-black rounded-[6px] group">
-          <Link to="/contact">Start a Project</Link>
+        <Link to="/contact" className="flex items-center button border mt-4 bg-primary text-black rounded-[6px] group">
+          Start a Project
           <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-        </button>
+        </Link>
       </div>
     </div>
   );

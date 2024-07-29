@@ -115,7 +115,7 @@ function Rskoso() {
         </div>
 
         {/* Result */}
-        <div className="pb-[50px]">
+        <div className="pb-[50px] pt-10">
           <p className="text-[12px] md:text-[16px] text-[#098B72]">
             THE RESULTS
           </p>
@@ -124,7 +124,7 @@ function Rskoso() {
           The campaign proved to be a beautiful blend of education and engagement. It resonated deeply with the audience, generating over 230,000 impressions and a remarkable 5,000 link clicks. These numbers illustrate the level of curiosity and genuine interest the video sparked. More importantly, the well-crafted documentary subtly shaped viewers' perspectives, creating a positive sentiment for the R's Koso brand. This positive association translated into higher-order values, demonstrating the effectiveness of this influencer marketing strategy.
           </p>
         </div>
-        
+
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />

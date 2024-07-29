@@ -64,7 +64,7 @@ function Scribe() {
 
         {/* Solution section */}
 
-        <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px]">
+        <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px] pt-6">
           <div className="lg:w-1/2 order-2 lg:order-1">
             <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE SOLUTION
@@ -109,7 +109,7 @@ function Scribe() {
         </div>
 
         {/* Key Takeaway section */}
-        <div className="pb-[50px]">
+        <div className="pb-[50px] pt-10">
           <p className="text-[12px]  md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>

@@ -80,10 +80,6 @@ function Ekster() {
                 customer – young, design-conscious individuals who embraced a minimalist lifestyle – we we’re able to 
                 ensure the campaign resonated with the right people at the right price.
               </p>
-              <button className="flex items-center button border bg-primary text-black rounded-[6px] mt-4 group outline-none border-none">
-                <Link to="/contact">Start a Project</Link>
-                <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-              </button>
               <div className="flex justify-center my-[30px] lg:hidden">
                 <video src={EksterVid} autoPlay
                   muted
