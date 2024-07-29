@@ -32,11 +32,8 @@ function Growth() {
           </div>
           <div>
             <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
-              Growth School
-            </h2>
-            <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
               From Struggling to Scaling: Our Strategy for Growth School's Success
-            </p>
+            </h2>
           </div>
           {/* <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
             <div className="inline-block border border-white px-[30px] py-[10px] bg-black max-w-max">
