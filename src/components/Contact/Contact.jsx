@@ -73,7 +73,30 @@ function Contact() {
               Get in touch
             </h1>
             <form className="w-full space-y-6" ref={form} onSubmit={sendEmail}>
+            <div className="flex flex-col md:flex-row md:space-x-4">
+                <div className="w-full md:w-full">
+                  <label
+                    htmlFor="file"
+                    className="block text-white font-semibold mb-2"
+                  >
+                    Type
+                  </label>
+                  <select
+                    id="file"
+                    name="subject"
+                    className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[8px] px-[20px]"
+                  >
+                    <option value="" disabled selected>
+                      Select Requirement
+                    </option>
+                    <option value="Creators">I am a creator looking for brand deals</option>
+                    <option value="brand">Custom Brand Owned Content (USG)</option>
+                  </select>
+                </div>
+              </div>
+
               <div className="flex flex-col md:flex-row md:space-x-4 mb-4">
+                
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
                   <label
                     htmlFor="firstName"
@@ -119,7 +142,23 @@ function Contact() {
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+
+                <div className="w-full md:w-1/2 mb-4 md:mb-0">
+                  <label
+                    htmlFor="email"
+                    className="block font-semibold text-white mb-2"
+                  >
+                    Content Niche
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                  />
+                </div>
+
+                {/* <div className="w-full md:w-1/2">
                   <label
                     htmlFor="file"
                     className="block text-white font-semibold mb-2"
@@ -137,6 +176,23 @@ function Contact() {
                     <option value="Creators">Brand</option>
                     <option value="Case Study">Creator</option>
                   </select>
+                </div> */}
+              </div>
+
+              <div className="flex flex-col md:flex-row md:space-x-4">
+                <div className="w-full md:full mb-4 md:mb-0">
+                  <label
+                    htmlFor="text"
+                    className="block font-semibold text-white mb-2"
+                  >
+                    Social Link
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                  />
                 </div>
               </div>
 
@@ -155,14 +211,13 @@ function Contact() {
                 ></textarea>
               </div>
 
-              <div
-               
-                className="relative flex justify-center items-center w-full gap-3 button group mt-4 px-4 py-2 border border-white text-white rounded-[6px] overflow-hidden"
+              <button
+                type="submit"
+                className="cursor-pointer relative flex justify-center items-center w-full gap-3 button group mt-4 px-4 py-2 border border-white text-white rounded-[6px] overflow-hidden"
               >
-                <button type="submit" className="cursor-pointer">Send Message</button>
-                {/* <input type="submit" value="Send a Message" className="cursor-pointer"/> */}
+                Submit Message
                 <span className="button-hover absolute group-hover:w-[1400px] group-hover:h-[1200px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-              </div>
+              </button>
             </form>
           </div>
         </div>
