@@ -186,7 +186,7 @@ function Contact() {
                   <div className="flex flex-col md:flex-row md:space-x-4">
                     <div className="w-full md:w-1/2 mb-4 md:mb-0">
                       <label htmlFor="brandName" className="block font-semibold text-white mb-2">
-                        Brand Name
+                        Company Name
                       </label>
                       <input
                         type="text"
@@ -197,7 +197,7 @@ function Contact() {
                     </div>
                     <div className="w-full md:w-1/2 mb-4 md:mb-0">
                       <label htmlFor="website" className="block font-semibold text-white mb-2">
-                        Website
+                        Company Website
                       </label>
                       <input
                         type="text"
@@ -210,7 +210,7 @@ function Contact() {
                   <div className="flex flex-col md:flex-row md:space-x-4">
                     <div className="w-full md:w-1/2 mb-4 md:mb-0">
                       <label htmlFor="brandEmail" className="block font-semibold text-white mb-2">
-                        Brand Email
+                        Brand Vertical
                       </label>
                       <input
                         type="email"
@@ -221,7 +221,7 @@ function Contact() {
                     </div>
                     <div className="w-full md:w-1/2 mb-4 md:mb-0">
                       <label htmlFor="description" className="block font-semibold text-white mb-2">
-                        Brand Description
+                        Budget
                       </label>
                       <input
                         type="text"
