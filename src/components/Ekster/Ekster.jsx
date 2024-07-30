@@ -48,8 +48,8 @@ function Ekster() {
       </div>
       <div className="my_container text-white py-[80px]">
         {/* challenge section */}
-        <div className="pb-[50px] challenge">
-          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+        <div className="pb-[50px]">
+          <p className="text-[14px]  md:text-[16px] text-[#098B72]">
               THE CHALLENGE
           </p>
           <h4 className="text-[40px] font-semibold pb-[20px]">Budget Battle</h4>
@@ -65,7 +65,7 @@ function Ekster() {
           
           <div className="flex flex-col gap-[30px] lg:flex-row pb-[30px]">
             <div className="lg:w-1/2 order-2 lg:order-1">
-              <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+              <p className="text-[14px]  md:text-[16px] text-[#098B72]">
                   THE SOLUTION
               </p>
               <h4 className="text-[40px] w-full font-semibold pb-[20px]">
@@ -96,7 +96,7 @@ function Ekster() {
           </div>
         {/* Key Takeaway section */}
         <div className="pb-[50px] mt-5">
-          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+          <p className="text-[14px]  md:text-[16px] text-[#098B72]">
               THE RESULT
             </p>
           <h4 className="text-[40px] font-semibold pb-[20px]">A Hollistic Campaign Success</h4>
@@ -111,26 +111,26 @@ function Ekster() {
         <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">2M</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Impression</p>
+            <p className="text-[20px] md:text-[18px] lg:text-[20px] font-bold">2M</p>
+            <p className="text-[16px] md:text-[14px] lg:text-[16px]">Impression</p>
           </div>
 
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Likes} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">60k</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Likes</p>
+            <p className="text-[20px] md:text-[18px] lg:text-[20px] font-bold">60k</p>
+            <p className="text-[16px] md:text-[14px] lg:text-[16px]">Likes</p>
           </div>
 
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Share} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">13k</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Shares</p>
+            <p className="text-[20px] md:text-[18px] lg:text-[20px] font-bold">13k</p>
+            <p className="text-[16px] md:text-[14px] lg:text-[16px]">Shares</p>
           </div>
                         
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Clicks} alt="" />
-            <p className="text-[25px] md:text-[20px] lg:text-[25px] font-bold">7,000</p>
-            <p className="text-[20px] md:text-[15px] lg:text-[18px]">Clicks</p>
+            <p className="text-[20px] md:text-[18px] lg:text-[20px] font-bold">7,000</p>
+            <p className="text-[16px] md:text-[14px] lg:text-[16px]">Clicks</p>
           </div>
        </div>
 

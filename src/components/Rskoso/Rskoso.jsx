@@ -52,8 +52,8 @@ function Rskoso() {
       {/* Content section */}
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
-        <div className="pb-[50px] challenge">
-          <p className="text-[12px] md:text-[16px] text-[#098B72]">
+        <div className="pb-[50px]">
+          <p className="text-[14px] md:text-[16px] text-[#098B72]">
             THE CHALLENGE
           </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">Building Awareness</h4>
@@ -69,7 +69,7 @@ function Rskoso() {
         {/* Solution section */}
         <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[12px] md:text-[16px] text-[#098B72]">
+            <p className="text-[14px] md:text-[16px] text-[#098B72]">
               THE SOLUTION
             </p>
             <h4 className="text-[35px] font-semibold pb-[20px]">Beyond the Sell: A Documentary Approach</h4>
@@ -116,7 +116,7 @@ function Rskoso() {
 
         {/* Result */}
         <div className="pb-[50px] pt-10">
-          <p className="text-[12px] md:text-[16px] text-[#098B72]">
+          <p className="text-[14px] md:text-[16px] text-[#098B72]">
             THE RESULTS
           </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">Higher AOV’s</h4>

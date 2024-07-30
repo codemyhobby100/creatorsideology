@@ -4,7 +4,6 @@ import { useInView } from "react-intersection-observer";
 import img1 from "../../assets/counter1.png";
 import img2 from "../../assets/counter2.png";
 import img3 from "../../assets/counter3.png";
-import videoSrc from "../../assets/video/Creators_Ideology.mp4";
 
 function Counter() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
@@ -20,7 +19,7 @@ function Counter() {
       <div className="mx-auto px-[15px]">
         <div className="h-[40vh] md:h-[80vh] lg:max-w-[1400px] w-full flex items-center mx-auto justify-center border border-white rounded-[25px] overflow-hidden">
           <video autoPlay muted loop className="w-full h-full object-cover">
-            <source src={videoSrc} type="video/mp4" />
+            <source src="https://res.cloudinary.com/dfyeocma8/video/upload/v1722323960/Website_Explainer_Video_ocqfxs.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

@@ -14,7 +14,7 @@ import scribe_banner from "../../assets/scribe.png";
 
 function Scribe() {
   const videoSrc =
-    "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/i5dfmr6acjdn6xpfaioc.mp4";
+    "https://res.cloudinary.com/dfyeocma8/video/upload/v1722323950/ScribeHow2_cr9wfm.mp4";
   return (
     <div className="bg-black">
       {/* Banner section */}
@@ -52,12 +52,12 @@ function Scribe() {
       {/* Content section */}
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
-        <div className="pb-[50px] challenge">
-          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+        <div className="pb-[50px] ">
+          <p className="text-[14px]  md:text-[16px] text-[#098B72]">
                 THE CHALLENGE
           </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">High CAC</h4>
-          <p className="text-[18px]">
+          <p className="text-[16px]">
             Scribe, a revolutionary AI-powered tool that simplifies creating step-by-step workflow guides, faced a unique challenge. Their target audience – busy teams seeking streamlined processes – was scattered across various platforms. Traditional influencer marketing on YouTube, while seemingly ideal, proved cost-prohibitive. High creator fees and a potential mismatch between Scribe's average order value and YouTube's ad structure limited its effectiveness.
           </p>
         </div>
@@ -66,7 +66,7 @@ function Scribe() {
 
         <div className="flex flex-col lg:flex-row gap-[30px]  pb-[30px] pt-6">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+            <p className="text-[14px]  md:text-[16px] text-[#098B72]">
                 THE SOLUTION
             </p>
             <h4 className="text-[35px] w-full font-semibold pb-[20px]">
@@ -110,7 +110,7 @@ function Scribe() {
 
         {/* Key Takeaway section */}
         <div className="pb-[50px] pt-10">
-          <p className="text-[12px]  md:text-[16px] text-[#098B72]">
+          <p className="text-[14px]  md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>
           <h4 className="text-[35px] font-semibold pb-[20px]">CAC Reduction</h4>

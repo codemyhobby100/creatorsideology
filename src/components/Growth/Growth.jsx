@@ -48,8 +48,8 @@ function Growth() {
       {/* Content section */}
       <div className="my_container text-white py-[80px] pt-6">
         {/* Challenge section */}
-        <div className="pb-[50px] text-center px-0 md:px-4">
-          <p className="text-[12px] md:text-[16px] text-[#098B72]">
+        <div className="pb-[50px] pt-6">
+          <p className="text-[14px] md:text-[16px] text-[#098B72]">
             THE CHALLENGE
           </p>
           <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Equipping Students, Redefining Education</h4>
@@ -61,7 +61,7 @@ function Growth() {
         {/* Solution section */}
         <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[12px] md:text-[16px] text-[#098B72]">
+            <p className="text-[14px] md:text-[16px] text-[#098B72]">
               THE SOLUTION
             </p>
             <h4 className="text-[35px] md:text-[36px] w-full font-semibold pb-[20px]">
@@ -100,7 +100,7 @@ function Growth() {
         </div>
         {/* Result */}
         <div className="pb-[50px] pt-10">
-          <p className="text-[12px] md:text-[16px] text-[#098B72]">
+          <p className="text-[14px] md:text-[16px] text-[#098B72]">
                 THE RESULTS
             </p>
           <h4 className="text-[35px] md:text-[36px] font-semibold pb-[20px]">Exponential Growth, Reduced Costs</h4>

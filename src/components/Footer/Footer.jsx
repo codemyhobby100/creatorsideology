@@ -49,7 +49,6 @@ function Footer() {
                 </span>
                 <span className="text-black">
                   Benin City,
-                  <br />
                   Nigeria
                 </span>
               </li>
