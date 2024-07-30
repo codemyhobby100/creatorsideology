@@ -17,17 +17,20 @@ p{
   transform: translateY(-10px);
 }
 
-
 /* In your CSS file */
-.challenge {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+.koso-challenge {
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
   
-  @media (max-width: 767px) {
-    .challenge {
-      padding-left: 0;
-      padding-right: 0;
-    }
+.koso-challenge .challenge-header{    
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .koso-challenge {
+    padding-left: 0;
+    padding-right: 0;
   }
+}

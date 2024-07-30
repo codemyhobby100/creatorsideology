@@ -51,23 +51,67 @@ function Fum() {
       {/* Content section */}
       <div className="my_container text-white py-[80px]">
         {/* Challenge section */}
-        <div className="pb-[50px]">
-          <p className="text-[14px] md:text-[16px] text-[#098B72]">
+        <div className="pb-[50px] fum-challenge">
+          <p className="text-[14px] challenge-header md:text-[16px] text-[#098B72]">
             THE CHALLENGE
           </p>
-          <h4 className="text-[35px] font-semibold pb-[10px]">Product Desirability</h4>
+          <h4 className="text-[35px]challenge-header font-semibold pb-[10px]">Product Desirability</h4>
           <p className="text-[16px]">
             Fum, a revolutionary smoke-free alternative, aimed to disrupt the market with its unique plant-based oils designed to curb nicotine cravings. They needed to not only drive engagement  but also build trust with their target audience: health-conscious individuals seeking freedom from nicotine dependence. The key was reaching these potential customers in a way that resonated with their desire for a healthier lifestyle without sacrificing enjoyment.
           </p>
         </div>
 
         {/* Solution section */}
-        <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
-          <div className="lg:w-1/2 order-2 lg:order-1">
-            <p className="text-[14px] md:text-[16px] text-[#098B72]">
+        <div className="flex flex-col lg:flex-col gap-[30px] pb-[30px]">
+          <div className="w-full order-2 lg:order-1 fum-challenge">
+            <p className="text-[14px] challenge-header md:text-[16px] text-[#098B72]">
               THE SOLUTION
             </p>
-            <h4 className="text-[35px] w-full font-semibold pb-[10px]">
+            <h4 className="text-[35px] challenge-header w-full font-semibold pb-[10px]">
+              Building Trust
+            </h4>
+            <p className="text-[16px]">
+              We knew a traditional marketing approach wouldn't suffice. Instead, we crafted a strategic influencer 
+              marketing campaign. Our search led us to Geopold, a popular YouTuber known for his witty and engaging 
+              approach to complex topics. Geopold's audience, primarily young men in the United States, significantly 
+              overlapped with Fum's target demographic. This partnership offered the potential to not only inform 
+              viewers about Fum's unique solution but also to engage them in a way that felt authentic and relatable. 
+              Instead of a dry and conventional product presentation, the approach focused on crafting an entertaining 
+              and informative video segment seamlessly integrated within one of Geopold's popular videos. This humorous 
+              approach effectively cut through the noise and resonated deeply with Geopold's audience. The video didn't 
+              just showcase Fum's product; it painted a picture of a smoke-free life that could still be fun and engaging.
+            </p>
+            <div className="flex justify-center my-[30px] lg:hidden">
+              <video
+                autoPlay
+                muted
+                loop
+                className="w-full object-cover rounded-[25px]"
+              >
+                <source src={videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div className="w-full order-1 lg:order-2 flex justify-center">
+            <video
+              autoPlay
+              muted
+              loop
+              className="w-full lg:px-[40px] object-cover rounded-[25px]"
+            >
+              <source src={videoSrc} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        {/* <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
+          <div className="lg:w-1/2 order-2 lg:order-1 fum-challenge">
+            <p className="text-[14px] challenge-header md:text-[16px] text-[#098B72]">
+              THE SOLUTION
+            </p>
+            <h4 className="text-[35px] challenge-header w-full font-semibold pb-[10px]">
               Building Trust
             </h4>
             <p className="text-[16px]">
@@ -104,19 +148,42 @@ function Fum() {
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
+        </div> */}
 
         {/* Key Takeaway section */}
-        <div className="pb-[50px] pt-10">
-          <p className="text-[14px] md:text-[16px] text-[#098B72]">
+        <div className="pb-[50px] pt-10 fum-challenge">
+          <p className="text-[14px] challenge-header md:text-[16px] text-[#098B72]">
             THE RESULT
           </p>
-          <h4 className="text-[35px] font-semibold pb-[20px]">Positive Brand Sentiment</h4>
+          <h4 className="text-[35px] challenge-header font-semibold pb-[20px]">Positive Brand Sentiment</h4>
           <p className="text-[16px]">
             The campaign's success was undeniable. Within just 14 days of launch, the video garnered more than a quarter million views, capturing the interest of Geopold's established audience. But the true impact went beyond viewership. Engagement rates soared compared to previous campaigns for both Fum and Geopold. Viewers weren't just watching; they were actively interacting, sharing, and commenting, demonstrating a genuine connection with the content. Many expressed curiosity about Fum and its potential to help them break free from nicotine dependence. The campaign not only generated significant brand awareness but also boosted sales through the increased engagement and positive brand association.
           </p>
         </div>
-        <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
+
+        <div className="results-container">
+          <div className="result-item title">
+            <p className="title-main">FUM</p>
+            <p className="title-sub">RESULTS</p>
+          </div>
+          <div className="result-item">
+            <p className="result-value">450k</p>
+            <p className="result-label">IMPRESSIONS</p>
+          </div>
+          <div className="result-item">
+            <p className="result-value">30K+</p>
+            <p className="result-label">LIKES</p>
+          </div>
+          <div className="result-item">
+            <p className="result-value">2K+</p>
+            <p className="result-label">SHARES</p>
+          </div>
+          <div className="result-item">
+            <p className="result-value">900+</p>
+            <p className="result-label">CLICKS</p>
+          </div>
+        </div>
+        {/* <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-[15px] justify-between items-center text-[#098b72] pb-[80px] font-semibold">
           <div className="hover-move-up cursor-pointer flex items-center md:flex-col bg-[#181818] rounded-[10px] py-[20px] w-[300px] md:w-[250px] lg:w-[200px] px-[20px] md:px-[15px] gap-[10px]">
             <img className="w-[40px] md:w-[50px] lg:w-[60px]" src={Impression} alt="" />
             <p className="text-[20px] md:text-[18px] lg:text-[20px] font-bold">450k</p>
@@ -140,7 +207,7 @@ function Fum() {
             <p className="text-[20px] md:text-[18px] lg:text-[20px] font-bold">900</p>
             <p className="text-[16px] md:text-[14px] lg:text-[16px]">Clicks</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col items-center md:flex-row gap-[30px] justify-center">
           <Link to={"/koso"}>

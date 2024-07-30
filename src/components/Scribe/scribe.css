@@ -19,15 +19,95 @@ p{
 
 
 /* In your CSS file */
-.challenge {
+.scribe-challenge {
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+  .scribe-challenge .challenge-header{    
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   
   @media (max-width: 767px) {
-    .challenge {
+    .scribe-challenge {
       padding-left: 0;
       padding-right: 0;
     }
   }
+  
+  .results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .result-item {
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .result-item.title {
+    flex-basis: 100%;
+  }
+  
+  .result-item.title .title-main {
+    font-size: 24px;
+  }
+  
+  .result-item.title .title-sub {
+    font-size: 16px;
+    color: #098B72;
+  }
+  
+  .result-item .result-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .result-item .result-label {
+    font-size: 16px;
+    color: #098B72;
+  }
+  
+  @media (min-width: 1024px) {
+    .results-container {
+      flex-wrap: nowrap;
+    }
+    .result-item {
+      flex: 1;
+      border-right: 1px solid #333;
+    }
+    .result-item:last-child {
+      border-right: none;
+    }
+    .result-item.title {
+      flex: 1;
+    }
+  }
+  
+  @media (max-width: 1023px) {
+    .result-item {
+      flex-basis: 50%;
+      border-right: 1px solid #333;
+      border-bottom: 1px solid #333;
+    }
+    .result-item:nth-child(2n) {
+      border-right: none;
+    }
+    .result-item:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+    .result-item.title {
+      flex-basis: 100%;
+      border-right: none;
+      border-bottom: none;
+    }
+  }
+  
