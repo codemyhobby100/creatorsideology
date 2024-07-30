@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { FaGlobeAfrica, FaMapMarkerAlt } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { IoMdMail } from "react-icons/io";
@@ -7,7 +7,12 @@ import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
 
 function Contact() {
-  const form = useRef();
+  const [selectedOption, setSelectedOption] = useState('');
+  const form = useRef(null);
+
+  const handleOptionChange = (e) => {
+    setSelectedOption(e.target.value);
+  };
 
   const sendEmail = (e) => {
       e.preventDefault();
@@ -73,20 +78,19 @@ function Contact() {
               Get in touch
             </h1>
             <form className="w-full space-y-6" ref={form} onSubmit={sendEmail}>
-            <div className="flex flex-col md:flex-row md:space-x-4">
+              <div className="flex flex-col md:flex-row md:space-x-4">
                 <div className="w-full md:w-full">
-                  <label
-                    htmlFor="file"
-                    className="block text-white font-semibold mb-2"
-                  >
+                  <label htmlFor="file" className="block text-white font-semibold mb-2">
                     Type
                   </label>
                   <select
                     id="file"
                     name="subject"
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[8px] px-[20px]"
+                    onChange={handleOptionChange}
+                    value={selectedOption}
                   >
-                    <option value="" disabled selected>
+                    <option value="" disabled>
                       Select Requirement
                     </option>
                     <option value="Creators">I am a creator looking for brand deals</option>
@@ -96,12 +100,8 @@ function Contact() {
               </div>
 
               <div className="flex flex-col md:flex-row md:space-x-4 mb-4">
-                
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
-                  <label
-                    htmlFor="firstName"
-                    className="block font-semibold text-white mb-2"
-                  >
+                  <label htmlFor="firstName" className="block font-semibold text-white mb-2">
                     First Name
                   </label>
                   <input
@@ -112,10 +112,7 @@ function Contact() {
                   />
                 </div>
                 <div className="w-full md:w-1/2">
-                  <label
-                    htmlFor="phone"
-                    className="block font-semibold text-white mb-2"
-                  >
+                  <label htmlFor="phone" className="block font-semibold text-white mb-2">
                     Phone
                   </label>
                   <input
@@ -129,10 +126,7 @@ function Contact() {
 
               <div className="flex flex-col md:flex-row md:space-x-4">
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
-                  <label
-                    htmlFor="email"
-                    className="block font-semibold text-white mb-2"
-                  >
+                  <label htmlFor="email" className="block font-semibold text-white mb-2">
                     Work Email
                   </label>
                   <input
@@ -144,63 +138,104 @@ function Contact() {
                 </div>
 
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
-                  <label
-                    htmlFor="email"
-                    className="block font-semibold text-white mb-2"
-                  >
+                  <label htmlFor="email" className="block font-semibold text-white mb-2">
                     Content Niche
                   </label>
                   <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
-                  />
-                </div>
-
-                {/* <div className="w-full md:w-1/2">
-                  <label
-                    htmlFor="file"
-                    className="block text-white font-semibold mb-2"
-                  >
-                    Type
-                  </label>
-                  <select
-                    id="file"
-                    name="subject"
-                    className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[8px] px-[20px]"
-                  >
-                    <option value="" disabled selected>
-                      Select Requirement
-                    </option>
-                    <option value="Creators">Brand</option>
-                    <option value="Case Study">Creator</option>
-                  </select>
-                </div> */}
-              </div>
-
-              <div className="flex flex-col md:flex-row md:space-x-4">
-                <div className="w-full md:full mb-4 md:mb-0">
-                  <label
-                    htmlFor="text"
-                    className="block font-semibold text-white mb-2"
-                  >
-                    Social Link
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
+                    type="text"
+                    id="niche"
+                    name="niche"
                     className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                   />
                 </div>
               </div>
+
+              {selectedOption === 'Creators' && (
+                <div>
+                  <div className="flex flex-col md:flex-row md:space-x-4">
+                    <div className="w-full md:full mb-4 md:mb-0">
+                      <label htmlFor="social" className="block font-semibold text-white mb-2">
+                        Social Link
+                      </label>
+                      <input
+                        type="text"
+                        id="social"
+                        name="social"
+                        className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col md:flex-row md:space-x-4">
+                    <div className="w-full md:full mb-4 md:mb-0">
+                      <label htmlFor="content" className="block font-semibold text-white mb-2">
+                        Content Link
+                      </label>
+                      <input
+                        type="text"
+                        id="content"
+                        name="content"
+                        className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {selectedOption === 'brand' && (
+                <div>
+                  <div className="flex flex-col md:flex-row md:space-x-4">
+                    <div className="w-full md:w-1/2 mb-4 md:mb-0">
+                      <label htmlFor="brandName" className="block font-semibold text-white mb-2">
+                        Brand Name
+                      </label>
+                      <input
+                        type="text"
+                        id="brandName"
+                        name="brandName"
+                        className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                      />
+                    </div>
+                    <div className="w-full md:w-1/2 mb-4 md:mb-0">
+                      <label htmlFor="website" className="block font-semibold text-white mb-2">
+                        Website
+                      </label>
+                      <input
+                        type="text"
+                        id="website"
+                        name="website"
+                        className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col md:flex-row md:space-x-4">
+                    <div className="w-full md:w-1/2 mb-4 md:mb-0">
+                      <label htmlFor="brandEmail" className="block font-semibold text-white mb-2">
+                        Brand Email
+                      </label>
+                      <input
+                        type="email"
+                        id="brandEmail"
+                        name="brandEmail"
+                        className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                      />
+                    </div>
+                    <div className="w-full md:w-1/2 mb-4 md:mb-0">
+                      <label htmlFor="description" className="block font-semibold text-white mb-2">
+                        Brand Description
+                      </label>
+                      <input
+                        type="text"
+                        id="description"
+                        name="description"
+                        className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div>
-                <label
-                  htmlFor="message"
-                  className="block font-semibold text-white mb-2"
-                >
+                <label htmlFor="message" className="block font-semibold text-white mb-2">
                   Message
                 </label>
                 <textarea
