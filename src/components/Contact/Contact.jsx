@@ -226,8 +226,8 @@ function Contact() {
                       </label>
                       <input
                         type="text"
-                        id="description"
-                        name="description"
+                        id="budget"
+                        name="budget"
                         className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                       />
                     </div>
