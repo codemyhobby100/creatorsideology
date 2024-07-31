@@ -93,8 +93,8 @@ function Contact() {
                     <option value="" disabled>
                       Select Requirement
                     </option>
-                    <option value="Creators">I am a creator looking for brand deals</option>
-                    <option value="brand">Custom Brand Owned Content (USG)</option>
+                    <option value="Creators">I am a creator </option>
+                    <option value="brand">I need the right influencers for my brand</option>
                   </select>
                 </div>
               </div>

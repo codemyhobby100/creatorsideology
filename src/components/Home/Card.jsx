@@ -108,12 +108,12 @@ const Card = () => {
           Connect with top brands seeking creators like you.
         </p>
         <div className="flex justify-center items-center pt-[30px] gap-[20px]">
-          <Link to="/creators" className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
+          <Link to="/contact" className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
             Get me Started
             <span className="button-hover group-hover:w-[330px] group-hover:h-[330px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </Link>
 
-          <Link to="/contact" className="px-[25px] py-[10px] border-2 text-primary border-primary rounded button group">
+          <Link to="/creator" className="px-[25px] py-[10px] border-2 text-primary border-primary rounded button group">
             Learn More
             <span className="button-hover group-hover:w-[270px] group-hover:h-[270px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </Link>

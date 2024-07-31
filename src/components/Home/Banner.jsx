@@ -28,7 +28,7 @@ function Banner() {
               Join Our Network
               <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </Link>
-            <Link to="/creatos" className="border-2 text-primary  border-white rounded button group">
+            <Link to="/creator" className="border-2 text-primary  border-white rounded button group">
               Learn more
               <span className="button-hover group-hover:w-[250px] group-hover:h-[250px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
             </Link>

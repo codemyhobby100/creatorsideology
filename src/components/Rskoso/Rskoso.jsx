@@ -168,7 +168,9 @@ function Rskoso() {
           </p>
           <h4 className="text-[35px] challenge-header font-semibold pb-[20px]">Higher AOV’s</h4>
           <p className="text-[16px]">
-          The campaign proved to be a beautiful blend of education and engagement. It resonated deeply with the audience, generating over 230,000 impressions and a remarkable 5,000 link clicks. These numbers illustrate the level of curiosity and genuine interest the video sparked. More importantly, the well-crafted documentary subtly shaped viewers' perspectives, creating a positive sentiment for the R's Koso brand. This positive association translated into higher-order values, demonstrating the effectiveness of this influencer marketing strategy.
+          The campaign proved to be a beautiful blend of education and engagement. 
+          It resonated deeply with the audience, generating over 230,000 impressions 
+          and a remarkable 1,000 link clicks. These numbers illustrate the level of curiosity and genuine interest the video sparked. More importantly, the well-crafted documentary subtly shaped viewers' perspectives, creating a positive sentiment for the R's Koso brand. This positive association translated into higher-order values, demonstrating the effectiveness of this influencer marketing strategy.
           </p>
         </div>
 
