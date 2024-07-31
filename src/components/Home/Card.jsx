@@ -108,7 +108,7 @@ const Card = () => {
           Connect with top brands seeking creators like you.
         </p>
         <div className="flex justify-center items-center pt-[30px] gap-[20px]">
-          <Link to="/contact" className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
+          <Link to="/creators" className="px-[25px] py-[10px] border-2 border-primary rounded-[6px] bg-primary button group ">
             Get me Started
             <span className="button-hover group-hover:w-[330px] group-hover:h-[330px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </Link>

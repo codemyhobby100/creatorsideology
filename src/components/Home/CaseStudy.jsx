@@ -24,7 +24,7 @@ function CaseStudy() {
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50 rounded-[12px]"></div>
-          <Link to="/contact" className="border border-primary text-white rounded-[6px] group button">
+          <Link to="/study" className="border border-primary text-white rounded-[6px] group button">
             View Case Study
             <span className="button-hover group-hover:w-[300px] group-hover:h-[300px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
           </Link>

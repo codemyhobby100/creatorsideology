@@ -123,7 +123,7 @@ function Scribe() {
 
         <div className="results-container">
           <div className="result-item title">
-            <p className="title-main">RS KOSO</p>
+            <p className="title-main">SCRIBE HOW</p>
             <p className="title-sub">RESULTS</p>
           </div>
           <div className="result-item">

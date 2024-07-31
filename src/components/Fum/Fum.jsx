@@ -55,7 +55,10 @@ function Fum() {
           <p className="text-[14px] challenge-header md:text-[16px] text-[#098B72]">
             THE CHALLENGE
           </p>
-          <h4 className="text-[35px]challenge-header font-semibold pb-[10px]">Product Desirability</h4>
+          <h4 className="text-[35px] challenge-header w-full font-semibold pb-[10px]">
+            Product Desirability
+          </h4>
+          {/* <h4 className="text-[35px]challenge-header font-semibold pb-[10px]">Product Desirability</h4> */}
           <p className="text-[16px]">
             Fum, a revolutionary smoke-free alternative, aimed to disrupt the market with its unique plant-based oils designed to curb nicotine cravings. They needed to not only drive engagement  but also build trust with their target audience: health-conscious individuals seeking freedom from nicotine dependence. The key was reaching these potential customers in a way that resonated with their desire for a healthier lifestyle without sacrificing enjoyment.
           </p>
