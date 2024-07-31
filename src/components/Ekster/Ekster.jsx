@@ -26,7 +26,7 @@ function Ekster() {
         }}
       >
         <div className="lg:pb-[18vh] pb-[50px]">
-          <h4 className="text-[23px] font-semibold">Case studies</h4>
+          {/* <h4 className="text-[23px] font-semibold">Case studies</h4> */}
         </div>
         <div>
           <h2 className="md:text-[60px] xl:w-1/2 md:leading-[70px] text-[40px] text-center md:text-left">

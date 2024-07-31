@@ -28,7 +28,7 @@ function Rskoso() {
       >
         <div className="overlay absolute inset-0 bg-black opacity-50"></div>
         <div className="relative lg:pb-[15vh] pb-[50px]">
-          <h4 className="text-[20px] font-semibold">Case studies</h4>
+          {/* <h4 className="text-[20px] font-semibold">Case studies</h4> */}
         </div>
         <div className="relative">
           <h2 className="md:text-[50px] md:leading-[60px] xl:w-1/2 text-[35px] text-center md:text-left">

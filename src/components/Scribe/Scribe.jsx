@@ -28,26 +28,26 @@ function Scribe() {
           backgroundPosition: "bottom",
         }}
       >
-        <div className="my_container flex flex-col justify-center text-white h-screen w-full">
+        <div className="my_container flex flex-col justify-center text-white h-screen w-full px-4 md:px-6 lg:px-8 xl:px-2">
         <div className="lg:pb-[15vh] pb-[50px]">
-            {/* <h4 className="text-[23px] font-semibold">Case studies</h4> */}
-          </div>
-          <div>
-            <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[35px] text-center md:text-left">
-              Supercharging Workflow Efficiency with Scribe:
-            </h2>
-            <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
-              How we Achieved Double the results at a Third of the Cost.
-            </p>
-          </div>
-          <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
-            <div className="inline-block border border-white px-[30px] py-[10px]  max-w-max">
-              <div className="flex items-center justify-end text-white">
-                <img src={Scribe_logo} className="w-[100px]" alt="Fum Logo" />
-              </div>
+          {/* <h4 className="text-[23px] font-semibold">Case studies</h4> */}
+        </div>
+        <div>
+          <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[35px] text-center md:text-left">
+            Supercharging Workflow Efficiency with Scribe:
+          </h2>
+          <p className="text-[22px] pb-[30px] md:text-[30px] text-center md:text-left">
+            How we Achieved Double the results at a Third of the Cost.
+          </p>
+        </div>
+        <div className="w-full flex justify-center md:pt-[150px] md:justify-end">
+          <div className="inline-block border border-white px-[30px] py-[10px] max-w-max">
+            <div className="flex items-center justify-end text-white">
+              <img src={Scribe_logo} className="w-[100px]" alt="Fum Logo" />
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* Content section */}

@@ -28,7 +28,7 @@ function Growth() {
       >
         <div className="my_container flex flex-col justify-center text-white h-screen w-full">
           <div className="lg:pb-[15vh] pb-[50px]">
-            <h4 className="text-[23px] font-semibold">Case studies</h4>
+            {/* <h4 className="text-[23px] font-semibold">Case studies</h4> */}
           </div>
           <div>
             <h2 className="md:text-[60px] md:leading-[70px] xl:w-1/2 text-[40px] text-center md:text-left">
