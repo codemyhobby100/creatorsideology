@@ -90,13 +90,14 @@ function Growth() {
               autoPlay
               muted
               loop
-              className="w-full object-cover rounded-[25px]"
+              className="w-full object-cover rounded-[25px] hidden lg:block"
             >
               <source src={videoSrc} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
+
 
         {/* <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1 growth-challenge">

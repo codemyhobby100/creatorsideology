@@ -103,7 +103,7 @@ function Rskoso() {
               autoPlay
               muted
               loop
-              className="w-full object-cover lg:px-[40px] rounded-[25px]"
+              className="w-full object-cover lg:px-[40px] rounded-[25px] hidden lg:block"
             >
               <source
                 src="https://res.cloudinary.com/drjkeiinn/video/upload/v1720952063/Brands%20%28Ads%29/vznzdo3dyfldoi181xtv.mp4"
@@ -113,6 +113,7 @@ function Rskoso() {
             </video>
           </div>
         </div>
+
 
         {/* <div className="flex flex-col lg:flex-row gap-[30px] pb-[30px]">
           <div className="lg:w-1/2 order-2 lg:order-1 koso-challenge">

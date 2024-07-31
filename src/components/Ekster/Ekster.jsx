@@ -77,23 +77,30 @@ function Ekster() {
               micro-influencers. These social media stars, boasting less than 100k subscribers but highly engaged 
               audiences, often possess a deeper connection and stronger trust with their followers. By meticulously 
               selecting 4 micro-influencers whose target demographics closely aligned with Ekster's ideal 
-              customer – young, design-conscious individuals who embraced a minimalist lifestyle – we we’re able to 
+              customer – young, design-conscious individuals who embraced a minimalist lifestyle – we were able to 
               ensure the campaign resonated with the right people at the right price.
             </p>
             <div className="flex justify-center my-[30px] lg:hidden">
-              <video src={EksterVid} autoPlay
+              <video
+                src={EksterVid}
+                autoPlay
                 muted
-                loop 
-                className="w-full object-cover rounded-[25px]" >
-              </video>
+                loop
+                className="w-full object-cover rounded-[25px]"
+              ></video>
             </div>
           </div>
           <div className="w-full order-1 lg:px-[40px] lg:order-2 flex justify-center">
-            <video src={EksterVid} autoPlay
+            <video
+              src={EksterVid}
+              autoPlay
               muted
-              loop className="w-full object-cover rounded-[25px]" ></video>
+              loop
+              className="w-full object-cover rounded-[25px] hidden lg:block"
+            ></video>
           </div>
         </div>
+
 
           
           {/* <div className="flex flex-col gap-[30px] lg:flex-row pb-[30px]">

@@ -5,6 +5,7 @@ import { IoMdMail } from "react-icons/io";
 // import emailjs from '@emailjs/browser';
 import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [selectedOption, setSelectedOption] = useState('');
@@ -93,8 +94,8 @@ function Contact() {
                     <option value="" disabled>
                       Select Requirement
                     </option>
-                    <option value="Creators">I am a creator </option>
-                    <option value="brand">I need the right influencers for my brand</option>
+                    <option value="Creators">I am a creator looking for brand deals </option>
+                    <option value="brand">I am a brand looking for the perfect influencers</option>
                   </select>
                 </div>
               </div>
@@ -267,11 +268,11 @@ function Contact() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               R'S koso
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+            <Link to="/koso" className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
               See Case Study
               <HiArrowLongRight className="text-[25px]" />
               <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">
@@ -285,11 +286,11 @@ function Contact() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               Fum
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+            <Link to="/fum" className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
               See Case Study
               <HiArrowLongRight className="text-[25px]" />
               <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">
@@ -304,11 +305,11 @@ function Contact() {
             <h1 className="text-lg md:text-[32px] text-center md:text-start font-semibold text-white">
               Ekster
             </h1>
-            <button className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
+            <Link to="/ekster" className="self-start w-auto flex items-center gap-3 button group mt-4 border border-white text-white rounded">
               See Case Study
               <HiArrowLongRight className="text-[25px]" />
               <span className="button-hover group-hover:w-[350px] group-hover:h-[350px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
-            </button>
+            </Link>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <h1 className="text-lg md:text-[32px] font-semibold text-white">

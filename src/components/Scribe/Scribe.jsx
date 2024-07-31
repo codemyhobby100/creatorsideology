@@ -67,10 +67,10 @@ function Scribe() {
 
         <div className="flex flex-col lg:flex-col gap-[30px] pb-[30px] pt-6">
           <div className="w-full order-2 lg:order-1 scribe-challenge">
-            <p className="text-[14px] challenge-header  md:text-[16px] text-[#098B72]">
+            <p className="text-[14px] challenge-header md:text-[16px] text-[#098B72]">
               THE SOLUTION
             </p>
-            <h4 className="text-[35px] challenge-header  w-full font-semibold pb-[20px]">
+            <h4 className="text-[35px] challenge-header w-full font-semibold pb-[20px]">
               Platform Optimization and Strategic Partnerships
             </h4>
             <p className="text-[16px] lg:pb-2">
@@ -101,7 +101,7 @@ function Scribe() {
               autoPlay
               muted
               loop
-              className="w-full object-cover rounded-[25px]"
+              className="w-full object-cover rounded-[25px] hidden lg:block"
             >
               <source src={videoSrc} type="video/mp4" />
               Your browser does not support the video tag.
