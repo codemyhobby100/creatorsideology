@@ -37,7 +37,7 @@ function Contact() {
         <div className="flex flex-col lg:flex-row gap-6 contact">
           <div className="contact-left bg-[#E7FBFF] text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start">
             <h1 className="text-[30px] lg:text-[45px] text-white">Ready to  <span className="text-primary">Collaborate?</span> </h1>
-            <p className="text-white">Submit the form below and our team will be in touch with you</p>
+            <p className="text-white">Submit the form below and our team will be in <br /> touch with you.</p>
             {/* <div className="pb-[20px]">
               <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
                 <FaMapMarkerAlt className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
