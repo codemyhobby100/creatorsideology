@@ -1,0 +1,14 @@
+.contact-left {
+    background-image: url('../../assets/creators-contact.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (max-width: 768px) {
+    .contact{
+        margin-top: 5rem;
+    }
+    .contact-left {
+      display: none;
+    }
+  }

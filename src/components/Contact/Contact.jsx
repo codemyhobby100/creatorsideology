@@ -6,6 +6,7 @@ import { IoMdMail } from "react-icons/io";
 import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
 import { Link } from "react-router-dom";
+import './contact.css'
 
 function Contact() {
   const [selectedOption, setSelectedOption] = useState('');
@@ -35,43 +36,10 @@ function Contact() {
     <div className="bg-black my_container min-h-screen">
       <div className=" mx-auto py-10 px-4">
         <div className="flex flex-col lg:flex-row gap-6">
-          <div className="bg-[#E7FBFF] text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start">
-            <h1 className="text-[48px] lg:text-[65px] text-black mb-8">Contact Us</h1>
-            <div className="pb-[20px]">
-              <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
-                <FaMapMarkerAlt className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
-                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Address:</h3>
-              </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">Benin City, Nigeria.</p>
-            </div>
-            <div className="pb-[20px]">
-              <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
-                <IoMdMail className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
-                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Email:</h3>
-              </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">
-                <a
-                  href="mailto:patners@creatorsideology.com"
-                  className="transition-all duration-500 hover:text-gray-400"
-                >
-                  Patners@creatorsideology.com
-                </a>
-              </p>
-            </div>
-            <div>
-              <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
-                <FaGlobeAfrica className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
-                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Creators Ideology</h3>
-              </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">
-                <a href="#" className="transition-all duration-500 hover:text-gray-400">
-                  www.creatorsideology.com
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div className="lg:w-1/2 md:pt-[150px] pb-[50px] px-4">
+        <div className="contact-left bg-image bg-cover text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start hidden md:flex">
+          {/* Your content goes here */}
+        </div>
+          <div className="lg:w-1/2 md:pt-[150px] pb-[50px] px-4 contact">
             <p className="text-white inline-block rounded py-[5px] px-[10px] border border-gray-500">
               Ready to work with us
             </p>
@@ -92,7 +60,7 @@ function Contact() {
                     value={selectedOption}
                   >
                     <option value="" disabled>
-                      Select Requirement
+                      How can we help you
                     </option>
                     <option value="Creators">I am a creator looking for brand deals </option>
                     <option value="brand">I am a brand looking for the perfect influencers</option>
