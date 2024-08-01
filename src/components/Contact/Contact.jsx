@@ -7,7 +7,6 @@ import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
 import { Link } from "react-router-dom";
 import './contact.css'
-
 function Contact() {
   const [selectedOption, setSelectedOption] = useState('');
   const form = useRef(null);
@@ -34,12 +33,46 @@ function Contact() {
 }
   return (
     <div className="bg-black my_container min-h-screen">
-      <div className=" mx-auto py-10 px-4">
-        <div className="flex flex-col lg:flex-row gap-6">
-        <div className="contact-left bg-image bg-cover text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start hidden md:flex">
-          {/* Your content goes here */}
-        </div>
-          <div className="lg:w-1/2 md:pt-[150px] pb-[50px] px-4 contact">
+      <div className=" mx-auto py-10 px-4 ">
+        <div className="flex flex-col lg:flex-row gap-6 contact">
+          <div className="contact-left bg-[#E7FBFF] text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start">
+            <h1 className="text-[30px] lg:text-[45px] text-white">Ready to  <span className="text-primary">Collaborate?</span> </h1>
+            <p className="text-white">Submit the form below and our team will be in touch with you</p>
+            {/* <div className="pb-[20px]">
+              <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
+                <FaMapMarkerAlt className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
+                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Address:</h3>
+              </div>
+              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">Benin City, Nigeria.</p>
+            </div>
+            <div className="pb-[20px]">
+              <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
+                <IoMdMail className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
+                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Email:</h3>
+              </div>
+              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">
+                <a
+                  href="mailto:patners@creatorsideology.com"
+                  className="transition-all duration-500 hover:text-gray-400"
+                >
+                  Patners@creatorsideology.com
+                </a>
+              </p>
+            </div>
+            <div>
+              <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
+                <FaGlobeAfrica className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
+                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Creators Ideology</h3>
+              </div>
+              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">
+                <a href="#" className="transition-all duration-500 hover:text-gray-400">
+                  www.creatorsideology.com
+                </a>
+              </p>
+            </div> */}
+          </div>
+
+          <div className="lg:w-1/2 md:pt-[150px] pb-[50px] px-4">
             <p className="text-white inline-block rounded py-[5px] px-[10px] border border-gray-500">
               Ready to work with us
             </p>
@@ -60,7 +93,7 @@ function Contact() {
                     value={selectedOption}
                   >
                     <option value="" disabled>
-                      How can we help you
+                      Select Requirement
                     </option>
                     <option value="Creators">I am a creator looking for brand deals </option>
                     <option value="brand">I am a brand looking for the perfect influencers</option>
