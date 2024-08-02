@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { FaGlobeAfrica, FaMapMarkerAlt } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { IoMdMail } from "react-icons/io";
+import { FaInstagram , FaPhone } from "react-icons/fa6";
 // import emailjs from '@emailjs/browser';
 import emailjs from "@emailjs/browser";
 import Swal from 'sweetalert2';
@@ -35,41 +36,41 @@ function Contact() {
     <div className="bg-black my_container min-h-screen">
       <div className=" mx-auto py-10 px-4 ">
         <div className="flex flex-col lg:flex-row gap-6 contact">
-          <div className="contact-left bg-[#E7FBFF] text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start">
-            <h1 className="text-[30px] lg:text-[45px] text-white">Ready to  <span className="text-primary">Collaborate?</span> </h1>
-            <p className="text-white">Submit the form below and our team will be in <br /> touch with you.</p>
-            {/* <div className="pb-[20px]">
+          <div className="contact-left bg-[#000000] text-center lg:text-start lg:w-1/2 mt-[150px] p-[50px] rounded-[20px] flex flex-col justify-start">
+            <h1 className="text-[48px] lg:text-[50px] pb-2 text-white">Stop struggling, start growing!</h1>
+            <p className="text-white pb-2">Submit the form below and a member of our team would reach out to you within 24 hours! </p>
+            <div className="pb-[20px] pt-5">
               <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
-                <FaMapMarkerAlt className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
-                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Address:</h3>
+                <IoMdMail className="text-[20px] text-primary mt-[5px] lg:mr-2" />
+                <h3 className="text-[20px] text-[#ffffff] lg:mt-0">Email:</h3>
               </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">Benin City, Nigeria.</p>
+              <p className="text-[#ffffff] text-[18px] pl-0 lg:pl-[30px]">partners@creatorsideology.com</p>
             </div>
             <div className="pb-[20px]">
               <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
-                <IoMdMail className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
-                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Email:</h3>
+                <FaPhone className="text-[20px] text-primary mt-[5px] lg:mr-2" />
+                <h3 className="text-[20px] text-[#ffffff] lg:mt-0">Phone Number:</h3>
               </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">
+              <p className="text-whitw text-[18px] pl-0 lg:pl-[30px]">
                 <a
-                  href="mailto:patners@creatorsideology.com"
-                  className="transition-all duration-500 hover:text-gray-400"
+                  href="tel:+13236471288                  "
+                  className="transition-all duration-500 text-white"
                 >
-                  Patners@creatorsideology.com
+                  +13236471288
                 </a>
               </p>
             </div>
             <div>
               <div className="flex flex-col items-center lg:flex-row lg:justify-start lg:items-start">
-                <FaGlobeAfrica className="text-[25px] text-[#6a6a8e] mt-[5px] lg:mr-2" />
-                <h3 className="text-[25px] text-[#6a6a8e] lg:mt-0">Creators Ideology</h3>
+                <FaInstagram className="text-[20px] text-primary mt-[5px] lg:mr-2" />
+                <h3 className="text-[20px] text-[#ffffff] lg:mt-0">Instagram</h3>
               </div>
-              <p className="text-[#6a6a8e] text-[18px] pl-0 lg:pl-[30px]">
+              <p className="text-[#ffffff] text-[18px] pl-0 lg:pl-[30px]">
                 <a href="#" className="transition-all duration-500 hover:text-gray-400">
-                  www.creatorsideology.com
+                  @creatorsideology
                 </a>
               </p>
-            </div> */}
+            </div>
           </div>
 
           <div className="lg:w-1/2 md:pt-[150px] pb-[50px] px-4">
@@ -250,7 +251,7 @@ function Contact() {
 
               <button
                 type="submit"
-                className="cursor-pointer relative flex justify-center items-center w-full gap-3 button group mt-4 px-4 py-2 border border-white text-white rounded-[6px] overflow-hidden"
+                className="cursor-pointer relative flex justify-center items-center w-full gap-3 button group mt-4 px-4 py-2 border border-white text-primary rounded-[6px] overflow-hidden"
               >
                 Submit Message
                 <span className="button-hover absolute group-hover:w-[1400px] group-hover:h-[1200px] group-hover:bottom-[-100%] group-hover:right-[-100%]"></span>
