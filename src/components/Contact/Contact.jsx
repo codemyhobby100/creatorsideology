@@ -75,7 +75,7 @@ function Contact() {
 
           <div className="lg:w-1/2 md:pt-[150px] pb-[50px] px-4">
             <p className="text-white inline-block rounded py-[5px] px-[10px] border border-gray-500">
-              Ready to work with us
+              Ready to talk business
             </p>
             <h1 className="text-[48px] lg:text-[65px] text-white mb-8">
               Get in touch
