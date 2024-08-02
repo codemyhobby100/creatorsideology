@@ -108,7 +108,7 @@ function Footer() {
           </div>
         </div>
         <div className="w-full bg-white p-2 pt-[40px] text-center text-black">
-          <p>Copyright &copy; 2023 Creators Ideology. All Right Reserved</p>
+          <p>Copyright &copy; 2024 Creators Ideology. All Right Reserved</p>
         </div>
       </footer>
     </div>
