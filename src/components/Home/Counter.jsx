@@ -46,7 +46,7 @@ function Counter() {
             <img
               src={img1}
               alt="Engaged Customer"
-              className="md:w-[90%] w-full h-auto"
+              className="md:w-[90%] w-full h-auto round-1 "
             />
           </div>
         </div>

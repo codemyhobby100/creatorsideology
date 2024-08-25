@@ -1,5 +1,5 @@
 import React from "react";
-import Fum_banner from "../../assets/fum_banner.png";
+import Fum_banner from "../../assets/FUM.jpg";
 import fum_logo from "../../assets/fum_logo.png"; // Assuming you have this logo
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
 import Impression from "../../assets/heart.png";

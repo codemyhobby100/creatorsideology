@@ -1,5 +1,5 @@
 import React from "react";
-import bg_img from "../../assets/creator_banner.png";
+import bg_img from "../../assets/1.jpg";
 import { Link } from "react-router-dom";
 
 function CreatorBanner() {

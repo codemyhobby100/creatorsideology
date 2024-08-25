@@ -10,7 +10,7 @@ import Impression from "../../assets/heart.png";
 import Clicks from "../../assets/click.png";
 import Likes from "../../assets/like.png";
 import Share from "../../assets/share.png";
-import growth_banner from "../../assets/growth-school.png";
+import growth_banner from "../../assets/Growth-School.jpg";
 import "./growth.css"
 function Growth() {
   const videoSrc = "https://res.cloudinary.com/drjkeiinn/video/upload/v1720952061/Brands%20%28Ads%29/czg6ahu3bxgjqalf2i6s.mp4";

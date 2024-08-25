@@ -9,9 +9,9 @@ import "swiper/css/free-mode";
 import img1 from "../../assets/dsidess.jpeg";
 import img2 from "../../assets/scri.png";
 import img3 from "../../assets/honey.png";
-import Collaborate from "../../assets/collaborate.png";
-import Create from "../../assets/create.png";
-import Captivate from "../../assets/captivate.png";
+import Collaborate from "../../assets/collaborate.jpg";
+import Create from "../../assets/create.jpg";
+import Captivate from "../../assets/captivate.jpg";
 import './home.css'
 import { Link } from "react-router-dom";
 

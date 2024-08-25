@@ -168,7 +168,7 @@ function Contact() {
                       />
                     </div>
                   </div>
-                  <div className="flex flex-col md:flex-row md:space-x-4">
+                  {/* <div className="flex flex-col md:flex-row md:space-x-4">
                     <div className="w-full md:full mb-4 md:mb-0">
                       <label htmlFor="content" className="block font-semibold text-white mb-2">
                         Content Link
@@ -180,7 +180,7 @@ function Contact() {
                         className="w-full border rounded border-gray-500 focus:outline-none bg-[#1A1A1A] text-white py-[5px] px-[20px]"
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               )}
 

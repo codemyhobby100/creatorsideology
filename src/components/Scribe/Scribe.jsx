@@ -1,5 +1,5 @@
 import React from "react";
-import Scribe_logo from "../../assets/scribe_logo.png";
+import Scribe_logo from "../../assets/ScribeHow.jpg";
 import { FaVideo } from "react-icons/fa";
 import { BiSolidLike } from "react-icons/bi";
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
